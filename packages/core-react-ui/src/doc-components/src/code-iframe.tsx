@@ -2,9 +2,9 @@ import React, { IframeHTMLAttributes, useCallback, useEffect, useRef, useState }
 import { createPortal } from 'react-dom';
 
 import { VIEWPORT } from '@newrade/core-design-system';
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import { useIsSSR } from '../hooks/use-is-ssr.js';
-import { getMergedClassname } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './code-iframe.css.js';
 

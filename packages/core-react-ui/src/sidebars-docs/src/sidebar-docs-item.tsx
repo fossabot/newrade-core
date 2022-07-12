@@ -2,11 +2,11 @@ import React, { AnchorHTMLAttributes, useRef } from 'react';
 
 import { LinkProps, TEXT_STYLE } from '@newrade/core-design-system';
 import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import { usePreventPinchZoom } from '../hooks/use-prevent-pinch-zoom.js';
 import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Label } from '../text/label.js';
-import { getMergedClassname } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './sidebar-docs-item.css.js';
 

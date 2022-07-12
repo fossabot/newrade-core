@@ -18,7 +18,7 @@ import {
 } from '@newrade/core-react-ui';
 import { layoutVars, sizeVars } from '@newrade/core-react-ui/theme';
 import { getCSSVarValue } from '@newrade/core-react-ui/utilities-browser';
-import { pxStringToNumber } from '@newrade/core-react-ui/utilities-iso';
+import { pxStringToNumber } from '@newrade/core-react-ui-utilities-iso';
 import { LinkAPI, NavComponent, NavigationAPI } from '@newrade/core-website-api';
 import { PartialOrNull } from '@newrade/core-website-api/utilities';
 

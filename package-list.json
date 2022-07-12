@@ -18,7 +18,7 @@
     "packages/core-webpack-config",
     "packages/core-website-api",
     "packages/core-yo-generator",
-    "packages/ze-design-system",
+    "packages/core-default-design-system",
     "packages/ze-design-website",
     "packages/core-react-ui/src/animation",
     "packages/core-react-ui/src/badges",

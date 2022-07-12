@@ -9,6 +9,5 @@ export * from './env/log-env-variables.js';
 export * from './env/node-env.js';
 export * from './env/protocol-env.js';
 export * from './env/testing-env.js';
-export * from './gatsby/gatsby-env.js';
 export * from './shell/shell.utilities.js';
 export * from './url/url-utilities.js';

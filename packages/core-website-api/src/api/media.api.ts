@@ -1,6 +1,3 @@
-import { IFixedObject, IFluidObject } from 'gatsby-background-image';
-import { IGatsbyImageData } from 'gatsby-plugin-image';
-
 import type { PartialOrNull } from '@newrade/core-types';
 
 export type MediaImage = {
@@ -8,14 +5,14 @@ export type MediaImage = {
   description: string;
   file: any;
   /** @deprecated please use `hero`, `small`, `medium` or `large`  */
-  fluid: IFluidObject;
+  fluid: any;
   /** @deprecated please use `hero`, `small`, `medium` or `large`  */
-  fixed: IFixedObject;
+  fixed: any;
   /**
    * In sync with Gatsby Plugin (Gatsby v3)
    */
-  fullWidth: IGatsbyImageData; // full width image for banners `gatsbyImageData(layout: FULL_WIDTH)`
-  constrained: IGatsbyImageData; // full width image for banners `gatsbyImageData(layout: FULL_WIDTH)`
+  fullWidth: any; // full width image for banners `gatsbyImageData(layout: FULL_WIDTH)`
+  constrained: any; // full width image for banners `gatsbyImageData(layout: FULL_WIDTH)`
 };
 
 export type MediaAPI = PartialOrNull<{

@@ -10,6 +10,7 @@ import {
   LinkVariant,
   PARAGRAPH_SIZE,
 } from '@newrade/core-design-system';
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import { sizeVars } from '../default-theme/src/theme.js';
 import { IconComp } from '../icons/icon.js';
@@ -18,7 +19,6 @@ import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Label } from '../text/label.js';
 import { Link } from '../text/link.js';
 import { Paragraph } from '../text/paragraph.js';
-import { getMergedClassname } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './google-maps-info-window.css.js';
 

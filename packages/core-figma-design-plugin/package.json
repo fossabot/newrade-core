@@ -18,6 +18,7 @@
     "*.css.js"
   ],
   "dependencies": {
-    "@figma/plugin-typings": "^1"
+    "@figma/plugin-typings": "^1",
+    "@newrade/core-types": "*"
   }
 }

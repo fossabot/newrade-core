@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { renderTest } from '../../utilities-test/test-render.utilities.js';
+import { renderTest } from '@newrade/core-react-ui-utilities-test';
 import { Center } from '../center.js';
 
 describe('props', () => {

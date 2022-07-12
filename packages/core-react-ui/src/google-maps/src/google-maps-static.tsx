@@ -3,8 +3,9 @@ import React from 'react';
 import { GoogleMap, GoogleMapProps, LoadScript, LoadScriptProps } from '@react-google-maps/api';
 import { Libraries } from '@react-google-maps/api/dist/utils/make-load-script-url';
 
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
+
 import { PrimitiveProps } from '../primitive/primitive.props.js';
-import { getMergedClassname } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './google-maps.css.js';
 import { googleMapThemeStyles } from './google-maps-styles.js';

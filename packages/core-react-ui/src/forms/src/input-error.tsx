@@ -1,10 +1,10 @@
 import React, { LabelHTMLAttributes } from 'react';
 
 import { LABEL_SIZE } from '@newrade/core-design-system';
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Label } from '../text/label.js';
-import { getMergedClassname } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './input-error.css.js';
 

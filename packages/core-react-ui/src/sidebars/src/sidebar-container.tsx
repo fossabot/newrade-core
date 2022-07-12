@@ -3,12 +3,12 @@ import { useDrag } from 'react-use-gesture';
 
 import { VIEWPORT } from '@newrade/core-design-system';
 import { CSSAnimation, CSSAnimationHandle } from '@newrade/core-react-ui-animations';
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import { useBodyScrollLock } from '../hooks/use-body-scroll-lock.js';
 import { useFirstRender } from '../hooks/use-first-render.hook.js';
 import { useViewportBreakpoint } from '../hooks/use-viewport.js';
 import { PrimitiveProps } from '../primitive/primitive.props.js';
-import { getMergedClassname } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './sidebar-container.css.js';
 

@@ -1,6 +1,6 @@
 import { DefaultTypographyV2, Fonts, TEXT_TRANSFORM } from '@newrade/core-design-system';
+import { cssVar } from '@newrade/core-react-ui-utilities-iso';
 
-import { cssVar } from '../utilities-iso/css-variables.utilities.js';
 import { getTypographicScaledText } from '../utilities-theme.js';
 
 import * as fonts from './default-fonts.js';

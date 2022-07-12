@@ -1,4 +1,4 @@
-import { getFormattedAnchorId } from '@newrade/core-react-ui/utilities-iso';
+import { getFormattedAnchorId } from '@newrade/core-react-ui-utilities-iso';
 
 /**
  * @see https://webpack.js.org/guides/dependency-management/#require-context

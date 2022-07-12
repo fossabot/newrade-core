@@ -2,7 +2,7 @@ import React from 'react';
 
 import Highlight, { Language, Prism, PrismTheme } from 'prism-react-renderer';
 
-import { getMergedClassname } from '../utilities-iso.js';
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso.js';
 
 import * as styles from './code-highlight.css.js';
 

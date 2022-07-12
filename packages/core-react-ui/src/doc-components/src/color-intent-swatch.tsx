@@ -3,11 +3,11 @@ import React, { HTMLAttributes } from 'react';
 import { kebab } from 'case';
 
 import { Color, LABEL_SIZE, TEXT_STYLE, Variant } from '@newrade/core-design-system';
+import { getCSSColorVar } from '@newrade/core-react-ui-utilities-iso';
 
 import { Stack } from '../layout/stack.js';
 import { Label } from '../text/label.js';
 import { sizeVars } from '../theme.js';
-import { getCSSColorVar } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './color-swatch.css.js';
 

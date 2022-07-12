@@ -10,10 +10,10 @@ import {
   Variant,
 } from '@newrade/core-design-system';
 import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { getDefaultTextFromProps } from '@newrade/core-react-ui-utilities-iso';
 
 import { IconComp } from '../icons/icon.js';
 import { PrimitiveProps } from '../primitive/primitive.props.js';
-import { getDefaultTextFromProps } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './link.css.js';
 

@@ -4,7 +4,7 @@
     "baseUrl": ".",
     "rootDir": "src",
     "outDir": "dist",
-    "types": ["gatsby", "node", "jest"]
+    "types": ["react", "node", "jest"]
   },
   "include": ["src", "docs/**/*", "types"]
 }

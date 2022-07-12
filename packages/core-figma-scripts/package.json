@@ -26,6 +26,7 @@
     "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false"
   },
   "dependencies": {
-    "@figma/plugin-typings": "^1"
+    "@figma/plugin-typings": "^1",
+    "@newrade/core-types": "*"
   }
 }

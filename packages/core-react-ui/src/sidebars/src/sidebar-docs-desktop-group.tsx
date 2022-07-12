@@ -17,7 +17,7 @@ import {
   Tag,
   useCommonProps,
 } from '@newrade/core-react-ui';
-import { getMergedClassname } from '@newrade/core-react-ui/utilities-iso';
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import * as styles from './sidebar-docs-desktop-group.css.js';
 

@@ -1,5 +1,5 @@
 import * as DS from '@newrade/core-design-system';
-import { keys } from '@newrade/core-react-ui/utilities-iso';
+import { keys } from '@newrade/core-react-ui-utilities-iso';
 
 import {
   getFigmaFontSignature,

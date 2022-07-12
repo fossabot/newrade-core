@@ -20,6 +20,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@newrade/core-types": "*",
     "nock": "^13.0.5",
     "probot": "^11.0.1",
     "smee-client": "^1.2.2"

@@ -1,9 +1,10 @@
 import React, { HTMLAttributes } from 'react';
 
+import { getDefaultTextFromProps } from '@newrade/core-react-ui-utilities-iso';
+
 import { Stack } from '../layout/stack.js';
 import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { GapProp } from '../props/layout.prop.js';
-import { getDefaultTextFromProps } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './list-items.css.js';
 

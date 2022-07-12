@@ -41,8 +41,10 @@ export const baseJestConfig: Config.InitialOptions = {
     // '\\.(mdx?)$': '@newrade/core-jest-config/dist/transforms/mdx-transform.js',
     /**
      * GraphQL
+     *
+     *
      */
-    '\\.(gql|graphql)$': 'jest-transform-graphql',
+    // '\\.(gql|graphql)$': 'jest-transform-graphql',
   },
   transformIgnorePatterns: [`node_modules/(?!(${includedLibToCompile.join('|')})/)`],
   moduleNameMapper: {

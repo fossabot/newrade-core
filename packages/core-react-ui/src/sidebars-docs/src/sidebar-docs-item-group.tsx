@@ -2,13 +2,13 @@ import React, { AnchorHTMLAttributes, useState } from 'react';
 
 import { ICON, LABEL_SIZE, LinkProps, TEXT_STYLE, Variant } from '@newrade/core-design-system';
 import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import { IconComp } from '../icons/icon.js';
 import { Cluster } from '../layouts/cluster.js';
 import { Stack } from '../layouts/stack.js';
 import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Label } from '../text/label.js';
-import { getMergedClassname } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './sidebar-docs-item-group.css.js';
 

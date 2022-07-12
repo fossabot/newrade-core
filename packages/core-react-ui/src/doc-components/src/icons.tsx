@@ -13,6 +13,7 @@ import {
   Variant,
 } from '@newrade/core-design-system';
 import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { keys } from '@newrade/core-react-ui-utilities-iso';
 
 import { Button } from '../button/button.js';
 import { InputLabel } from '../form/input-label.js';
@@ -31,7 +32,6 @@ import { Label } from '../text/label.js';
 import { Link } from '../text/link.js';
 import { Paragraph } from '../text/paragraph.js';
 import { colorVars, sizeVars } from '../theme.js';
-import { keys } from '../utilities-iso/utilities.js';
 
 import { lorenipsumShort } from './src/doc-components.js';
 import { IconBox } from './icon-box.js';

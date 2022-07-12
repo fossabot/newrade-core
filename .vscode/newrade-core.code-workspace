@@ -148,7 +148,6 @@
       "bierner.markdown-yaml-preamble",
       "cssho.vscode-svgviewer",
       "dbaeumer.vscode-eslint",
-      "deepscan.vscode-deepscan",
       "DigitalBrainstem.javascript-ejs-support",
       "eamodio.gitlens",
       "eg2.vscode-npm-script",
@@ -157,11 +156,9 @@
       "fabiospampinato.vscode-terminals",
       "formulahendry.auto-close-tag",
       "formulahendry.auto-rename-tag",
-      "GitHub.vscode-pull-request-github",
       "jasonnutter.search-node-modules",
       "jock.svg",
       "mikestead.dotenv",
-      "ms-vscode-remote.vscode-remote-extensionpack",
       "paulmolluzzo.convert-css-in-js",
       "silvenon.mdx",
       "svsool.markdown-memo",
@@ -183,31 +180,29 @@
       "name": "docs",
       "path": "../docs"
     },
-    // cli
     {
       "name": "core-cli",
       "path": "../packages/core-cli"
     },
-    // core libs
     {
       "name": "core-common",
       "path": "../packages/core-common"
-    },
-    {
-      "name": "core-contentful-lib",
-      "path": "../packages/core-contentful-lib"
     },
     {
       "name": "core-css-extractor",
       "path": "../packages/core-css-extractor"
     },
     {
-      "name": "core-design-system",
-      "path": "../packages/core-design-system"
+      "name": "core-default-design-system",
+      "path": "../packages/core-default-design-system"
     },
     {
-      "name": "core-design-system-compiler",
-      "path": "../packages/core-design-system-compiler"
+      "name": "core-design-app",
+      "path": "../packages/core-design-app"
+    },
+    {
+      "name": "core-design-system",
+      "path": "../packages/core-design-system"
     },
     {
       "name": "core-design-system-docs",
@@ -230,14 +225,6 @@
       "path": "../packages/core-figma-scripts"
     },
     {
-      "name": "core-gatsby-config",
-      "path": "../packages/core-gatsby-config"
-    },
-    {
-      "name": "core-gatsby-ui",
-      "path": "../packages/core-gatsby-ui"
-    },
-    {
       "name": "core-github-actions",
       "path": "../packages/core-github-actions"
     },
@@ -254,16 +241,8 @@
       "path": "../packages/core-node-utils"
     },
     {
-      "name": "core-platform",
-      "path": "../packages/core-platform"
-    },
-    {
       "name": "core-react-ui",
       "path": "../packages/core-react-ui"
-    },
-    {
-      "name": "core-react-ui-components",
-      "path": "../packages/core-react-ui/src"
     },
     {
       "name": "core-types",
@@ -276,19 +255,6 @@
     {
       "name": "core-website-api",
       "path": "../packages/core-website-api"
-    },
-    {
-      "name": "core-design-app",
-      "path": "../packages/core-design-app"
-    },
-    // apps
-    {
-      "name": "ze-design-system",
-      "path": "../packages/ze-design-system"
-    },
-    {
-      "name": "ze-design-website",
-      "path": "../packages/ze-design-website"
     }
   ]
 }

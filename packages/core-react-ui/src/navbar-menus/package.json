@@ -31,19 +31,24 @@
     "src"
   ],
   "scripts": {
-    "prebuild": "yarn clean",
-    "build": "yarn tsc:build && yarn swc:build",
-    "clean": "yarn clean:dist && yarn clean:tsc",
+    "build": "yarn build:lib",
+    "build:lib": "yarn tsc:types && yarn swc:build",
+    "clean": "yarn clean:lib",
     "clean:dist": "rimraf -rf dist/**",
+    "clean:lib": "yarn clean:dist && yarn clean:tsc",
     "clean:tsc": "rimraf -f ./**/*.tsbuildinfo *.tsbuildinfo",
-    "prestart": "yarn clean",
-    "start": "concurrently \"yarn tsc:build:watch\" \"yarn swc:build:watch\"",
-    "swc:build": "yarn swc ./src --config-file ../../../../.swcrc --source-maps --ignore **/__test__/**/* --out-dir dist",
+    "prestart": "yarn build",
+    "start": "yarn start:lib",
+    "start:lib": "concurrently \"yarn tsc:types:watch\" \"yarn swc:build:watch\"",
+    "swc:build": "swc ./src --config-file ../../../../.swcrc --source-maps --ignore **/__test__/**/* --out-dir dist",
     "swc:build:watch": "yarn swc:build --watch",
-    "tsc:build": "tsc --emitDeclarationOnly",
-    "tsc:build:watch": "yarn tsc:build --watch --preserveWatchOutput",
+    "test": "yarn test:lib",
+    "test:lib": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
+    "test:lib:watch": "yarn test:lib --watch",
+    "test:watch": "yarn test:lib:watch",
     "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false",
-    "typecheck": "yarn tsc:typecheck"
+    "tsc:types": "yarn tsc -b",
+    "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
   },
   "sideEffects": [
     "*.css",
@@ -53,6 +58,7 @@
   "types": "dist/index.cjs.d.ts",
   "dependencies": {
     "@newrade/core-design-system": "*",
+    "@newrade/core-types": "*",
     "@vanilla-extract/css": "^1.6.8",
     "react": "18.0.0",
     "react-dom": "18.0.0"

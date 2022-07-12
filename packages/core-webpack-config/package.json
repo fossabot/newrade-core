@@ -26,7 +26,8 @@
     "swc:build:watch": "yarn swc:build --watch",
     "test": "yarn test:lib",
     "test:lib": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
-    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests --watch",
+    "test:lib:watch": "yarn test:lib --watch",
+    "test:watch": "yarn test:lib:watch",
     "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "tsc:types": "yarn tsc -b",
     "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
@@ -69,6 +70,7 @@
   "dependencies": {
     "@mapbox/rehype-prism": "^0.5.0",
     "@newrade/core-node-utils": "*",
+    "@newrade/core-types": "*",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.4",
     "@types/cssnano": "^5",
     "@vanilla-extract/webpack-plugin": "^2.1.6",

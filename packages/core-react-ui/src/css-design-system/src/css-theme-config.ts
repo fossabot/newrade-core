@@ -1,4 +1,4 @@
-import { GlobalCssTypeName } from '../global/global-theme-classnames.js';
+import { GlobalCssTypeName } from '@newrade/core-react-ui-global-classnames';
 
 import { CSSDesignSystemV2 } from './design-system.js';
 

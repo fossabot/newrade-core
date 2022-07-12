@@ -6,9 +6,9 @@ import {
   ColorShades10,
   ColorShadesGrey,
 } from '@newrade/core-design-system';
+import { keys } from '@newrade/core-react-ui-utilities-iso';
 
 import { Stack } from '../layout/stack.js';
-import { keys } from '../utilities-iso/utilities.js';
 
 import * as styles from './color-palette.css.js';
 import { ColorSwatch } from './color-swatch.js';

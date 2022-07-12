@@ -3,12 +3,12 @@ import React, { useRef } from 'react';
 import { pascal } from 'case';
 
 import { HEADING, TITLE, TYPOGRAPHIC_STYLE, Variant } from '@newrade/core-design-system';
+import { getFormattedAnchorId } from '@newrade/core-react-ui-utilities-iso';
 
 import { Primitive } from '../primitive/primitive.js';
 import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { TextCommonProps } from '../props/text-common.props.js';
 import * as textStyles from '../styles/text-color.css.js';
-import { getFormattedAnchorId } from '../utilities-iso/utilities-iso.js';
 
 import * as styles from './heading.css.js';
 

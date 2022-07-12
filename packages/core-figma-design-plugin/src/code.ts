@@ -1,9 +1,9 @@
 /// <reference types="@figma/plugin-typings" />
 
+import { cssLayout, cssTypography } from '@newrade/core-default-design-system/css';
 import * as DS from '@newrade/core-design-system';
 import { CapsizeTextStyleV2, TEXT_TRANSFORM, VIEWPORT } from '@newrade/core-design-system';
-import { keys, pxStringToNumber } from '@newrade/core-react-ui/utilities-iso';
-import { cssLayout, cssTypography } from '@newrade/ze-design-system/css';
+import { keys, pxStringToNumber } from '@newrade/core-react-ui-utilities-iso';
 
 import { postMessageToUI } from './code/code.utilities.js';
 import { loadFigmaFonts } from './code/figma-fonts.code.utilities.js';

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { logosComponents } from '@newrade/core-default-design-system';
+import { lightThemeConfig } from '@newrade/core-default-design-system/css';
 import { ICON, LOGO } from '@newrade/core-design-system';
 import { CSSThemeProvider, IconProvider, LogosProvider } from '@newrade/core-react-ui';
 import {
@@ -7,8 +9,6 @@ import {
   ioniconsOutlineConfig,
 } from '@newrade/core-react-ui/icons-kit-ionicons-outline';
 import { GlobalCSSVariables } from '@newrade/core-react-ui/src/global/global-css-variables';
-import { logosComponents } from '@newrade/ze-design-system';
-import { lightThemeConfig } from '@newrade/ze-design-system/css';
 
 /**
  * Provide global CSS, Icons and Logos

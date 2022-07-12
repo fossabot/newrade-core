@@ -35,7 +35,8 @@
     "swc:build:watch": "yarn swc:build --watch",
     "test": "yarn test:lib",
     "test:lib": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
-    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests --watch",
+    "test:lib:watch": "yarn test:lib --watch",
+    "test:watch": "yarn test:lib:watch",
     "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "tsc:types": "yarn tsc -b",
     "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
@@ -61,6 +62,7 @@
     "@jest/transform": "^28",
     "@jest/types": "^28",
     "@mdx-js/mdx": "^1.6.18",
+    "@newrade/core-types": "*",
     "@testing-library/jest-dom": "^5",
     "@testing-library/react": "^13",
     "babel-jest": "^27.0.6"

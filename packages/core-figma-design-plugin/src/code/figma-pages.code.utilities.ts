@@ -1,4 +1,4 @@
-import { keys } from '@newrade/core-react-ui/utilities-iso';
+import { keys } from '@newrade/core-react-ui-utilities-iso';
 
 import { FigmaPage } from '../common/figma-page.model.js';
 

@@ -6,7 +6,6 @@ export const babelPluginBrowserConf: ([string, object] | [string])[] = [
   ['@babel/plugin-proposal-nullish-coalescing-operator'],
   ['@babel/plugin-proposal-private-methods', { loose: false }],
   ['@babel/plugin-transform-destructuring'],
-  ['babel-plugin-optimize-hook-destructuring'],
   ['@babel/plugin-syntax-dynamic-import'],
   [
     '@babel/plugin-transform-runtime',

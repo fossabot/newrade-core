@@ -15,7 +15,7 @@ import {
   Tabs,
 } from '@newrade/core-react-ui';
 import { sizeVars } from '@newrade/core-react-ui/theme';
-import { keys } from '@newrade/core-react-ui/utilities-iso';
+import { keys } from '@newrade/core-react-ui-utilities-iso';
 
 import { PLUGIN_EVENT_TYPE, PluginEvent } from './common/messages.js';
 import { Footer } from './ui/components/footer.js';

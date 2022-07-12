@@ -1,7 +1,8 @@
 import { useEffect, useRef } from 'react';
 
+import { debugInstance, NS } from '@newrade/core-react-ui-utilities-iso';
+
 import { isIOS } from '../utilities-browser/useragent.utilities.js';
-import { debugInstance, NS } from '../utilities-iso/log.utilities.js';
 
 import { useIsSSR } from './use-is-ssr.js';
 

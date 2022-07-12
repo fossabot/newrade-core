@@ -5,11 +5,9 @@ node_modules
 lib/
 bin/
 
-# gatsby
+# apps
 .cache
 node_modules
 public
 graphql-types.ts
-
-# apps
 dist

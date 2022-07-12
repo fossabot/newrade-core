@@ -1,8 +1,7 @@
 import React, { Suspense } from 'react';
 
 import { InputSize, InputValidityState, Variant } from '@newrade/core-design-system';
-
-import { getMergedClassname } from '../utilities-iso/utilities-iso.js';
+import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import * as styles from './input.css.js';
 import { InputTextProps } from './input.props.js';

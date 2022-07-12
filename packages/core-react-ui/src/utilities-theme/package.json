@@ -1,0 +1,69 @@
+{
+  "name": "@newrade/core-react-ui-utilities-theme",
+  "version": "1.8.0",
+  "description": "Utilities to create design system compatible theme objects",
+  "author": {
+    "email": "info@newrade.ca",
+    "name": "Newrade",
+    "url": "https://github.com/newrade/newrade"
+  },
+  "homepage": "https://github.com/newrade/newrade-core",
+  "repository": {
+    "directory": "packages/core-react-ui/src/utilities-theme",
+    "type": "git",
+    "url": "git+https://github.com/newrade/newrade-core.git"
+  },
+  "keywords": [
+    "react",
+    "theme",
+    "design system",
+    "utilities"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newrade/newrade-core/issues"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn build:lib",
+    "build:lib": "yarn tsc:types && yarn swc:build",
+    "clean": "yarn clean:lib",
+    "clean:dist": "rimraf -rf dist/**",
+    "clean:lib": "yarn clean:dist && yarn clean:tsc",
+    "clean:tsc": "rimraf -f ./**/*.tsbuildinfo *.tsbuildinfo",
+    "prestart": "yarn build",
+    "start": "yarn start:lib",
+    "start:lib": "concurrently \"yarn tsc:types:watch\" \"yarn swc:build:watch\"",
+    "swc:build": "swc ./src --config-file ../../../../.swcrc --source-maps --ignore **/__test__/**/* --out-dir dist",
+    "swc:build:watch": "yarn swc:build --watch",
+    "test": "yarn test:lib",
+    "test:lib": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
+    "test:lib:watch": "yarn test:lib --watch",
+    "test:watch": "yarn test:lib:watch",
+    "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false",
+    "tsc:types": "yarn tsc -b",
+    "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/index.js",
+        "types": "./dist/index.types.d.ts"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "types": "./dist/index.types.d.ts",
+  "dependencies": {
+    "@newrade/core-design-system": "*",
+    "@newrade/core-react-ui-css-design-system": "*",
+    "@newrade/core-react-ui-default-theme": "*",
+    "@newrade/core-react-ui-utilities-iso": "*",
+    "@newrade/core-types": "*"
+  }
+}

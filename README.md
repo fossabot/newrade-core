@@ -16,17 +16,8 @@
 ![core-cli](https://github.com/newrade/newrade-core/actions/workflows/core-cli-workflow.yml/badge.svg)
 ![core-design-system](https://github.com/newrade/newrade-core/actions/workflows/core-design-system-workflow.yml/badge.svg)
 ![core-github-actions](https://github.com/newrade/newrade-core/actions/workflows/core-github-actions-workflow.yml/badge.svg)
-
-![core-contentful-lib](https://github.com/newrade/newrade-core/actions/workflows/core-contentful-lib-workflow.yml/badge.svg)
-
-![core-gatsby-ui](https://github.com/newrade/newrade-core/actions/workflows/core-gatsby-ui-workflow.yml/badge.svg)
 ![core-react-ui](https://github.com/newrade/newrade-core/actions/workflows/core-react-ui-workflow.yml/badge.svg)
-
 ![code-ql](https://github.com/newrade/newrade-core/actions/workflows/codeql-analysis.yml/badge.svg)
-
----
-
-![ze-design-website](https://github.com/newrade/newrade-core/actions/workflows/ze-design-website-workflow.yml/badge.svg)
 
 ---
 

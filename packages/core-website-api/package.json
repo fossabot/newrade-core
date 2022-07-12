@@ -25,7 +25,8 @@
     "swc:build:watch": "yarn swc:build --watch",
     "test": "yarn test:lib",
     "test:lib": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
-    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests --watch",
+    "test:lib:watch": "yarn test:lib --watch",
+    "test:watch": "yarn test:lib:watch",
     "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "tsc:types": "yarn tsc -b",
     "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
@@ -48,7 +49,6 @@
   "types": "./dist/index.types.d.ts",
   "dependencies": {
     "@newrade/core-design-system": "*",
-    "gatsby-background-image": "^1",
-    "gatsby-plugin-image": "^1.11.0-next.2"
+    "@newrade/core-types": "*"
   }
 }

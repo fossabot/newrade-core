@@ -1,6 +1,6 @@
 /**
  *
- * Global constants used in the DOM
+ * Components and style files to apply the theme's variables
  *
  */
-export * from './global-theme-classnames.js';
+export * from './global-css-variables.js';
