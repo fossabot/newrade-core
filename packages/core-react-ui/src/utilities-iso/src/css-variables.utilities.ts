@@ -27,7 +27,7 @@ export function getCSSVar(varExpression?: string): string {
   if (!varExpression) {
     return '';
   }
-  const match = /var\((?<cssvar>--.+)\)/.exec(varExpression);
+  const match = /^var\((?<cssvar>--.+)\)/.exec(varExpression);
   if (!(match && match.groups?.cssvar)) {
     return '';
   }
