@@ -39,7 +39,6 @@ USAGE
 
 <!-- commands -->
 * [`nr commit`](#nr-commit)
-* [`nr contentful-migrate [FILE]`](#nr-contentful-migrate-file)
 * [`nr css-extract`](#nr-css-extract)
 * [`nr depcheck [ARGS]`](#nr-depcheck-args)
 * [`nr figma-sync [PATH]`](#nr-figma-sync-path)
@@ -73,29 +72,6 @@ EXAMPLES
 ```
 
 _See code: [dist/commands/commit.js](https://github.com/newrade/newrade-core/blob/v1.16.0/dist/commands/commit.js)_
-
-## `nr contentful-migrate [FILE]`
-
-execute migration with the contentful CLI
-
-```
-USAGE
-  $ nr contentful-migrate [FILE] [-h]
-
-ARGUMENTS
-  FILE  figma file id
-
-FLAGS
-  -h, --help  Show CLI help.
-
-DESCRIPTION
-  execute migration with the contentful CLI
-
-EXAMPLES
-  $ nr contentful-migrate
-```
-
-_See code: [dist/commands/contentful-migrate.js](https://github.com/newrade/newrade-core/blob/v1.16.0/dist/commands/contentful-migrate.js)_
 
 ## `nr css-extract`
 

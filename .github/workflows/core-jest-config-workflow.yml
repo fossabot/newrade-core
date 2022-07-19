@@ -76,7 +76,7 @@ jobs:
         run: yarn eslint ./packages/core-jest-config/src/ --ext "ts,tsx"
 
       - name: Run unit tests
-        run: yarn lerna:test --scope @newrade/core-jest-config
+        run: yarn lerna:test:lib --scope @newrade/core-jest-config
 
       - name: Build package
         run: yarn lerna:build:lib --scope @newrade/core-jest-config

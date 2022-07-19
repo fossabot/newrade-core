@@ -93,4 +93,4 @@ jobs:
         working-directory: packages/core-figma-extractor
 
       - name: Run unit tests
-        run: yarn lerna:test --scope @newrade/core-figma-extractor
+        run: yarn lerna:test:lib --scope @newrade/core-figma-extractor

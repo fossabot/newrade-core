@@ -24,7 +24,8 @@
       "packages/core-react-ui/src/utilities-test",
       "packages/core-react-ui/src/global-classnames",
       "packages/core-react-ui/src/css-design-system",
-      "packages/core-react-ui/src/theme"
+      "packages/core-react-ui/src/theme",
+      "packages/core-react-ui/src/viewport"
     ]
   },
   "config": {
@@ -200,7 +201,7 @@
     "kill-port": "^1.6.1",
     "lerna": "^4.0.0",
     "lint-staged": "^10.2.9",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4",
     "mem-fs": "^2",
     "mem-fs-editor": "^9",
     "node-loader": "^2.0.0",
