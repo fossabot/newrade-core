@@ -1,7 +1,7 @@
 import { style } from '@vanilla-extract/css';
 import { recipe } from '@vanilla-extract/recipes';
 
-import { iconographyVars, layoutCSS } from '../default-theme/src/theme.js';
+import { iconographyVars, layoutCSS } from '@newrade/core-react-ui-theme';
 
 export const base = style({
   ':focus': {

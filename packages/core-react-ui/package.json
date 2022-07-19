@@ -4,23 +4,20 @@
   "description": "React UI library implementing the core-design-system",
   "license": "MIT",
   "scripts": {
-    "build": "yarn lerna:build:lib",
-    "clean": "yarn lerna:clean:lib",
-    "lerna:build:lib": "lerna run --stream build:lib --scope @newrade/core-react-ui-*",
-    "lerna:clean:lib": "lerna run --stream clean:lib --scope @newrade/core-react-ui-*",
-    "lerna:start:lib": "lerna run --parallel start:lib --scope @newrade/core-react-ui-*",
-    "lerna:test:lib": "lerna run --stream test:lib --scope @newrade/core-react-ui-*",
-    "lerna:test:lib:watch": "lerna run --stream test:lib:watch --scope @newrade/core-react-ui-*",
-    "lerna:typecheck": "lerna run --stream tsc:typecheck --scope @newrade/core-react-ui-*",
-    "start": "yarn lerna:start:lib",
-    "test": "yarn lerna:test:lib",
-    "test:watch": "yarn lerna:test:lib:watch",
-    "typecheck": "yarn lerna:typecheck"
+    "build": "yarn lerna:build:lib --scope @newrade/core-react-ui-*",
+    "clean": "yarn lerna:clean:lib --scope @newrade/core-react-ui-*",
+    "lerna:build:lib": "lerna run --stream build:lib ",
+    "lerna:clean:lib": "lerna run --stream clean:lib ",
+    "lerna:start:lib": "lerna run --parallel start:lib ",
+    "lerna:test:lib": "lerna run --stream test:lib ",
+    "lerna:test:lib:watch": "lerna run --stream test:lib:watch",
+    "lerna:typecheck": "lerna run --stream tsc:typecheck",
+    "start": "yarn lerna:start:lib --scope @newrade/core-react-ui-*",
+    "test": "yarn lerna:test:lib --scope @newrade/core-react-ui-*",
+    "test:watch": "yarn lerna:test:lib:watch --scope @newrade/core-react-ui-*",
+    "typecheck": "yarn lerna:typecheck --scope @newrade/core-react-ui-*"
   },
   "sideEffects": false,
   "type": "module",
-  "dependencies": {
-    "@newrade/core-react-ui-utilities-iso": "*",
-    "@newrade/core-types": "*"
-  }
+  "dependencies": {}
 }

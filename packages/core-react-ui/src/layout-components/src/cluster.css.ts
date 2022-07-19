@@ -1,7 +1,7 @@
 import { style } from '@vanilla-extract/css';
 import { Property } from 'csstype';
 
-import { layoutCSS } from '../default-theme/default-theme.css.js';
+import { layoutCSS } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({
   display: 'grid',

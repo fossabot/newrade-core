@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars, layoutCSS, typographyVars } from '../default-theme/src/theme.js';
+import { colorVars, layoutCSS, typographyVars } from '@newrade/core-react-ui-theme';
 
 export const base = style({
   paddingTop: `1em`,

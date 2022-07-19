@@ -26,7 +26,7 @@
     "packages/core-react-ui/src/buttons-keyboard",
     "packages/core-react-ui/src/callouts",
     "packages/core-react-ui/src/code",
-    "packages/core-react-ui/src/default-theme",
+    "packages/core-react-ui/src/theme",
     "packages/core-react-ui/src/design-system",
     "packages/core-react-ui/src/doc-components",
     "packages/core-react-ui/src/effects",
@@ -70,7 +70,6 @@
     "packages/core-react-ui/src/utilities-components",
     "packages/core-react-ui/src/utilities-iso",
     "packages/core-react-ui/src/utilities-test",
-    "packages/core-react-ui/src/utilities-theme",
     "packages/core-react-ui/src/utilities-vanilla-extract"
   ]
 }

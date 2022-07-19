@@ -60,9 +60,5 @@
     "@vanilla-extract/recipes": "^0.2.3",
     "react": "18.0.0",
     "react-dom": "18.0.0"
-  },
-  "peerDependencies": {
-    "react": "18.0.0",
-    "react-dom": "18.0.0"
   }
 }

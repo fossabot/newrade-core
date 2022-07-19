@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { sizeVars } from '../default-theme/src/theme.js';
+import { sizeVars } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({
   padding: sizeVars.x6,

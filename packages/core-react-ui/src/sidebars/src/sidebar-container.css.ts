@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars, layoutCSS } from '../../default-theme/src/theme.js';
+import { colorVars, layoutCSS } from '../../theme/src/theme.js';
 import { getCSSColorVar } from '../../utilities-iso/utilities-iso.js';
 
 /**

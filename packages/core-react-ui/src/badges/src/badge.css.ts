@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars } from '../../default-theme/src/theme.js';
+import { colorVars } from '../../theme/src/theme.js';
 
 /**
  * Base

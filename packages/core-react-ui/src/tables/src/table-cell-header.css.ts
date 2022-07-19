@@ -1,7 +1,7 @@
 import { createVar } from '@vanilla-extract/css';
 import { recipe } from '@vanilla-extract/recipes';
 
-import { colorVars, layoutCSS, typographyVars } from '../default-theme/src/theme.js';
+import { colorVars, layoutCSS, typographyVars } from '@newrade/core-react-ui-theme';
 
 /**
  *

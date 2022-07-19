@@ -6,7 +6,7 @@ import {
   defaultColorsColorsDark,
   defaultColorsGradients,
   defaultColorsGradientsDark,
-} from '@newrade/core-react-ui/default-theme';
+} from '@newrade/core-react-ui-theme';
 
 export const colors: Colors = {
   colorScheme: COLOR_SCHEME.LIGHT,

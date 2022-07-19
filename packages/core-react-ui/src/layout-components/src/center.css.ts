@@ -1,6 +1,6 @@
 import { createVar, style } from '@vanilla-extract/css';
 
-import { layoutCSS, layoutVars } from '../default-theme/src/theme.js';
+import { layoutCSS, layoutVars } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({
   position: 'relative',

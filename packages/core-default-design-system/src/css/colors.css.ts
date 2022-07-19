@@ -1,12 +1,12 @@
 import { createGlobalTheme } from '@vanilla-extract/css';
 
-import { defaultColors, defaultColorsDark } from '@newrade/core-react-ui/default-theme';
+import { colorVars } from '@newrade/core-react-ui/theme';
+import { getCSSColorsV2 } from '@newrade/core-react-ui-theme';
 import {
   GLOBAL_DARK_THEME_SELECTOR,
   GLOBAL_LIGHT_THEME_SELECTOR,
-} from '@newrade/core-react-ui/global';
-import { colorVars } from '@newrade/core-react-ui/theme';
-import { getCSSColorsV2 } from '@newrade/core-react-ui/utilities-theme';
+} from '@newrade/core-react-ui-global-css';
+import { defaultColors, defaultColorsDark } from '@newrade/core-react-ui-theme';
 
 import { darkThemeConfig, lightThemeConfig } from './theme-config.js';
 

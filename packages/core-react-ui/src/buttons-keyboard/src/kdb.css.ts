@@ -2,7 +2,7 @@ import { createStyleObject } from '@capsizecss/core';
 import { style } from '@vanilla-extract/css';
 import { recipe } from '@vanilla-extract/recipes';
 
-import { colorVars, layoutCSS, typographyVars } from '../../default-theme/src/theme.js';
+import { colorVars, layoutCSS, typographyVars } from '../../theme/src/theme.js';
 
 /**
  *

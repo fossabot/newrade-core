@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars, sizeVars } from '../../default-theme/src/theme.js';
+import { colorVars, sizeVars } from '../../theme/src/theme.js';
 
 export const base = style({
   display: 'block',

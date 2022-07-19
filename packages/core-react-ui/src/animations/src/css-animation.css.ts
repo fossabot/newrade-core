@@ -1,6 +1,6 @@
 import { globalStyle, keyframes, style } from '@vanilla-extract/css';
 
-import { sizeVars } from '../../default-theme/src/theme.js';
+import { sizeVars } from '../../theme/src/theme.js';
 
 import { easingPower4 } from './css-easings.js';
 

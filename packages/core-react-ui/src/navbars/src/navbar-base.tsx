@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { Variant } from '@newrade/core-design-system';
+import { layoutVars } from '@newrade/core-react-ui-theme';
 
-import { layoutVars } from '../default-theme/src/theme.js';
 import { useCSSTheme } from '../hooks/use-css-theme.js';
 import { Center } from '../layout/center.js';
 import { Primitive } from '../primitive/primitive.js';

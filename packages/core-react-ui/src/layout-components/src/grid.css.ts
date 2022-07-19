@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { layoutCSS } from '../default-theme/src/theme.js';
+import { layoutCSS } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({
   display: 'grid',

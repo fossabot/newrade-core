@@ -1,6 +1,5 @@
 import { COLOR_SCHEME } from '@newrade/core-design-system';
-
-import { colorVars } from '../default-theme/default-theme.css.js';
+import { colorVars } from '@newrade/core-react-ui-theme';
 
 import { useCSSTheme } from './use-css-theme.js';
 

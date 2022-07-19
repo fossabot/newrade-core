@@ -1,8 +1,6 @@
 import { createGlobalTheme } from '@vanilla-extract/css';
 
-import { defaultButtons } from '@newrade/core-react-ui/default-theme';
-import { buttonsVars } from '@newrade/core-react-ui/theme';
-import { getCSSButtons } from '@newrade/core-react-ui/utilities-theme';
+import { buttonsVars, defaultButtons, getCSSButtons } from '@newrade/core-react-ui-theme';
 
 const cssButtons = getCSSButtons(defaultButtons);
 

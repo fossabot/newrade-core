@@ -19,12 +19,12 @@
       "packages/core-design-system",
       "packages/core-website-api",
       "packages/core-github-actions",
-      "packages/core-react-ui/src/global-classnames",
-      "packages/core-react-ui/src/css-design-system",
-      "packages/core-react-ui/src/global-css",
+      "packages/core-react-ui",
       "packages/core-react-ui/src/utilities-iso",
       "packages/core-react-ui/src/utilities-test",
-      "packages/core-react-ui"
+      "packages/core-react-ui/src/global-classnames",
+      "packages/core-react-ui/src/css-design-system",
+      "packages/core-react-ui/src/theme"
     ]
   },
   "config": {

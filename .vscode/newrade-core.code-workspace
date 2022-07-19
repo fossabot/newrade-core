@@ -136,7 +136,12 @@
       "titleBar.activeBackground": "#012341",
       "titleBar.activeForeground": "#e7e7e7",
       "titleBar.inactiveBackground": "#01234199",
-      "titleBar.inactiveForeground": "#e7e7e799"
+      "titleBar.inactiveForeground": "#e7e7e799",
+      //
+      // Hide the badges
+      //
+      "activityBarBadge.background": "#0000",
+      "activityBarBadge.foreground": "#0000"
     },
     "peacock.color": "#012341",
     "[prisma]": {

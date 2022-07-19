@@ -1,4 +1,4 @@
-import { colorVars } from '../default-theme/src/theme.js';
+import { colorVars } from '@newrade/core-react-ui-theme';
 
 /**
  * @see https://developers.google.com/maps/documentation/javascript/style-reference

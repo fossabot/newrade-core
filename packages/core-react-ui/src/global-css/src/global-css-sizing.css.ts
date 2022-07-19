@@ -1,6 +1,6 @@
 import { globalStyle } from '@vanilla-extract/css';
 
-import { layoutCSS, ratioVarNames, sizeVarNames, sizingVars } from '../default-theme/src/theme.js';
+import { layoutCSS, ratioVarNames, sizeVarNames, sizingVars } from '@newrade/core-react-ui-theme';
 
 globalStyle(`:root`, {
   /**

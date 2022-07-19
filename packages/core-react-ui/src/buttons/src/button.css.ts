@@ -1,12 +1,7 @@
 import { createVar, style } from '@vanilla-extract/css';
 import { recipe, RecipeVariants } from '@vanilla-extract/recipes';
 
-import {
-  buttonsVars,
-  layoutCSS,
-  sizeVars,
-  typographyVars,
-} from '../../default-theme/default-theme.css.js';
+import { buttonsVars, layoutCSS, sizeVars, typographyVars } from '../../theme/theme.css.js';
 
 /**
  *

@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { HEADING, LOGO } from '@newrade/core-design-system';
+import { sizeVars } from '@newrade/core-react-ui-theme';
 
-import { sizeVars } from '../default-theme/src/theme.js';
 import { Cluster } from '../layout/cluster.js';
 import { Logo } from '../logos/logo.js';
 import { Heading } from '../text/heading.js';

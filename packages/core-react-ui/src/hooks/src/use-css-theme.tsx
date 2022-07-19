@@ -1,13 +1,10 @@
 import React, { FC, ReactNode, useCallback, useEffect, useRef, useState } from 'react';
 
 import { COLOR_MODE, COLOR_SCHEME, ColorModeProps, Variant } from '@newrade/core-design-system';
+import { CSSRuntimeThemeConfig, CSSThemeProviderConfig } from '@newrade/core-design-system';
 import { debugInstance, NS } from '@newrade/core-react-ui-utilities-iso';
 import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso.js';
 
-import {
-  CSSRuntimeThemeConfig,
-  CSSThemeProviderConfig,
-} from '../design-system/css-theme-config.js';
 import {
   GLOBAL_CSS_THEME_SCHEME,
   GLOBAL_CSS_THEME_SCHEME_REVERSED,

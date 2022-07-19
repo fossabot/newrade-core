@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { sizeVars } from '@newrade/core-react-ui-theme';
 
-import { sizeVars } from '../default-theme/src/theme.js';
 import { Cluster } from '../layout/cluster.js';
 import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Label } from '../text/label.js';

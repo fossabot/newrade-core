@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars, layoutCSS, sizeVars } from '../default-theme/src/theme.js';
+import { colorVars, layoutCSS, sizeVars } from '@newrade/core-react-ui-theme';
 
 /**
  * Sidebar

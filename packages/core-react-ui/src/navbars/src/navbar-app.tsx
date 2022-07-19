@@ -1,9 +1,9 @@
 import React, { useImperativeHandle, useRef, useState } from 'react';
 
 import { ButtonIcon, ICON, Variant } from '@newrade/core-design-system';
+import { sizeVars } from '@newrade/core-react-ui-theme';
 
 import { Button } from '../button/button.js';
-import { sizeVars } from '../default-theme/src/theme.js';
 import { usePreventPinchZoom } from '../hooks/use-prevent-pinch-zoom.js';
 import { BoxV2 } from '../layout/box-v2.js';
 import { Center } from '../layout/center.js';

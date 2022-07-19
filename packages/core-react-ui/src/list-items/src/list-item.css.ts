@@ -1,7 +1,7 @@
 import { globalStyle, style } from '@vanilla-extract/css';
 import { recipe } from '@vanilla-extract/recipes';
 
-import { layoutCSS, typographyVars } from '../../default-theme/src/theme.js';
+import { layoutCSS, typographyVars } from '../../theme/src/theme.js';
 import { getNormalTextStyles } from '../../utilities-vanilla-extract/utilities-vanilla-extract.js';
 
 /**

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { sizeVars } from '../../default-theme/src/theme.js';
+import { sizeVars } from '../../theme/src/theme.js';
 import { Stack } from '../layout/stack.js';
 import { PrimitiveProps } from '../primitive/primitive.props.js';
 

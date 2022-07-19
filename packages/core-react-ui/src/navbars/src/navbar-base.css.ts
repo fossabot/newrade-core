@@ -1,6 +1,6 @@
 import { globalStyle, style } from '@vanilla-extract/css';
 
-import { colorVars, layoutVars } from '../default-theme/src/theme.js';
+import { colorVars, layoutVars } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({
   top: 0,
