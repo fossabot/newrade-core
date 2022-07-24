@@ -120,8 +120,6 @@ a number of use cases:
   `tsconfig.json` files can extend from.
 - `tsconfig.browser-esm.json`: configuration for libraries that are consumed
   with `webpack` and standard loaders such as `ts-loader` and `babel-loader`.
-- `tsconfig.browser-gatsby.json`: specific configuration for Gatsby sites that
-  uses `ts-loader`.
 - `tsconfig.node-esm.json`: for libraries that are consumed by NodeJS with a
   bundler like `ts-node` or `webpack`.
 - `tsconfig.node-commonjs.json`: for libraries that must be consumed directly by

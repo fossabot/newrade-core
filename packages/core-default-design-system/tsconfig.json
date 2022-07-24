@@ -1,5 +1,5 @@
 {
-  "extends": "../../tsconfig.browser-esm.json",
+  "extends": "../../tsconfig.browser-types-esm.json",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",

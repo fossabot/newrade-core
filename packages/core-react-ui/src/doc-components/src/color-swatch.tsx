@@ -1,6 +1,6 @@
 import React, { HTMLAttributes } from 'react';
 
-import { Color, LABEL_SIZE, TEXT_STYLE, Variant } from '@newrade/core-design-system';
+import { LABEL_SIZE, TEXT_STYLE, Variant } from '@newrade/core-design-system';
 import { kebab } from '@newrade/core-iso-utils';
 
 import { Stack } from '../layout/stack.js';

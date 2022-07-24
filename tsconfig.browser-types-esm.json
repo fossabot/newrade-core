@@ -1,6 +1,5 @@
 /**
- * For typescript libraries for the browser, meaning that those output files will
- * be handled by webpack & loaders
+ * For emitting .d.ts files for typescript libraries intended for the browser
  *
  * @example ui component libraries, utilities for applications, etc.
  */
@@ -8,6 +7,7 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "declaration": true,
+    "emitDeclarationOnly": true,
     "lib": ["dom", "ESNext"]
   }
 }

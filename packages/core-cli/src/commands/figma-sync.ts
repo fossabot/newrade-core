@@ -3,7 +3,6 @@ import path from 'path';
 import { Config, Flags } from '@oclif/core';
 import * as t from 'io-ts';
 
-import { extract } from '@newrade/core-figma-extractor';
 import { loadDotEnv } from '@newrade/core-node-utils';
 
 import { BaseCommand } from '../base-command.js';
@@ -49,6 +48,12 @@ export default class FigmaSync extends BaseCommand {
     const { args, flags } = await this.parse(FigmaSync);
 
     this.log(`running: extract command`);
+
+    // import '@newrade/core-figma-extractor' with dynamic import since deps(lodash-es are not packaged as CJS)
+    const _importDynamic = new Function('modulePath', 'return import(modulePath)');
+    const { extract } = (await _importDynamic(
+      '@newrade/core-figma-extractor'
+    )) as typeof import('@newrade/core-figma-extractor');
 
     await extract({
       extractorName: '',

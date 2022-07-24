@@ -1,5 +1,5 @@
 {
-  "extends": "../../../../tsconfig.browser-esm.json",
+  "extends": "../../../../tsconfig.browser-types-esm.json",
   "compilerOptions": {
     "types": ["react", "react-dom", "jest"],
     "rootDir": "src",

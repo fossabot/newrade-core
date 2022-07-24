@@ -6,9 +6,7 @@ import {
   SizingRatioVarNames,
   SizingVarNames,
 } from '@newrade/core-react-ui-css-design-system';
-import { cssVar } from '@newrade/core-react-ui-utilities-iso';
-import { keys, px } from '@newrade/core-react-ui-utilities-iso';
-import { ModularScaleOptions } from '@newrade/core-react-ui-utilities-iso';
+import { cssVar, keys, px } from '@newrade/core-react-ui-utilities-iso';
 
 export const defaultSizesCSSVarNames: SizingVarNames = {
   [SIZE.x0]: '--sizing-x0',

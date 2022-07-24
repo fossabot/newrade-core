@@ -6,7 +6,6 @@ exports.Env = exports.default = void 0;
 var _path = _interopRequireDefault(require("path"));
 var _core = require("@oclif/core");
 var t = _interopRequireWildcard(require("io-ts"));
-var _coreFigmaExtractor = require("@newrade/core-figma-extractor");
 var _coreNodeUtils = require("@newrade/core-node-utils");
 var _baseCommandJs = require("../base-command.js");
 class FigmaSync extends _baseCommandJs.BaseCommand {
@@ -43,7 +42,10 @@ class FigmaSync extends _baseCommandJs.BaseCommand {
         });
         const { args , flags  } = await this.parse(FigmaSync);
         this.log(`running: extract command`);
-        await (0, _coreFigmaExtractor).extract({
+        // import '@newrade/core-figma-extractor' with dynamic import since deps(lodash-es are not packaged as CJS)
+        const _importDynamic = new Function("modulePath", "return import(modulePath)");
+        const { extract  } = await _importDynamic("@newrade/core-figma-extractor");
+        await extract({
             extractorName: "",
             version: "",
             figmaFile: env.FIGMA_FILE,

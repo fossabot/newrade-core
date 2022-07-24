@@ -772,12 +772,12 @@ exports[`figma-sync command should produce the correct tokens from the figma ref
     \\"b\\": 8,
     \\"a\\": 1
   },
-  \\"darkGrey15BG1\\": {
+  \\"darkGrey15Bg1\\": {
     \\"id\\": \\"3423:24132\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"dark\\",
-    \\"colorLevel\\": \\"grey15BG1\\",
+    \\"colorLevel\\": \\"grey15Bg1\\",
     \\"r\\": 39,
     \\"g\\": 39,
     \\"b\\": 39,
@@ -827,23 +827,23 @@ exports[`figma-sync command should produce the correct tokens from the figma ref
     \\"b\\": 162,
     \\"a\\": 1
   },
-  \\"lightGrey0BG\\": {
+  \\"lightGrey0Bg\\": {
     \\"id\\": \\"2756:59053\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"light\\",
-    \\"colorLevel\\": \\"grey0BG\\",
+    \\"colorLevel\\": \\"grey0Bg\\",
     \\"r\\": 255,
     \\"g\\": 255,
     \\"b\\": 255,
     \\"a\\": 1
   },
-  \\"lightGrey15BG1White\\": {
+  \\"lightGrey15Bg1White\\": {
     \\"id\\": \\"2756:59615\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"light\\",
-    \\"colorLevel\\": \\"grey15BG1White\\",
+    \\"colorLevel\\": \\"grey15Bg1White\\",
     \\"r\\": 255,
     \\"g\\": 255,
     \\"b\\": 255,
@@ -893,12 +893,12 @@ exports[`figma-sync command should produce the correct tokens from the figma ref
     \\"b\\": 115,
     \\"a\\": 1
   },
-  \\"lightGrey15BG1\\": {
+  \\"lightGrey15Bg1\\": {
     \\"id\\": \\"2756:59464\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"light\\",
-    \\"colorLevel\\": \\"grey15BG1\\",
+    \\"colorLevel\\": \\"grey15Bg1\\",
     \\"r\\": 247,
     \\"g\\": 247,
     \\"b\\": 247,
@@ -926,23 +926,23 @@ exports[`figma-sync command should produce the correct tokens from the figma ref
     \\"b\\": 16,
     \\"a\\": 1
   },
-  \\"lightGrey20BG2\\": {
+  \\"lightGrey20Bg2\\": {
     \\"id\\": \\"2756:59462\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"light\\",
-    \\"colorLevel\\": \\"grey20BG2\\",
+    \\"colorLevel\\": \\"grey20Bg2\\",
     \\"r\\": 240,
     \\"g\\": 240,
     \\"b\\": 240,
     \\"a\\": 1
   },
-  \\"lightGrey0BG0\\": {
+  \\"lightGrey0Bg0\\": {
     \\"id\\": \\"2756:59616\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"light\\",
-    \\"colorLevel\\": \\"grey0BG0\\",
+    \\"colorLevel\\": \\"grey0Bg0\\",
     \\"r\\": 255,
     \\"g\\": 255,
     \\"b\\": 255,
@@ -970,12 +970,12 @@ exports[`figma-sync command should produce the correct tokens from the figma ref
     \\"b\\": 207,
     \\"a\\": 1
   },
-  \\"darkGrey15BG1White\\": {
+  \\"darkGrey15Bg1White\\": {
     \\"id\\": \\"3423:24133\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"dark\\",
-    \\"colorLevel\\": \\"grey15BG1White\\",
+    \\"colorLevel\\": \\"grey15Bg1White\\",
     \\"r\\": 35,
     \\"g\\": 35,
     \\"b\\": 35,
@@ -1135,34 +1135,34 @@ exports[`figma-sync command should produce the correct tokens from the figma ref
     \\"b\\": 139,
     \\"a\\": 1
   },
-  \\"darkGrey0BG0\\": {
+  \\"darkGrey0Bg0\\": {
     \\"id\\": \\"3423:24134\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"dark\\",
-    \\"colorLevel\\": \\"grey0BG0\\",
+    \\"colorLevel\\": \\"grey0Bg0\\",
     \\"r\\": 26,
     \\"g\\": 26,
     \\"b\\": 27,
     \\"a\\": 1
   },
-  \\"darkGrey25BG2\\": {
+  \\"darkGrey25Bg2\\": {
     \\"id\\": \\"3423:24130\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"dark\\",
-    \\"colorLevel\\": \\"grey25BG2\\",
+    \\"colorLevel\\": \\"grey25Bg2\\",
     \\"r\\": 43,
     \\"g\\": 43,
     \\"b\\": 43,
     \\"a\\": 1
   },
-  \\"darkGrey20BG2\\": {
+  \\"darkGrey20Bg2\\": {
     \\"id\\": \\"3423:24131\\",
     \\"colorNamespace\\": \\"\\",
     \\"colorTheme\\": \\"\\",
     \\"colorType\\": \\"dark\\",
-    \\"colorLevel\\": \\"grey20BG2\\",
+    \\"colorLevel\\": \\"grey20Bg2\\",
     \\"r\\": 43,
     \\"g\\": 43,
     \\"b\\": 43,
@@ -1551,11 +1551,11 @@ exports[`figma-sync command should produce the correct tokens from the figma ref
   --color-light-grey-0: rgba(255, 255, 255, 1);
   --color-light-grey-0-white: rgba(255, 255, 255, 1);
   --color-light-grey-15: rgba(247, 247, 247, 1);
-  --color-light-grey-0-b-g: rgba(255, 255, 255, 1);
-  --color-light-grey-15-b-g1-white: rgba(255, 255, 255, 1);
-  --color-light-grey-15-b-g1: rgba(247, 247, 247, 1);
-  --color-light-grey-20-b-g2: rgba(240, 240, 240, 1);
-  --color-light-grey-0-b-g0: rgba(255, 255, 255, 1);
+  --color-light-grey-0-bg: rgba(255, 255, 255, 1);
+  --color-light-grey-15-bg-1-white: rgba(255, 255, 255, 1);
+  --color-light-grey-15-bg-1: rgba(247, 247, 247, 1);
+  --color-light-grey-20-bg-2: rgba(240, 240, 240, 1);
+  --color-light-grey-0-bg-0: rgba(255, 255, 255, 1);
   --color-light-grey-0-reversed: rgba(255, 255, 255, 1);
   --color-light-red-100: rgba(251, 226, 226, 1);
   --color-light-yellow-900: rgba(33, 26, 2, 1);
@@ -1610,8 +1610,8 @@ exports[`figma-sync command should produce the correct tokens from the figma ref
   --color-dark-grey-600: rgba(166, 166, 166, 1);
   --color-dark-grey-200: rgba(87, 87, 87, 1);
   --color-dark-grey-0-white: rgba(255, 255, 255, 1);
-  --color-dark-grey-15-b-g1: rgba(39, 39, 39, 1);
-  --color-dark-grey-15-b-g1-white: rgba(35, 35, 35, 1);
+  --color-dark-grey-15-bg-1: rgba(39, 39, 39, 1);
+  --color-dark-grey-15-bg-1-white: rgba(35, 35, 35, 1);
   --color-dark-grey-grey-transparent: rgba(255, 255, 255, 0.06);
   --color-dark-grey-500: rgba(143, 143, 143, 1);
   --color-dark-grey-400: rgba(121, 121, 121, 1);
@@ -1621,9 +1621,9 @@ exports[`figma-sync command should produce the correct tokens from the figma ref
   --color-dark-grey-25: rgba(46, 46, 46, 1);
   --color-dark-grey-0: rgba(18, 18, 18, 1);
   --color-dark-grey-0-reversed: rgba(255, 255, 255, 1);
-  --color-dark-grey-0-b-g0: rgba(26, 26, 27, 1);
-  --color-dark-grey-25-b-g2: rgba(43, 43, 43, 1);
-  --color-dark-grey-20-b-g2: rgba(43, 43, 43, 1);
+  --color-dark-grey-0-bg-0: rgba(26, 26, 27, 1);
+  --color-dark-grey-25-bg-2: rgba(43, 43, 43, 1);
+  --color-dark-grey-20-bg-2: rgba(43, 43, 43, 1);
   --color-dark-grey-transparent: rgba(255, 255, 255, 0);
   --color-dark-green-100: rgba(16, 38, 13, 1);
   --color-dark-red-900: rgba(245, 188, 188, 1);
@@ -1693,11 +1693,11 @@ $color-light-grey-25: rgba(242, 242, 242, 1);
 $color-light-grey-0: rgba(255, 255, 255, 1);
 $color-light-grey-0-white: rgba(255, 255, 255, 1);
 $color-light-grey-15: rgba(247, 247, 247, 1);
-$color-light-grey-0-b-g: rgba(255, 255, 255, 1);
-$color-light-grey-15-b-g1-white: rgba(255, 255, 255, 1);
-$color-light-grey-15-b-g1: rgba(247, 247, 247, 1);
-$color-light-grey-20-b-g2: rgba(240, 240, 240, 1);
-$color-light-grey-0-b-g0: rgba(255, 255, 255, 1);
+$color-light-grey-0-bg: rgba(255, 255, 255, 1);
+$color-light-grey-15-bg-1-white: rgba(255, 255, 255, 1);
+$color-light-grey-15-bg-1: rgba(247, 247, 247, 1);
+$color-light-grey-20-bg-2: rgba(240, 240, 240, 1);
+$color-light-grey-0-bg-0: rgba(255, 255, 255, 1);
 $color-light-grey-0-reversed: rgba(255, 255, 255, 1);
 $color-light-red-100: rgba(251, 226, 226, 1);
 $color-light-yellow-900: rgba(33, 26, 2, 1);
@@ -1752,8 +1752,8 @@ $color-dark-grey-700: rgba(205, 205, 205, 1);
 $color-dark-grey-600: rgba(166, 166, 166, 1);
 $color-dark-grey-200: rgba(87, 87, 87, 1);
 $color-dark-grey-0-white: rgba(255, 255, 255, 1);
-$color-dark-grey-15-b-g1: rgba(39, 39, 39, 1);
-$color-dark-grey-15-b-g1-white: rgba(35, 35, 35, 1);
+$color-dark-grey-15-bg-1: rgba(39, 39, 39, 1);
+$color-dark-grey-15-bg-1-white: rgba(35, 35, 35, 1);
 $color-dark-grey-grey-transparent: rgba(255, 255, 255, 0.06);
 $color-dark-grey-500: rgba(143, 143, 143, 1);
 $color-dark-grey-400: rgba(121, 121, 121, 1);
@@ -1763,9 +1763,9 @@ $color-dark-grey-50: rgba(64, 64, 64, 1);
 $color-dark-grey-25: rgba(46, 46, 46, 1);
 $color-dark-grey-0: rgba(18, 18, 18, 1);
 $color-dark-grey-0-reversed: rgba(255, 255, 255, 1);
-$color-dark-grey-0-b-g0: rgba(26, 26, 27, 1);
-$color-dark-grey-25-b-g2: rgba(43, 43, 43, 1);
-$color-dark-grey-20-b-g2: rgba(43, 43, 43, 1);
+$color-dark-grey-0-bg-0: rgba(26, 26, 27, 1);
+$color-dark-grey-25-bg-2: rgba(43, 43, 43, 1);
+$color-dark-grey-20-bg-2: rgba(43, 43, 43, 1);
 $color-dark-grey-transparent: rgba(255, 255, 255, 0);
 $color-dark-green-100: rgba(16, 38, 13, 1);
 $color-dark-red-900: rgba(245, 188, 188, 1);
@@ -2306,56 +2306,56 @@ export const colors: ColorTokens = {
     b: 247,
     a: 1,
   },
-  lightGrey0BG: {
+  lightGrey0Bg: {
     id: '2756:59053',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'light',
-    colorLevel: 'grey0BG',
+    colorLevel: 'grey0Bg',
     r: 255,
     g: 255,
     b: 255,
     a: 1,
   },
-  lightGrey15BG1White: {
+  lightGrey15Bg1White: {
     id: '2756:59615',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'light',
-    colorLevel: 'grey15BG1White',
+    colorLevel: 'grey15Bg1White',
     r: 255,
     g: 255,
     b: 255,
     a: 1,
   },
-  lightGrey15BG1: {
+  lightGrey15Bg1: {
     id: '2756:59464',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'light',
-    colorLevel: 'grey15BG1',
+    colorLevel: 'grey15Bg1',
     r: 247,
     g: 247,
     b: 247,
     a: 1,
   },
-  lightGrey20BG2: {
+  lightGrey20Bg2: {
     id: '2756:59462',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'light',
-    colorLevel: 'grey20BG2',
+    colorLevel: 'grey20Bg2',
     r: 240,
     g: 240,
     b: 240,
     a: 1,
   },
-  lightGrey0BG0: {
+  lightGrey0Bg0: {
     id: '2756:59616',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'light',
-    colorLevel: 'grey0BG0',
+    colorLevel: 'grey0Bg0',
     r: 255,
     g: 255,
     b: 255,
@@ -2955,23 +2955,23 @@ export const colors: ColorTokens = {
     b: 255,
     a: 1,
   },
-  darkGrey15BG1: {
+  darkGrey15Bg1: {
     id: '3423:24132',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'dark',
-    colorLevel: 'grey15BG1',
+    colorLevel: 'grey15Bg1',
     r: 39,
     g: 39,
     b: 39,
     a: 1,
   },
-  darkGrey15BG1White: {
+  darkGrey15Bg1White: {
     id: '3423:24133',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'dark',
-    colorLevel: 'grey15BG1White',
+    colorLevel: 'grey15Bg1White',
     r: 35,
     g: 35,
     b: 35,
@@ -3076,34 +3076,34 @@ export const colors: ColorTokens = {
     b: 255,
     a: 1,
   },
-  darkGrey0BG0: {
+  darkGrey0Bg0: {
     id: '3423:24134',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'dark',
-    colorLevel: 'grey0BG0',
+    colorLevel: 'grey0Bg0',
     r: 26,
     g: 26,
     b: 27,
     a: 1,
   },
-  darkGrey25BG2: {
+  darkGrey25Bg2: {
     id: '3423:24130',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'dark',
-    colorLevel: 'grey25BG2',
+    colorLevel: 'grey25Bg2',
     r: 43,
     g: 43,
     b: 43,
     a: 1,
   },
-  darkGrey20BG2: {
+  darkGrey20Bg2: {
     id: '3423:24131',
     colorNamespace: '',
     colorTheme: '',
     colorType: 'dark',
-    colorLevel: 'grey20BG2',
+    colorLevel: 'grey20Bg2',
     r: 43,
     g: 43,
     b: 43,
