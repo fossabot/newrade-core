@@ -4,11 +4,12 @@
 
 import { baseJestConfig } from '@newrade/core-jest-config';
 
+import { jestUiPackagesConfig } from '../../test/jest-ui-packages.config.js';
+
 /** @typedef {import('ts-jest').InitialOptionsTsJest} */
 const config = {
   ...baseJestConfig,
-  roots: ['<rootDir>/src'],
-  modulePaths: ['../../../../<rootDir>/node_modules', '<rootDir>/node_modules', '<rootDir>'],
+  ...jestUiPackagesConfig,
   setupFilesAfterEnv: [],
 };
 

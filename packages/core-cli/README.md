@@ -299,10 +299,10 @@ Wrapper for lerna version command, allowing to run version on specific packages
 
 ```
 USAGE
-  $ nr lerna-version [ARGS] --packages <value>
+  $ nr lerna-version [ARGS] [--packages <value>]
 
 FLAGS
-  --packages=<value>  (required) packages glob to be included in lerna version bump, e.g. --packages=packages/*
+  --packages=<value>  packages glob to be included in lerna version bump, e.g. --packages=packages/*
 
 DESCRIPTION
   Wrapper for lerna version command, allowing to run version on specific packages

@@ -48,7 +48,7 @@ export default class LernaVersion extends BaseCommand {
   static flags = {
     packages: Flags.string({
       description: 'packages glob to be included in lerna version bump, e.g. --packages=packages/*',
-      required: true,
+      required: false,
     }),
   };
 
@@ -97,18 +97,23 @@ export default class LernaVersion extends BaseCommand {
         this.logWarn(`missing packages in package.workspaces, aborting command`);
         return;
       }
-      this.log(
-        `replacing workspace.packages value with: ${this.chalk.greenBright(flags.packages)}`
-      );
 
-      const temporaryPackageJson = JSON.stringify(
-        {
-          ...packageJson,
-          workspaces: { packages: [flags.packages] },
-        } as PackageJsonWorkspaces,
-        null,
-        2
-      );
+      if (flags.packages?.length) {
+        this.log(
+          `replacing workspace.packages value with: ${this.chalk.greenBright(flags.packages)}`
+        );
+      }
+
+      const temporaryPackageJson = flags.packages?.length
+        ? JSON.stringify(
+            {
+              ...packageJson,
+              workspaces: { packages: [flags.packages] },
+            } as PackageJsonWorkspaces,
+            null,
+            2
+          )
+        : JSON.stringify(packageJson, null, 2);
 
       fs.writeFileSync(packageJsonFilePath, format(temporaryPackageJson));
 

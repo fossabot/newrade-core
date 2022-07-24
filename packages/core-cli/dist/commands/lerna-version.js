@@ -23,7 +23,7 @@ class LernaVersion extends _baseCommandJs.BaseCommand {
     static flags = {
         packages: _core.Flags.string({
             description: "packages glob to be included in lerna version bump, e.g. --packages=packages/*",
-            required: true
+            required: false
         })
     };
     constructor(argv, config){
@@ -35,7 +35,7 @@ class LernaVersion extends _baseCommandJs.BaseCommand {
         const { args , flags  } = await this.parse(LernaVersion);
         this.log(`running in ${process.cwd()}`);
         try {
-            var ref, ref1;
+            var ref, ref1, ref2, ref3;
             /**
        *
        * Prettier
@@ -64,15 +64,17 @@ class LernaVersion extends _baseCommandJs.BaseCommand {
                 this.logWarn(`missing packages in package.workspaces, aborting command`);
                 return;
             }
-            this.log(`replacing workspace.packages value with: ${this.chalk.greenBright(flags.packages)}`);
-            const temporaryPackageJson = JSON.stringify({
+            if ((ref2 = flags.packages) === null || ref2 === void 0 ? void 0 : ref2.length) {
+                this.log(`replacing workspace.packages value with: ${this.chalk.greenBright(flags.packages)}`);
+            }
+            const temporaryPackageJson = ((ref3 = flags.packages) === null || ref3 === void 0 ? void 0 : ref3.length) ? JSON.stringify({
                 ...packageJson,
                 workspaces: {
                     packages: [
                         flags.packages
                     ]
                 }
-            }, null, 2);
+            }, null, 2) : JSON.stringify(packageJson, null, 2);
             _fs.default.writeFileSync(packageJsonFilePath, format(temporaryPackageJson));
             this.log(`updating index for package.json as --assume-unchanged`);
             assumeUnchanged("package.json");
