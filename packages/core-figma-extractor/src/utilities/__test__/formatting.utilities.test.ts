@@ -15,14 +15,14 @@ describe('formattting utilities', () => {
   describe(`${formatNameNumberKebabCase.name}`, () => {
     it('should split numbers from camel case', () => {
       expect(colorNames.map(formatNameNumberKebabCase)).toEqual([
-        'light-b-g-1',
+        'light-bg-1',
         'light-bg-1',
         'light-secondary-900',
         'light-primary-500',
         'light-primary-1000',
         'light-grey-0-white',
         'light-grey-1000',
-        'light-b-g-2',
+        'light-bg-2',
       ]);
     });
   });
