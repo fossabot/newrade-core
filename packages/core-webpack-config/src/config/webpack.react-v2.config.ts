@@ -1,5 +1,4 @@
 import ReactRefreshWebpackPlugin from '@pmmmwh/react-refresh-webpack-plugin';
-import { kebab } from 'case';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import webpack, {
   Configuration,
@@ -8,6 +7,8 @@ import webpack, {
   RuleSetRule,
   WebpackPluginInstance,
 } from 'webpack';
+
+import { kebab } from '@newrade/core-iso-utils';
 
 import { getBabelTypescriptReactLoader } from '../loaders/babel-react.loader.js';
 import { extractCssLoader, extractVanillaCssLibLoader } from '../loaders/extract-css.loader.js';

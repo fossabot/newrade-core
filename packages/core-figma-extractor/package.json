@@ -49,10 +49,10 @@
   "type": "module",
   "types": "./dist/index.types.d.ts",
   "dependencies": {
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-jest-config": "*",
     "@newrade/core-node-utils": "*",
     "@newrade/core-types": "*",
-    "case": "^1",
     "chalk": "^4",
     "figma-js": "^1.11.0",
     "fp-ts": "^2.11.1",

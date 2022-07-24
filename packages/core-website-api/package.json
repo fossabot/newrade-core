@@ -49,6 +49,7 @@
   "types": "./dist/index.types.d.ts",
   "dependencies": {
     "@newrade/core-design-system": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-types": "*"
   }
 }

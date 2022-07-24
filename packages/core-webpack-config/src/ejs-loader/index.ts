@@ -1,6 +1,6 @@
 // @ts-nocheck
 import loaderUtils from 'loader-utils';
-import _ from 'lodash';
+import * as _ from 'lodash-es';
 
 function getOptions(context: { options: { ejsLoader: any } }) {
   if (context.options && context.options.ejsLoader) {

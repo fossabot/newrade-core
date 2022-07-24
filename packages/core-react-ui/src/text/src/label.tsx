@@ -1,8 +1,7 @@
 import React, { LabelHTMLAttributes } from 'react';
 
-import { pascal } from 'case';
-
 import { LABEL_SIZE, TEXT_STYLE, Variant } from '@newrade/core-design-system';
+import { pascal } from '@newrade/core-iso-utils';
 
 import { Primitive } from '../primitive/primitive.js';
 import { PrimitiveProps } from '../primitive/primitive.props.js';

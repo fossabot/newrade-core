@@ -1,5 +1,6 @@
-import Case from 'case';
 import prettier, { Options } from 'prettier';
+
+import { kebab } from '@newrade/core-iso-utils';
 
 const prettierConfig: Options = {
   singleQuote: true,
@@ -19,7 +20,7 @@ export function formatOutput(textContent: string, options: prettier.Options) {
  * @example info900 => info-900
  */
 export function formatNameNumberKebabCase(text: string) {
-  const kebabText = Case.kebab(text);
+  const kebabText = kebab(text);
   const match = /[a-z](\d+)/gi.exec(kebabText);
 
   if (!match) {

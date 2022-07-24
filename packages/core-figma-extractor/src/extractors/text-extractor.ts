@@ -3,11 +3,12 @@ import * as path from 'path';
 import { dirname, join } from 'path';
 import { fileURLToPath } from 'url';
 
-import { pascal } from 'case';
 import chalk from 'chalk';
 import debug from 'debug';
 import { FileNodesResponse, FileStylesResponse, FullStyleMetadata } from 'figma-js';
 import * as prettier from 'prettier';
+
+import { pascal } from '@newrade/core-iso-utils';
 
 import { FILES_TYPE_TEXT, regexName } from '../constants/figma-texts.constants.js';
 import {

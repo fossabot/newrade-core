@@ -1,6 +1,5 @@
-import { pascal } from 'case';
-
 import { VIEWPORT } from '@newrade/core-design-system';
+import { pascal } from '@newrade/core-iso-utils';
 import { keys } from '@newrade/core-react-ui-utilities-iso';
 
 export function formatNameFigma(value?: string | (string | undefined)[]): string {

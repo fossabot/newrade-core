@@ -1,5 +1,4 @@
-import { kebab } from 'case';
-
+import { kebab } from '@newrade/core-iso-utils';
 import { cssVar, cssVarName } from '@newrade/core-react-ui-utilities-iso';
 
 export function getFormattedCSSVar(options: {

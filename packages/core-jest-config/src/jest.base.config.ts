@@ -4,7 +4,7 @@ import type { Config } from '@jest/types';
 import fs from 'node:fs';
 import path from 'node:path';
 
-import { includedLibToCompile } from './included-libs.js';
+import { includedLibToCompile } from './jest.included-libs.js';
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
@@ -60,20 +60,20 @@ export const baseJestConfig: Config.InitialOptions = {
   },
   testRegex: '.+\\.test\\.tsx?',
   testPathIgnorePatterns: [
-    '<rootDir>/node_modules/',
-    '<rootDir>/dist/',
-    '<rootDir>/lib/',
+    '/node_modules/',
+    '/dist/',
+    '/lib/',
     '(\\.js\\.map)$',
     '.snap',
-    '<rootDir>/package.json',
+    '/package.json',
   ],
   watchPathIgnorePatterns: [
-    '<rootDir>/node_modules/',
-    '<rootDir>/dist/',
-    '<rootDir>/lib/',
+    '/node_modules/',
+    '/dist/',
+    '/lib/',
     '(\\.js\\.map)$',
     '.snap',
-    '<rootDir>/package.json',
+    '/package.json',
   ],
   moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json', 'node', 'mjs'],
   reporters: ['default', 'jest-junit'],

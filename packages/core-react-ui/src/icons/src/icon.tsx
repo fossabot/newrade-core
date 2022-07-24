@@ -1,9 +1,9 @@
 import React, { ErrorInfo } from 'react';
 
-import { snake } from 'case';
 import debug from 'debug';
 
 import { ICON, ICON_SIZE } from '@newrade/core-design-system';
+import { snake } from '@newrade/core-iso-utils';
 import { useCommonProps } from '@newrade/core-react-ui-hooks';
 
 import { PrimitiveProps } from '../primitive/primitive.props.js';

@@ -2,9 +2,8 @@ import React from 'react';
 import { Outlet, Route, Routes } from 'react-router';
 import { Link as RouterLink } from 'react-router-dom';
 
-import { title } from 'case';
-
 import { PARAGRAPH_SIZE } from '@newrade/core-design-system';
+import { title } from '@newrade/core-iso-utils';
 import {
   Center,
   Cluster,

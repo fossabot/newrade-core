@@ -20,6 +20,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-types": "*",
     "nock": "^13.0.5",
     "probot": "^11.0.1",

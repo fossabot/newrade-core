@@ -45,6 +45,7 @@
     "test": "yarn test:lib",
     "test:lib": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
     "test:lib:watch": "yarn test:lib --watch",
+    "test:snap:lib": "yarn test:lib -u",
     "test:watch": "yarn test:lib:watch",
     "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "tsc:types": "yarn tsc -b",
@@ -54,9 +55,9 @@
   "types": "dist/index.cjs.d.ts",
   "dependencies": {
     "@newrade/core-design-system": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-types": "*",
     "@vanilla-extract/css": "^1.6.8",
-    "case": "^1",
     "prettier": "^2",
     "prism-react-renderer": "^1.2.0",
     "react": "18.0.0",

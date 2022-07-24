@@ -1,7 +1,7 @@
 import { createGlobalThemeContract } from '@vanilla-extract/css';
 import { CSSVarFunction, MapLeafNodes } from '@vanilla-extract/private';
-import { kebab } from 'case';
 
+import { kebab } from '@newrade/core-iso-utils';
 import {
   CSSButtons,
   CSSColorsV2,

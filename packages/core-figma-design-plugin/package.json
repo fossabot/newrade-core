@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "@figma/plugin-typings": "^1",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-types": "*"
   }
 }

@@ -55,6 +55,7 @@
   "types": "./dist/index.types.d.ts",
   "dependencies": {
     "@newrade/core-common": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-jest-config": "*",
     "@newrade/core-node-utils": "*",
     "@newrade/core-types": "*",

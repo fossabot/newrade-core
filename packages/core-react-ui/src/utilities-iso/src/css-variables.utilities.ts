@@ -1,4 +1,4 @@
-import { kebab } from 'case';
+import { kebab } from '@newrade/core-iso-utils';
 
 /**
  * Create a custom property expression.

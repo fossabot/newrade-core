@@ -12,7 +12,7 @@ describe('props utilities', () => {
         getFormattedCSSVar({
           prefix: 'btnNN',
         })
-      ).toEqual('var(--btn-n-n)');
+      ).toEqual('var(--btn-nn)');
       expect(
         getFormattedCSSVar({
           prefix: 'button',

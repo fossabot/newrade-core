@@ -60,6 +60,7 @@
   "types": "dist/index.types.d.ts",
   "dependencies": {
     "@newrade/core-common": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-jest-config": "*",
     "@newrade/core-types": "*",
     "chalk": "^4",

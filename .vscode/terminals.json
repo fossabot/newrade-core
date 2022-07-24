@@ -123,6 +123,14 @@
       "execute": false
     },
     {
+      "name": "core-iso-utils",
+      "cwd": "./packages/core-iso-utils",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
       "name": "core-jest-config",
       "cwd": "./packages/core-jest-config",
       "open": true,

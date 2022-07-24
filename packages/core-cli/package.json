@@ -87,6 +87,7 @@
     "@newrade/core-common": "*",
     "@newrade/core-css-extractor": "*",
     "@newrade/core-figma-extractor": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-node-utils": "*",
     "@newrade/core-types": "*",
     "@oclif/core": "^1",

@@ -1,8 +1,7 @@
 import React from 'react';
 
-import { title } from 'case';
-
 import { HEADING } from '@newrade/core-design-system';
+import { title } from '@newrade/core-iso-utils';
 
 import { Cluster } from '../layout/cluster.js';
 import { Stack } from '../layout/stack.js';

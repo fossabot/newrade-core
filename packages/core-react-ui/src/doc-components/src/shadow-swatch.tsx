@@ -1,8 +1,7 @@
 import React, { CSSProperties, HTMLAttributes } from 'react';
 
-import { kebab } from 'case';
-
 import { Variant } from '@newrade/core-design-system';
+import { kebab } from '@newrade/core-iso-utils';
 
 import { Stack } from '../layout/stack.js';
 import { Label } from '../text/label.js';

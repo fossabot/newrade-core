@@ -42,6 +42,7 @@
     "test": "yarn test:lib",
     "test:lib": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
     "test:lib:watch": "yarn test:lib --watch",
+    "test:snap:lib": "yarn test:lib -u",
     "test:watch": "yarn test:lib:watch",
     "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "tsc:types": "yarn tsc -b",
@@ -60,6 +61,7 @@
   "type": "module",
   "types": "./dist/index.types.d.ts",
   "dependencies": {
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-types": "*"
   }
 }

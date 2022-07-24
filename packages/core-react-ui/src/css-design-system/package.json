@@ -43,6 +43,7 @@
     "test": "yarn test:lib",
     "test:lib": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
     "test:lib:watch": "yarn test:lib --watch",
+    "test:snap:lib": "yarn test:lib -u",
     "test:watch": "yarn test:lib:watch",
     "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false",
     "tsc:types": "yarn tsc -b",
@@ -62,6 +63,7 @@
   "types": "./dist/index.types.d.ts",
   "dependencies": {
     "@newrade/core-design-system": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-react-ui-global-classnames": "*",
     "@newrade/core-types": "*"
   }

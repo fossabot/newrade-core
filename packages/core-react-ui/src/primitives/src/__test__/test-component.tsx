@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useComposedRefs } from '../../hooks/src/refs.utilities.js';
+import { useComposedRefs } from '../../../hooks/src/refs.utilities.js';
 import { Primitive } from '../primitive.js';
 import { PrimitiveProps } from '../primitive.props.js';
 

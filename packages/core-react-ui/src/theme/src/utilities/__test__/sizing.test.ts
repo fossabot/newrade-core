@@ -17,7 +17,6 @@ describe('sizing utilities', () => {
         desktop: {
           x0: 4,
           x1: 9,
-          x10: 606,
           x2: 13,
           x3: 21,
           x4: 34,
@@ -26,11 +25,11 @@ describe('sizing utilities', () => {
           x7: 144,
           x8: 232,
           x9: 375,
+          x10: 606,
         },
         mobile: {
           x0: 6,
           x1: 9,
-          x10: 468,
           x2: 14,
           x3: 20,
           x4: 30,
@@ -39,11 +38,11 @@ describe('sizing utilities', () => {
           x7: 110,
           x8: 179,
           x9: 289,
+          x10: 468,
         },
         tablet: {
           x0: 4,
           x1: 9,
-          x10: 606,
           x2: 13,
           x3: 21,
           x4: 34,
@@ -52,13 +51,13 @@ describe('sizing utilities', () => {
           x7: 144,
           x8: 232,
           x9: 375,
+          x10: 606,
         },
       });
       expect(steps).toEqual({
         desktop: {
           x0: '4px',
           x1: '9px',
-          x10: '606px',
           x2: '13px',
           x3: '21px',
           x4: '34px',
@@ -67,11 +66,11 @@ describe('sizing utilities', () => {
           x7: '144px',
           x8: '232px',
           x9: '375px',
+          x10: '606px',
         },
         mobile: {
           x0: '6px',
           x1: '9px',
-          x10: '468px',
           x2: '14px',
           x3: '20px',
           x4: '30px',
@@ -80,11 +79,11 @@ describe('sizing utilities', () => {
           x7: '110px',
           x8: '179px',
           x9: '289px',
+          x10: '468px',
         },
         tablet: {
           x0: '4px',
           x1: '9px',
-          x10: '606px',
           x2: '13px',
           x3: '21px',
           x4: '34px',
@@ -93,6 +92,7 @@ describe('sizing utilities', () => {
           x7: '144px',
           x8: '232px',
           x9: '375px',
+          x10: '606px',
         },
       });
     });

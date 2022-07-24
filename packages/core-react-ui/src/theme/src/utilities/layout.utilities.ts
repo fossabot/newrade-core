@@ -1,5 +1,3 @@
-import { kebab } from 'case';
-
 import {
   Breakpoints,
   Layout,
@@ -12,6 +10,7 @@ import {
   MediaQueryType,
   PartialLayout,
 } from '@newrade/core-design-system';
+import { kebab } from '@newrade/core-iso-utils';
 import { CSSLayoutV2, LayoutVarNames, LayoutVars } from '@newrade/core-react-ui-css-design-system';
 import { cssVar } from '@newrade/core-react-ui-utilities-iso';
 import { keys, px } from '@newrade/core-react-ui-utilities-iso';

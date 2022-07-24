@@ -16,3 +16,4 @@ export * from './default-iconography.js';
 export * from './default-layout.js';
 export * from './default-sizing.js';
 export * from './default-typography.js';
+export * from './theme.js';

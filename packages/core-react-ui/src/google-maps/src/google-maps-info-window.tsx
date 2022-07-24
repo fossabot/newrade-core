@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { InfoWindow, InfoWindowProps } from '@react-google-maps/api';
-import { title } from 'case';
 
 import {
   ICON,
@@ -10,6 +9,7 @@ import {
   LinkVariant,
   PARAGRAPH_SIZE,
 } from '@newrade/core-design-system';
+import { title } from '@newrade/core-iso-utils';
 import { sizeVars } from '@newrade/core-react-ui-theme';
 import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 

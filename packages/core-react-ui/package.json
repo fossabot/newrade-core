@@ -9,15 +9,19 @@
     "lerna:build:lib": "lerna run --stream build:lib ",
     "lerna:clean:lib": "lerna run --stream clean:lib ",
     "lerna:start:lib": "lerna run --parallel start:lib ",
-    "lerna:test:lib": "lerna run --stream test:lib ",
+    "lerna:test:lib": "lerna run --stream test:lib",
     "lerna:test:lib:watch": "lerna run --stream test:lib:watch",
+    "lerna:test:snap:lib": "lerna run --stream test:snap:lib",
     "lerna:typecheck": "lerna run --stream tsc:typecheck",
     "start": "yarn lerna:start:lib --scope @newrade/core-react-ui-*",
     "test": "yarn lerna:test:lib --scope @newrade/core-react-ui-*",
+    "test:snap": "yarn lerna:test:snap:lib --scope @newrade/core-react-ui-*",
     "test:watch": "yarn lerna:test:lib:watch --scope @newrade/core-react-ui-*",
     "typecheck": "yarn lerna:typecheck --scope @newrade/core-react-ui-*"
   },
   "sideEffects": false,
   "type": "module",
-  "dependencies": {}
+  "dependencies": {
+    "@newrade/core-iso-utils": "*"
+  }
 }

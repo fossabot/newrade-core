@@ -1,4 +1,4 @@
-import { pascal } from 'case';
+import { pascal } from '@newrade/core-iso-utils';
 
 import { keys } from './utilities.js';
 

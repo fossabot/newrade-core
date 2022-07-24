@@ -1,8 +1,7 @@
 import React, { useRef } from 'react';
 
-import { pascal } from 'case';
-
 import { HEADING, TITLE, TYPOGRAPHIC_STYLE, Variant } from '@newrade/core-design-system';
+import { pascal } from '@newrade/core-iso-utils';
 import { getFormattedAnchorId } from '@newrade/core-react-ui-utilities-iso';
 
 import { Primitive } from '../primitive/primitive.js';

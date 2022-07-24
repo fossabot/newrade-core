@@ -1,9 +1,10 @@
 import path from 'path';
 
-import Case from 'case';
 import chalk from 'chalk';
 import debug from 'debug';
 import { FileNodesResponse, FileStylesResponse, FullStyleMetadata } from 'figma-js';
+
+import { camel } from '@newrade/core-iso-utils';
 
 import { ExtractOptions } from '../extract.js';
 import { ColorTokens, FigmaColor } from '../models/figma-colors.model.js';
@@ -78,7 +79,7 @@ export async function extractColorsFromFigmaStyles(
 }
 
 export function getFormattedColorTokenName(color: FigmaColor): string {
-  return Case.camel(
+  return camel(
     [color.colorNamespace, color.colorTheme, color.colorType, color.colorLevel].join(' ')
   );
 }
@@ -127,9 +128,9 @@ export function getFormattedColorNode(
       | undefined
     )[];
 
-    const colorTheme = Case.camel(rawColorTheme ? rawColorTheme.trim() : '');
-    const colorType = Case.camel(rawColorType ? rawColorType.trim() : '');
-    const colorLevel = Case.camel(rawColorLevel.join('').trim());
+    const colorTheme = camel(rawColorTheme ? rawColorTheme.trim() : '');
+    const colorType = camel(rawColorType ? rawColorType.trim() : '');
+    const colorLevel = camel(rawColorLevel.join('').trim());
 
     return {
       colorNamespace: options.outputColorNamespace,
@@ -141,8 +142,8 @@ export function getFormattedColorNode(
 
   const [rawColorType, ...rawColorLevel] = name.split(/\//) as (string | undefined)[];
 
-  const colorType = Case.camel(rawColorType ? rawColorType.trim() : '');
-  const colorLevel = Case.camel(rawColorLevel.join('').trim());
+  const colorType = camel(rawColorType ? rawColorType.trim() : '');
+  const colorLevel = camel(rawColorLevel.join('').trim());
 
   return {
     colorNamespace: options.outputColorNamespace,

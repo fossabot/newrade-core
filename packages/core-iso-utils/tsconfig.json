@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.node-esm.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "emitDeclarationOnly": true,
+    "rootDir": "src",
+    "types": ["node", "jest", "debug"]
+  },
+  "include": ["src", "types", "scripts"]
+}

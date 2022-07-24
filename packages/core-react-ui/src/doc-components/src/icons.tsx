@@ -1,7 +1,5 @@
 import React, { useMemo, useState } from 'react';
 
-import { pascal } from 'case';
-
 import {
   ButtonIcon,
   ButtonSize,
@@ -12,6 +10,7 @@ import {
   TEXT_STYLE,
   Variant,
 } from '@newrade/core-design-system';
+import { pascal } from '@newrade/core-iso-utils';
 import { useCommonProps } from '@newrade/core-react-ui-hooks';
 import { keys } from '@newrade/core-react-ui-utilities-iso';
 

@@ -32,6 +32,7 @@
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0",
     "@newrade/core-common": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-jest-config": "*",
     "@newrade/core-node-utils": "*",
     "@newrade/core-types": "*",

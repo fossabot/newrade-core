@@ -58,6 +58,7 @@
   "type": "module",
   "types": "./dist/index.types.d.ts",
   "dependencies": {
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-types": "*"
   }
 }
