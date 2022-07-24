@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2.4.2 (2022-07-24)
+
+### Bug Fixes
+
+- **core:** remove case in favor of core-iso-utils and lodash-es
+  ([0af5c0e](https://github.com/newrade/newrade-core/commit/0af5c0ef4815ad0d0deebede7504eecc3bf9af12))
+
 ## [2.4.1](https://github.com/newrade/newrade-core/compare/@newrade/core-node-utils@2.4.0...@newrade/core-node-utils@2.4.1) (2022-01-03)
 
 ### Bug Fixes

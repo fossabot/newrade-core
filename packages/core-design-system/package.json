@@ -1,6 +1,6 @@
 {
   "name": "@newrade/core-design-system",
-  "version": "1.17.0",
+  "version": "2.0.0",
   "description": "Theme API to style entire application",
   "author": {
     "email": "info@newrade.ca",
@@ -58,7 +58,7 @@
   "type": "module",
   "types": "./dist/index.types.d.ts",
   "dependencies": {
-    "@newrade/core-iso-utils": "*",
-    "@newrade/core-types": "*"
+    "@newrade/core-iso-utils": "^2.4.2",
+    "@newrade/core-types": "^2.2.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@newrade/core-react-ui-utilities-iso",
-  "version": "1.8.0",
+  "version": "2.0.0",
   "description": "Utilities for use in browsers or NodeJS environment",
   "author": {
     "email": "info@newrade.ca",
@@ -59,9 +59,9 @@
   "type": "module",
   "types": "./dist/index.types.d.ts",
   "dependencies": {
-    "@newrade/core-design-system": "*",
-    "@newrade/core-iso-utils": "*",
-    "@newrade/core-types": "*",
+    "@newrade/core-design-system": "^2.0.0",
+    "@newrade/core-iso-utils": "^2.4.2",
+    "@newrade/core-types": "^2.2.0",
     "csstype": "^3",
     "github-slugger": "^1"
   }

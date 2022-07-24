@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.2.5 (2022-07-24)
+
+### Bug Fixes
+
+- **core-figma-scripts:** rename package
+  ([fa28e35](https://github.com/newrade/newrade-core/commit/fa28e354e7118b531427619a498952523fedeaf0))
+- **core:** refactor packages in progress (remove web frameworks)
+  ([d3150d4](https://github.com/newrade/newrade-core/commit/d3150d42aacf2c6f15bd9eb923a23cf8cb5db046))
+- **core:** remove case in favor of core-iso-utils and lodash-es
+  ([0af5c0e](https://github.com/newrade/newrade-core/commit/0af5c0ef4815ad0d0deebede7504eecc3bf9af12))
+
 ## [1.2.4](https://github.com/newrade/newrade-core/compare/@newrade/core-figma-scripts@1.2.3...@newrade/core-figma-scripts@1.2.4) (2021-11-18)
 
 ### Bug Fixes

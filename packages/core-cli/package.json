@@ -1,6 +1,6 @@
 {
   "name": "@newrade/core-cli",
-  "version": "1.16.0",
+  "version": "1.17.0",
   "description": "CLI for various purposes including automate actions and running commands in the swadloon-core monorepo.",
   "author": {
     "email": "info@newrade.ca",
@@ -84,12 +84,12 @@
   },
   "type": "commonjs",
   "dependencies": {
-    "@newrade/core-common": "*",
-    "@newrade/core-css-extractor": "*",
-    "@newrade/core-figma-extractor": "*",
-    "@newrade/core-iso-utils": "*",
-    "@newrade/core-node-utils": "*",
-    "@newrade/core-types": "*",
+    "@newrade/core-common": "^1.5.0",
+    "@newrade/core-css-extractor": "^2.0.0",
+    "@newrade/core-figma-extractor": "^1.7.0",
+    "@newrade/core-iso-utils": "^2.4.2",
+    "@newrade/core-node-utils": "^2.5.0",
+    "@newrade/core-types": "^2.2.0",
     "@oclif/core": "^1",
     "@oclif/plugin-help": "^3",
     "@oclif/test": "^2",

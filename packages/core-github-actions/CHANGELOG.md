@@ -4,6 +4,33 @@ All notable changes to this project will be documented in this file.
 
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.2](https://github.com/newrade/newrade-core/compare/@newrade/core-github-actions@2.1.1...@newrade/core-github-actions@2.1.2) (2022-07-24)
+
+### Bug Fixes
+
+- **core-cli:** cLI working, ESM module added to core-common,-figma-extractor, -css-extractor,-node
+  ([3ad90d0](https://github.com/newrade/newrade-core/commit/3ad90d00b0def5e5818714fcdab45980afe867de))
+- **core-github-actions:** fix bug with empty string set on APP_BRANCH_SUBDOMAIN
+  ([bf4a516](https://github.com/newrade/newrade-core/commit/bf4a5169e911721a79ecb432018486a424a9bda3))
+- **core-github-actions:** fix case when APP_BRANCH_SUBDOMAIN is empty, no need for rewrite
+  ([a2298db](https://github.com/newrade/newrade-core/commit/a2298dba2562d9e4a48cb9f50f0e11fe2d84a8ee))
+- **core:** enable new workflow for core-github-actions
+  ([f68c214](https://github.com/newrade/newrade-core/commit/f68c214c2ac626cfeaa5055933f38c8f50b2b666))
+- **core:** fix changelog duplicated header bug
+  ([06b2343](https://github.com/newrade/newrade-core/commit/06b23436be341fe206290bedf4277409f1818a59))
+- **core:** fix triple reference (use path instead of types)
+  ([f190508](https://github.com/newrade/newrade-core/commit/f1905086d46fb28854a41e453556ea0e630da510))
+- **core:** fixes for treeshaking in gatsby sites
+  ([e3035e9](https://github.com/newrade/newrade-core/commit/e3035e95ab66aa0240ae67383d84445233a73c23))
+- **core:** refactor packages in progress (remove web frameworks)
+  ([d3150d4](https://github.com/newrade/newrade-core/commit/d3150d42aacf2c6f15bd9eb923a23cf8cb5db046))
+- **core:** refactor pkg commands and script to use swc
+  ([42c0979](https://github.com/newrade/newrade-core/commit/42c097990217ff1b29b1a5644419530fcdd8ed24))
+- **core:** remove case in favor of core-iso-utils and lodash-es
+  ([0af5c0e](https://github.com/newrade/newrade-core/commit/0af5c0ef4815ad0d0deebede7504eecc3bf9af12))
+- **core:** various fixes for core-react-ui components
+  ([5892ed4](https://github.com/newrade/newrade-core/commit/5892ed4c402f738d9b7c29fecdacc4268711e985))
+
 ## [2.1.1](https://github.com/newrade/newrade-core/compare/@newrade/core-github-actions@2.1.0...@newrade/core-github-actions@2.1.1) (2022-01-03)
 
 ### Bug Fixes

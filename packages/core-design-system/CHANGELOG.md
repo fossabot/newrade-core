@@ -4,6 +4,68 @@ All notable changes to this project will be documented in this file.
 
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/newrade/newrade-core/compare/@newrade/core-design-system@1.17.0...@newrade/core-design-system@2.0.0) (2022-07-24)
+
+### Bug Fixes
+
+- **core-cli:** cLI working, ESM module added to core-common,-figma-extractor, -css-extractor,-node
+  ([3ad90d0](https://github.com/newrade/newrade-core/commit/3ad90d00b0def5e5818714fcdab45980afe867de))
+- **core-design-system:** fix package build
+  ([3b20e40](https://github.com/newrade/newrade-core/commit/3b20e400b8cc0fca2bd9c8f385cb4dfc6522437a))
+- **core-design-system:** refactor default theme files
+  ([16857f6](https://github.com/newrade/newrade-core/commit/16857f6eac775a8a05050d365b04e8e1cc7c181d))
+- **core-node-utils:** fix scripts being included in compilation
+  ([6923b54](https://github.com/newrade/newrade-core/commit/6923b54a11b082bff0361f2257c93a1719cf4991))
+- core-react-ui ([05e43c1](https://github.com/newrade/newrade-core/commit/05e43c1357af5c25dcd49dd6d8702ef09fdc4ebb))
+- **core-react-ui:** fixes for theming and navigation components
+  ([80cced6](https://github.com/newrade/newrade-core/commit/80cced62ef236ee13a89cba0c574a3d2cb3f245c))
+- **core:** fix changelog duplicated header bug
+  ([06b2343](https://github.com/newrade/newrade-core/commit/06b23436be341fe206290bedf4277409f1818a59))
+- **core:** fixes for treeshaking in gatsby sites
+  ([e3035e9](https://github.com/newrade/newrade-core/commit/e3035e95ab66aa0240ae67383d84445233a73c23))
+- **core:** refactor core-react-ui into separate packages (for each component)
+  ([b867f27](https://github.com/newrade/newrade-core/commit/b867f270277d73aada7a7aaffea36bd38261dbed))
+- **core:** refactor for vanilla extract
+  ([7cb85f5](https://github.com/newrade/newrade-core/commit/7cb85f54464b775a887e221484e6a0161735b5fc))
+- **core:** refactor packages in progress (remove web frameworks)
+  ([d3150d4](https://github.com/newrade/newrade-core/commit/d3150d42aacf2c6f15bd9eb923a23cf8cb5db046))
+- **core:** refactor pkg commands and script to use swc
+  ([42c0979](https://github.com/newrade/newrade-core/commit/42c097990217ff1b29b1a5644419530fcdd8ed24))
+- **core:** remove case in favor of core-iso-utils and lodash-es
+  ([0af5c0e](https://github.com/newrade/newrade-core/commit/0af5c0ef4815ad0d0deebede7504eecc3bf9af12))
+- **core:** update deps (webpack + tsc) and fixes for Gatsby plugins
+  ([7520c32](https://github.com/newrade/newrade-core/commit/7520c32533f39cff9c1f41b3c2639f4b21caddbd))
+- **core:** various fixes for core-react-ui components
+  ([5892ed4](https://github.com/newrade/newrade-core/commit/5892ed4c402f738d9b7c29fecdacc4268711e985))
+
+### Code Refactoring
+
+- **core-react-ui:** refactor utilities
+  ([596a5fa](https://github.com/newrade/newrade-core/commit/596a5faa1902b5f9c1afaec48821db31770f8a44))
+
+### Features
+
+- **core-design-system:** add typography spacing variables
+  ([d3fd7a6](https://github.com/newrade/newrade-core/commit/d3fd7a66007ffb513fa314eab0476d6601098eeb))
+- **core-design-system:** add vars property
+  ([a2efdd8](https://github.com/newrade/newrade-core/commit/a2efdd8fcf32459314cc54aad1cfd70cb5230903))
+- **core-figma-design-plugin:** expand functionnalities in the plugin
+  ([75ac504](https://github.com/newrade/newrade-core/commit/75ac5042e511a755f704d8696a925c4c41d999de))
+- **core-figma-design-plugin:** new plugin
+  ([1d49dfc](https://github.com/newrade/newrade-core/commit/1d49dfc0e289960f7ba5dbe1361e178ebda7df69))
+- **core-react-ui:** add new color formats options
+  ([336fd90](https://github.com/newrade/newrade-core/commit/336fd90b8a750c8f15f88c2cf0a8b7b9277b2385))
+- **core-react-ui:** add typings for react v18, new typographic space variables
+  ([2f89a5b](https://github.com/newrade/newrade-core/commit/2f89a5b38ccd0d16c3a7d91647e64ae3a299e2fa))
+- **core-website-platform:** init
+  ([67cc51b](https://github.com/newrade/newrade-core/commit/67cc51badfd20dbdb76e51e77c08fe67059a4337))
+- **core:** refactor monorepo with swc and remove preconstruct
+  ([1ce9991](https://github.com/newrade/newrade-core/commit/1ce9991b0fc7788a830b89d22869180d80c08f8a))
+
+### BREAKING CHANGES
+
+- **core-react-ui:** check all imports using /utilities
+
 # [1.17.0](https://github.com/newrade/newrade-core/compare/@newrade/core-design-system@1.16.0...@newrade/core-design-system@1.17.0) (2022-01-03)
 
 ### Bug Fixes

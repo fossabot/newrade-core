@@ -4,6 +4,38 @@ All notable changes to this project will be documented in this file.
 
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.7.0](https://github.com/newrade/newrade-core/compare/@newrade/core-figma-extractor@1.6.1...@newrade/core-figma-extractor@1.7.0) (2022-07-24)
+
+### Bug Fixes
+
+- **core-cli:** cLI working, ESM module added to core-common,-figma-extractor, -css-extractor,-node
+  ([3ad90d0](https://github.com/newrade/newrade-core/commit/3ad90d00b0def5e5818714fcdab45980afe867de))
+- **core-cli:** update command debug methods
+  ([9621908](https://github.com/newrade/newrade-core/commit/962190849cb18e38ad0c25d206231d4a36a8fcc8))
+- **core-figma-extractor:** fix extractor test workflow
+  ([6d1adf6](https://github.com/newrade/newrade-core/commit/6d1adf6ce1141a2d5d06d0e3abd91e3913698f41))
+- **core-figma-plugins:** fix build command
+  ([f8d5181](https://github.com/newrade/newrade-core/commit/f8d5181558c322e9a2f53974d170ad391c82e477))
+- **core-node-utils:** fix scripts being included in compilation
+  ([6923b54](https://github.com/newrade/newrade-core/commit/6923b54a11b082bff0361f2257c93a1719cf4991))
+- **core:** fix changelog duplicated header bug
+  ([06b2343](https://github.com/newrade/newrade-core/commit/06b23436be341fe206290bedf4277409f1818a59))
+- **core:** fixes for treeshaking in gatsby sites
+  ([e3035e9](https://github.com/newrade/newrade-core/commit/e3035e95ab66aa0240ae67383d84445233a73c23))
+- **core:** refactor packages in progress (remove web frameworks)
+  ([d3150d4](https://github.com/newrade/newrade-core/commit/d3150d42aacf2c6f15bd9eb923a23cf8cb5db046))
+- **core:** refactor pkg commands and script to use swc
+  ([42c0979](https://github.com/newrade/newrade-core/commit/42c097990217ff1b29b1a5644419530fcdd8ed24))
+- **core:** remove case in favor of core-iso-utils and lodash-es
+  ([0af5c0e](https://github.com/newrade/newrade-core/commit/0af5c0ef4815ad0d0deebede7504eecc3bf9af12))
+- **core:** update tsconfig for webpack packages (apps) and add jest snap command
+  ([9df2c53](https://github.com/newrade/newrade-core/commit/9df2c53312796d05804c64b7f5303a1d4729ac09))
+
+### Features
+
+- **core:** refactor monorepo with swc and remove preconstruct
+  ([1ce9991](https://github.com/newrade/newrade-core/commit/1ce9991b0fc7788a830b89d22869180d80c08f8a))
+
 ## [1.6.1](https://github.com/newrade/newrade-core/compare/@newrade/core-figma-extractor@1.6.0...@newrade/core-figma-extractor@1.6.1) (2022-01-03)
 
 ### Bug Fixes

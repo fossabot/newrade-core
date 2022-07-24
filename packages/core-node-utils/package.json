@@ -1,6 +1,6 @@
 {
   "name": "@newrade/core-node-utils",
-  "version": "2.4.1",
+  "version": "2.5.0",
   "description": "Local NodeJS utilities.",
   "author": {
     "email": "info@newrade.ca",
@@ -59,10 +59,10 @@
   "type": "module",
   "types": "dist/index.types.d.ts",
   "dependencies": {
-    "@newrade/core-common": "*",
-    "@newrade/core-iso-utils": "*",
-    "@newrade/core-jest-config": "*",
-    "@newrade/core-types": "*",
+    "@newrade/core-common": "^1.5.0",
+    "@newrade/core-iso-utils": "^2.4.2",
+    "@newrade/core-jest-config": "^1.1.0",
+    "@newrade/core-types": "^2.2.0",
     "chalk": "^4",
     "dotenv": "^16",
     "fp-ts": "^2.11.1",

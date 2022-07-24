@@ -1,6 +1,6 @@
 {
   "name": "@newrade/core-react-ui",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "React UI library implementing the core-design-system",
   "license": "MIT",
   "scripts": {
@@ -22,6 +22,6 @@
   "sideEffects": false,
   "type": "module",
   "dependencies": {
-    "@newrade/core-iso-utils": "*"
+    "@newrade/core-iso-utils": "^2.4.2"
   }
 }

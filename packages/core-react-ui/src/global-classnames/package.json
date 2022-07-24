@@ -1,6 +1,6 @@
 {
   "name": "@newrade/core-react-ui-global-classnames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Global selectors used to apply the themes' reset styles and variables.",
   "author": {
     "email": "info@newrade.ca",
@@ -61,7 +61,7 @@
   "type": "module",
   "types": "./dist/index.types.d.ts",
   "dependencies": {
-    "@newrade/core-iso-utils": "*",
-    "@newrade/core-types": "*"
+    "@newrade/core-iso-utils": "^2.4.2",
+    "@newrade/core-types": "^2.2.0"
   }
 }

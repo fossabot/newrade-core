@@ -4,6 +4,56 @@ All notable changes to this project will be documented in this file.
 
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.17.0](https://github.com/newrade/newrade-core/compare/@newrade/core-cli@1.16.0...@newrade/core-cli@1.17.0) (2022-07-24)
+
+### Bug Fixes
+
+- **core-cli:** cLI working, ESM module added to core-common,-figma-extractor, -css-extractor,-node
+  ([3ad90d0](https://github.com/newrade/newrade-core/commit/3ad90d00b0def5e5818714fcdab45980afe867de))
+- **core-cli:** fix pre and post messages, remove yo-generator package
+  ([6e2b310](https://github.com/newrade/newrade-core/commit/6e2b310ef7082bbdc50bddb18700fed2783aeb5f))
+- **core-cli:** release
+  ([adb7c2e](https://github.com/newrade/newrade-core/commit/adb7c2eced70b0ca4c95ba0e736201adfdd53bc5))
+- **core-cli:** update command debug methods
+  ([9621908](https://github.com/newrade/newrade-core/commit/962190849cb18e38ad0c25d206231d4a36a8fcc8))
+- **core-cli:** update lerna-version wrapper command to include all packages by default
+  ([8e43674](https://github.com/newrade/newrade-core/commit/8e436744321ce8fb595a13ad70740f54b170ab25))
+- **core-figma-plugins:** fix build command
+  ([f8d5181](https://github.com/newrade/newrade-core/commit/f8d5181558c322e9a2f53974d170ad391c82e477))
+- **core-react-ui:** fixes for more packages
+  ([1eaeb4c](https://github.com/newrade/newrade-core/commit/1eaeb4c96570c67a82503e0933f3679c95e73ae9))
+- **core:** fix changelog duplicated header bug
+  ([06b2343](https://github.com/newrade/newrade-core/commit/06b23436be341fe206290bedf4277409f1818a59))
+- **core:** fix triple reference (use path instead of types)
+  ([f190508](https://github.com/newrade/newrade-core/commit/f1905086d46fb28854a41e453556ea0e630da510))
+- **core:** fixes for core-cli and core-react-ui
+  ([17069a4](https://github.com/newrade/newrade-core/commit/17069a4141b7faa4359ec27c335c5e350584d37c))
+- **core:** fixes for treeshaking in gatsby sites
+  ([e3035e9](https://github.com/newrade/newrade-core/commit/e3035e95ab66aa0240ae67383d84445233a73c23))
+- **core:** refactor packages in progress (remove web frameworks)
+  ([d3150d4](https://github.com/newrade/newrade-core/commit/d3150d42aacf2c6f15bd9eb923a23cf8cb5db046))
+- **core:** refactor pkg commands and script to use swc
+  ([42c0979](https://github.com/newrade/newrade-core/commit/42c097990217ff1b29b1a5644419530fcdd8ed24))
+- **core:** remove case in favor of core-iso-utils and lodash-es
+  ([0af5c0e](https://github.com/newrade/newrade-core/commit/0af5c0ef4815ad0d0deebede7504eecc3bf9af12))
+- **core:** small fixes for windows compatibility (cli) and add an extra check in colors utilities
+  ([e1d401b](https://github.com/newrade/newrade-core/commit/e1d401bc40c75c722d4ba2926397ca9a427da6c9))
+- **core:** update deps (webpack + tsc) and fixes for Gatsby plugins
+  ([7520c32](https://github.com/newrade/newrade-core/commit/7520c32533f39cff9c1f41b3c2639f4b21caddbd))
+- **core:** update lmdb dependency and fix imports
+  ([67d9d1a](https://github.com/newrade/newrade-core/commit/67d9d1af16238caf6cf7e928efdf95f906b2bda3))
+- **core:** update tsconfig for webpack packages (apps) and add jest snap command
+  ([9df2c53](https://github.com/newrade/newrade-core/commit/9df2c53312796d05804c64b7f5303a1d4729ac09))
+- **core:** various fixes for core-react-ui components
+  ([5892ed4](https://github.com/newrade/newrade-core/commit/5892ed4c402f738d9b7c29fecdacc4268711e985))
+
+### Features
+
+- **core-design-system:** add typography spacing variables
+  ([d3fd7a6](https://github.com/newrade/newrade-core/commit/d3fd7a66007ffb513fa314eab0476d6601098eeb))
+- **core:** refactor monorepo with swc and remove preconstruct
+  ([1ce9991](https://github.com/newrade/newrade-core/commit/1ce9991b0fc7788a830b89d22869180d80c08f8a))
+
 # [1.16.0](https://github.com/newrade/newrade-core/compare/@newrade/core-cli@1.15.0...@newrade/core-cli@1.16.0) (2022-01-03)
 
 ### Bug Fixes
