@@ -1,0 +1,63 @@
+{
+  "name": "@newrade/core-react-ui-callouts",
+  "version": "1.0.0",
+  "description": "Callout components bring user attention to important information in articles or documentation pages.",
+  "author": {
+    "email": "info@newrade.ca",
+    "name": "Newrade",
+    "url": "https://github.com/newrade/newrade"
+  },
+  "homepage": "https://github.com/newrade/newrade-core",
+  "repository": {
+    "directory": "packages/core-react-ui/src/callouts",
+    "type": "git",
+    "url": "git+https://github.com/newrade/newrade-core.git"
+  },
+  "keywords": [
+    "react",
+    "article",
+    "information",
+    "swadloon-ui"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newrade/newrade-core/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "yarn build:lib",
+    "build:lib": "yarn tsc:types && yarn swc:build",
+    "clean": "yarn clean:lib",
+    "clean:dist": "rimraf -rf dist/**",
+    "clean:lib": "yarn clean:dist && yarn clean:tsc",
+    "clean:tsc": "rimraf -f ./**/*.tsbuildinfo *.tsbuildinfo",
+    "prestart": "yarn build",
+    "start": "yarn start:lib",
+    "start:lib": "concurrently \"yarn tsc:types:watch\" \"yarn swc:build:watch\"",
+    "swc:build": "swc ./src --config-file ../../../../.swcrc --source-maps --ignore **/__test__/**/* --out-dir dist",
+    "swc:build:watch": "yarn swc:build --watch",
+    "test": "yarn test:lib",
+    "test:lib": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --passWithNoTests",
+    "test:lib:watch": "yarn test:lib --watch",
+    "test:snap:lib": "yarn test:lib -u",
+    "test:watch": "yarn test:lib:watch",
+    "tsc:typecheck": "tsc --noEmit --emitDeclarationOnly false",
+    "tsc:types": "yarn tsc -b",
+    "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
+  },
+  "sideEffects": false,
+  "types": "dist/index.cjs.d.ts",
+  "dependencies": {
+    "@newrade/core-design-system": "*",
+    "@newrade/core-iso-utils": "*",
+    "@newrade/core-types": "*",
+    "@vanilla-extract/css": "^1.6.8",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  }
+}

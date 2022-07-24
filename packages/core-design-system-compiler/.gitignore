@@ -1,8 +1,0 @@
-# lib
-dist/
-!bin/
-lib/
-
-# core-design-system-compiler
-figma-export
-

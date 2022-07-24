@@ -22,15 +22,13 @@
     "@newrade/core-common": "*",
     "@newrade/core-design-system": "*",
     "@newrade/core-gatsb-config": "*",
-    "@newrade/core-gatsby-ui": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-node-utils": "*",
     "@newrade/core-react-ui": "*",
     "@newrade/core-types": "*",
     "@newrade/core-webpack-config": "*",
     "@newrade/core-website-api": "*",
     "@vanilla-extract/css": "^1.6.8",
-    "gatsby": "^3.14.2",
-    "gatsby-plugin-image": "^1.14.1",
     "react-icons": "^4.3.1"
   }
 }

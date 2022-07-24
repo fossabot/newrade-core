@@ -1,0 +1,7 @@
+diff --git a/node_modules/@capsizecss/core/dist/capsizecss-core.cjs.d.ts b/node_modules/@capsizecss/core/dist/capsizecss-core.cjs.d.ts
+index 0e2f000..aeaa8c0 100644
+--- a/node_modules/@capsizecss/core/dist/capsizecss-core.cjs.d.ts
++++ b/node_modules/@capsizecss/core/dist/capsizecss-core.cjs.d.ts
+@@ -1 +1,2 @@
+ export * from "./declarations/src/index";
++export * from "./declarations/src/types";

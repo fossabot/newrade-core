@@ -10,7 +10,7 @@ import {
 } from '@newrade/core-react-ui';
 import { layoutVars } from '@newrade/core-react-ui/theme';
 import { getCSSVarValue } from '@newrade/core-react-ui/utilities-browser';
-import { keys } from '@newrade/core-react-ui/utilities-iso';
+import { keys } from '@newrade/core-react-ui-utilities-iso';
 
 type Props = {};
 

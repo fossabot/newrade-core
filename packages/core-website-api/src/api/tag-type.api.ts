@@ -1,6 +1,6 @@
-import { PartialOrNull } from '../utilities';
+import type { PartialOrNull } from '@newrade/core-types';
 
-import { ChildMDXAPI } from './child-mdx.api';
+import { ChildMDXAPI } from './child-mdx.api.js';
 
 export type TagTypeAPI = PartialOrNull<{
   /**

@@ -1,6 +1,6 @@
-import { PartialOrNull } from '../utilities';
+import type { PartialOrNull } from '@newrade/core-types';
 
-import { TagTypeAPI } from './tag-type.api';
+import { TagTypeAPI } from './tag-type.api.js';
 
 export type TagAPI = PartialOrNull<{
   /**

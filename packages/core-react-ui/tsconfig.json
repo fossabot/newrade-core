@@ -1,10 +1,13 @@
 {
-  "extends": "../../tsconfig.browser-esm.json",
+  "extends": "../../tsconfig.browser-types-esm.json",
   "compilerOptions": {
     "baseUrl": ".",
     "rootDir": "src",
     "outDir": "dist",
-    "types": ["react", "react-dom", "jest", "googlemaps"]
+    "types": ["react", "react-dom", "jest"],
+    "emitDeclarationOnly": false,
+    "declaration": false,
+    "noEmit": true
   },
   "include": ["src", "types"]
 }

@@ -1,9 +1,0 @@
-{
-  "extends": "../../tsconfig.browser-esm.json",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "outDir": "dist",
-    "rootDir": "src"
-  },
-  "include": ["src", "types"]
-}

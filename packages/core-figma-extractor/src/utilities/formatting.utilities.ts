@@ -1,5 +1,6 @@
-import { kebab } from 'case';
 import prettier, { Options } from 'prettier';
+
+import { kebab } from '@newrade/core-iso-utils';
 
 const prettierConfig: Options = {
   singleQuote: true,

@@ -16,6 +16,7 @@
   "dependencies": {
     "@newrade/core-common": "*",
     "@newrade/core-design-system": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-jest-config": "*",
     "@newrade/core-node-utils": "*",
     "@newrade/core-react-ui": "*",
