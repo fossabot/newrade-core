@@ -1,10 +1,10 @@
 import * as core from '@actions/core';
 import { Context } from '@actions/github/lib/context';
 
-import { ENV } from '../../types/dot-env';
+import { ENV } from '../../types/dot-env.js';
 
-import { readVercelConfigFile, updateVercelConfigFile } from './utilities';
-import { VercelConfig } from './vercel';
+import { readVercelConfigFile, updateVercelConfigFile } from './utilities.js';
+import { VercelConfig } from './vercel.js';
 
 type ActionEnv = Partial<ENV>;
 
@@ -26,13 +26,18 @@ export function runAction(env?: ActionEnv, githubContext?: Context) {
     throw Error(`[set-app-env] depends on [rlespinasse/github-slug-action]`);
   }
 
-  if (!env.APP_BRANCH_SUBDOMAIN) {
+  if (env.APP_BRANCH_SUBDOMAIN === undefined) {
     throw Error(
       `APP_BRANCH_SUBDOMAIN must be set to update the vercel.json file, did you run [set-app-env]?`
     );
   }
 
   const APP_BRANCH_SUBDOMAIN = env.APP_BRANCH_SUBDOMAIN;
+
+  if (APP_BRANCH_SUBDOMAIN === '') {
+    core.info(`APP_BRANCH_SUBDOMAIN is empty (''), no rewrite changes needed`);
+    return;
+  }
 
   try {
     core.info(`action : ${githubContext.action}`);

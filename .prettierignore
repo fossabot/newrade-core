@@ -9,6 +9,11 @@ package-lock.json
 *.html
 *.yml
 *.yaml
+*.ejs
+*.json.ejs
+
+# source maps
+*.js.map
 
 # gatsby
 dist/

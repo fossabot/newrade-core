@@ -34,13 +34,11 @@ env:
   #
   # Debugging
   #
-  DEBUG: 'nr:*'
+  DEBUG: 'nr*'
   #
   # Node
   #
   NODE_OPTIONS: '--max-old-space-size=4096'
-
-
 
 jobs:
   build-test:
@@ -49,8 +47,8 @@ jobs:
     # If the PR is coming from a fork (pull_request_target), ensure it's opened by "dependabot[bot]".
     # Otherwise, clone it normally.
     if: |
-        (github.event_name == 'pull_request_target' && github.actor == 'dependabot[bot]') ||
-        (github.event_name != 'pull_request_target' && github.actor != 'dependabot[bot]')
+      (github.event_name == 'pull_request_target' && github.actor == 'dependabot[bot]') ||
+      (github.event_name != 'pull_request_target' && github.actor != 'dependabot[bot]')
 
     steps:
       - name: Checkout
@@ -78,8 +76,5 @@ jobs:
       - name: Lint source files
         run: yarn eslint ./packages/core-webpack-config/src/ --ext "ts,tsx"
 
-      # - name: Run unit tests
-      #   run: yarn lerna:test --scope @newrade/core-webpack-config
-
       - name: Build package
-        run: yarn lerna:build --scope @newrade/core-webpack-config
+        run: yarn lerna:build:lib --scope @newrade/core-webpack-config

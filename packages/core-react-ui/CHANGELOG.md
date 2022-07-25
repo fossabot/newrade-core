@@ -4,6 +4,108 @@ All notable changes to this project will be documented in this file.
 
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.1.0](https://github.com/newrade/newrade-core/compare/@newrade/core-react-ui@2.6.0...@newrade/core-react-ui@0.1.0) (2022-07-24)
+
+### Bug Fixes
+
+- **core-cli:** update lerna-version wrapper command to include all packages by default
+  ([8e43674](https://github.com/newrade/newrade-core/commit/8e436744321ce8fb595a13ad70740f54b170ab25))
+- **core-design-system:** refactor default theme files
+  ([16857f6](https://github.com/newrade/newrade-core/commit/16857f6eac775a8a05050d365b04e8e1cc7c181d))
+- **core-figma-design-plugin:** bug fixes for typography utilities and add tabs to the plugin UI
+  ([63efd3e](https://github.com/newrade/newrade-core/commit/63efd3ea080ecbc1a77c0a3ec1e498dccd9b2a7c))
+- **core-figma-design-plugin:** improve default theming & add core-react-ui components to plugin ui
+  ([49aac3f](https://github.com/newrade/newrade-core/commit/49aac3f37be4686ecf8259eaf03d1ee1965d51b4))
+- **core-figma-plugins:** fix build command
+  ([f8d5181](https://github.com/newrade/newrade-core/commit/f8d5181558c322e9a2f53974d170ad391c82e477))
+- **core-gatsby-config:** optimize settings for gatsby v3
+  ([8fdb4d5](https://github.com/newrade/newrade-core/commit/8fdb4d5d81914e66a4e83353c626a267809cf75e))
+- core-react-ui ([05e43c1](https://github.com/newrade/newrade-core/commit/05e43c1357af5c25dcd49dd6d8702ef09fdc4ebb))
+- **core-react-ui:** fix bad import path
+  ([702c83f](https://github.com/newrade/newrade-core/commit/702c83fcde24baece33f719cc5cc85480cfbd09b))
+- **core-react-ui:** fix for regex (security)
+  ([1c999ff](https://github.com/newrade/newrade-core/commit/1c999ff193852601f7725f1fd9e1f38e01845032))
+- **core-react-ui:** fix role prop handling for button
+  ([ed8ddf3](https://github.com/newrade/newrade-core/commit/ed8ddf3a9adeb9e9cd1c68e2abb011f50ed297b7))
+- **core-react-ui:** fixes for core-react-ui-\* sub packages
+  ([931cbc2](https://github.com/newrade/newrade-core/commit/931cbc274708ace824bd4346cf0280a4984d2196))
+- **core-react-ui:** fixes for more packages
+  ([1eaeb4c](https://github.com/newrade/newrade-core/commit/1eaeb4c96570c67a82503e0933f3679c95e73ae9))
+- **core-react-ui:** fixes for text and list item components
+  ([7732ee0](https://github.com/newrade/newrade-core/commit/7732ee049e32e9c677b7e0fc766640035327e958))
+- **core-react-ui:** fixes for theming and navigation components
+  ([80cced6](https://github.com/newrade/newrade-core/commit/80cced62ef236ee13a89cba0c574a3d2cb3f245c))
+- **core-react-ui:** fixes https://github.com/newrade/newrade-core/security/code-scanning/31
+  ([6df8016](https://github.com/newrade/newrade-core/commit/6df801606b46e3a61ac5ea5acbc8e913f6fabe67))
+- **core-react-ui:** fixes https://github.com/newrade/newrade-core/security/code-scanning/32
+  ([b8a13a1](https://github.com/newrade/newrade-core/commit/b8a13a17f4fc6fc1726649568fedaf459fee79b0))
+- **core:** finalize vanilla-extract migration
+  ([31cedec](https://github.com/newrade/newrade-core/commit/31cedec5f06d3786a3bd78ebdc488b01411856a2))
+- **core:** fix changelog duplicated header bug
+  ([06b2343](https://github.com/newrade/newrade-core/commit/06b23436be341fe206290bedf4277409f1818a59))
+- **core:** fix navbar components imports
+  ([5b540cd](https://github.com/newrade/newrade-core/commit/5b540cd559c4bac3949e01600f33db55e40acd27))
+- **core:** fix triple reference (use path instead of types)
+  ([f190508](https://github.com/newrade/newrade-core/commit/f1905086d46fb28854a41e453556ea0e630da510))
+- **core:** fixes for core-cli and core-react-ui
+  ([17069a4](https://github.com/newrade/newrade-core/commit/17069a4141b7faa4359ec27c335c5e350584d37c))
+- **core:** fixes for list item components
+  ([4fb2e2f](https://github.com/newrade/newrade-core/commit/4fb2e2f0b1ff97d31459f1b79e5fd10acf145159))
+- **core:** fixes for treeshaking in gatsby sites
+  ([e3035e9](https://github.com/newrade/newrade-core/commit/e3035e95ab66aa0240ae67383d84445233a73c23))
+- **core:** refactor core-react-ui into separate packages (for each component)
+  ([b867f27](https://github.com/newrade/newrade-core/commit/b867f270277d73aada7a7aaffea36bd38261dbed))
+- **core:** refactor for vanilla extract
+  ([7cb85f5](https://github.com/newrade/newrade-core/commit/7cb85f54464b775a887e221484e6a0161735b5fc))
+- **core:** refactor packages in progress (remove web frameworks)
+  ([d3150d4](https://github.com/newrade/newrade-core/commit/d3150d42aacf2c6f15bd9eb923a23cf8cb5db046))
+- **core:** refactor pkg commands and script to use swc
+  ([42c0979](https://github.com/newrade/newrade-core/commit/42c097990217ff1b29b1a5644419530fcdd8ed24))
+- **core:** remove case in favor of core-iso-utils and lodash-es
+  ([0af5c0e](https://github.com/newrade/newrade-core/commit/0af5c0ef4815ad0d0deebede7504eecc3bf9af12))
+- **core:** small fixes for windows compatibility (cli) and add an extra check in colors utilities
+  ([e1d401b](https://github.com/newrade/newrade-core/commit/e1d401bc40c75c722d4ba2926397ca9a427da6c9))
+- **core:** update dependencies (css-minimizer, webpac, jest-worker)
+  ([ac7a3c1](https://github.com/newrade/newrade-core/commit/ac7a3c1ca67672a7a5b83bab28e2e3c1320e1e19))
+- **core:** update deps (webpack + tsc) and fixes for Gatsby plugins
+  ([7520c32](https://github.com/newrade/newrade-core/commit/7520c32533f39cff9c1f41b3c2639f4b21caddbd))
+- **core:** update lmdb dependency and fix imports
+  ([67d9d1a](https://github.com/newrade/newrade-core/commit/67d9d1af16238caf6cf7e928efdf95f906b2bda3))
+- **core:** update tsconfig for webpack packages (apps) and add jest snap command
+  ([9df2c53](https://github.com/newrade/newrade-core/commit/9df2c53312796d05804c64b7f5303a1d4729ac09))
+- **core:** various fixes for core-react-ui components
+  ([5892ed4](https://github.com/newrade/newrade-core/commit/5892ed4c402f738d9b7c29fecdacc4268711e985))
+- **core:** working on button component
+  ([a78a41e](https://github.com/newrade/newrade-core/commit/a78a41e7dd0e880e0c1dc72a6fa4654dc8a8ac5f))
+
+### Code Refactoring
+
+- **core-react-ui:** refactor utilities
+  ([596a5fa](https://github.com/newrade/newrade-core/commit/596a5faa1902b5f9c1afaec48821db31770f8a44))
+
+### Features
+
+- **core-design-system:** add typography spacing variables
+  ([d3fd7a6](https://github.com/newrade/newrade-core/commit/d3fd7a66007ffb513fa314eab0476d6601098eeb))
+- **core-figma-design-plugin:** expand functionnalities in the plugin
+  ([75ac504](https://github.com/newrade/newrade-core/commit/75ac5042e511a755f704d8696a925c4c41d999de))
+- **core-figma-design-plugin:** new plugin
+  ([1d49dfc](https://github.com/newrade/newrade-core/commit/1d49dfc0e289960f7ba5dbe1361e178ebda7df69))
+- **core-react-ui:** add new color formats options
+  ([336fd90](https://github.com/newrade/newrade-core/commit/336fd90b8a750c8f15f88c2cf0a8b7b9277b2385))
+- **core-react-ui:** add typings for react v18, new typographic space variables
+  ([2f89a5b](https://github.com/newrade/newrade-core/commit/2f89a5b38ccd0d16c3a7d91647e64ae3a299e2fa))
+- **core-website-platform:** init
+  ([67cc51b](https://github.com/newrade/newrade-core/commit/67cc51badfd20dbdb76e51e77c08fe67059a4337))
+- **core:** refactor monorepo with swc and remove preconstruct
+  ([1ce9991](https://github.com/newrade/newrade-core/commit/1ce9991b0fc7788a830b89d22869180d80c08f8a))
+- **core:** update ze for swadloon
+  ([c3235f0](https://github.com/newrade/newrade-core/commit/c3235f031cf346175099d523c215274d09f55ffd))
+
+### BREAKING CHANGES
+
+- **core-react-ui:** check all imports using /utilities
+
 # [2.6.0](https://github.com/newrade/newrade-core/compare/@newrade/core-react-ui@2.5.0...@newrade/core-react-ui@2.6.0) (2022-01-03)
 
 ### Bug Fixes

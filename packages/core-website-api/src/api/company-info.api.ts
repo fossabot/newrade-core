@@ -1,4 +1,4 @@
-import { PartialOrNull } from '../utilities';
+import type { PartialOrNull } from '@newrade/core-types';
 
 export type CompanyInfoAPI = PartialOrNull<{
   /**

@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { ICON } from '../foundations/iconography';
-import { ColorType, DeepPartial, SizeType } from '../types';
+import { ICON } from '../foundations/iconography.js';
+import { ColorType, DeepPartial, SizeType } from '../types.js';
 
-import { BoxStyle, Margin } from './box';
-import { Variant } from './components';
+import { BorderStyles, BoxStyle, Margin, OutlineStyles, Padding } from './box.js';
+import { Variant } from './components.js';
 
 /**
  * Props for icons in buttons
@@ -13,16 +13,29 @@ export type ButtonIconStyle<Override extends undefined | string = undefined> = {
   /**
    * The icon height and width
    */
-  iconSize?: SizeType<Override>;
+  iconSize: SizeType<Override>;
   /**
    * Used to control specific spacing around icons in button
    * (will be ignored in Button rendering only the icon )
    */
   iconMargin: Margin<Override>;
+  /**
+   * Padding specific for icon buttons
+   */
+  iconPadding: SizeType<Override>;
+  /**
+   * Padding specific for icon only button
+   */
+  iconOnlyPadding: SizeType<Override>;
 };
 
-export type ButtonBoxStyle<Override extends undefined | string = undefined> = BoxStyle<Override> &
-  ButtonIconStyle<Override>;
+export type ButtonBoxStyle<Override extends undefined | string = undefined> = {
+  width: SizeType<Override>;
+  height: SizeType<Override>;
+  padding: Padding<Override>;
+  border: BorderStyles<Override>;
+  outline: OutlineStyles<Override>;
+} & ButtonIconStyle<Override>;
 
 /**
  * Possible sizes for buttons
@@ -97,11 +110,21 @@ export type ButtonProps = Partial<{
  * Properties for each color type in a button
  */
 export type ButtonColors<Override extends undefined | string = undefined> = {
-  textColor?: ColorType<Override>;
-  iconColor?: ColorType<Override>;
-  backgroundColor?: ColorType<Override>;
-  borderColor?: ColorType<Override>;
-  outlineColor?: ColorType<Override>;
+  textColor: ColorType<Override>;
+  textColorActive: ColorType<Override>;
+  textColorDisabled: ColorType<Override>;
+  iconColor: ColorType<Override>;
+  iconColorActive: ColorType<Override>;
+  iconColorDisabled: ColorType<Override>;
+  backgroundColor: ColorType<Override>;
+  backgroundColorActive: ColorType<Override>;
+  backgroundColorDisabled: ColorType<Override>;
+  borderColor: ColorType<Override>;
+  borderColorActive: ColorType<Override>;
+  borderColorDisabled: ColorType<Override>;
+  outlineColor: ColorType<Override>;
+  outlineColorActive: ColorType<Override>;
+  outlineColorDisabled: ColorType<Override>;
 };
 
 /**
@@ -124,5 +147,7 @@ export type Buttons<Override extends undefined | string = undefined> = {
    * Reference to variables (string) to be used in place of defined values when a theme is created.
    * This should not be used for default themes since they are used to generate the base contracts.
    */
-  vars?: Omit<DeepPartial<Buttons<string>>, 'vars'>;
+  vars?: Omit<ButtonsVars, 'vars'>;
 };
+
+export type ButtonsVars = DeepPartial<Buttons<string>>;

@@ -29,9 +29,10 @@ several benefits to this approach:
 - by developing right in the monorepo, you have direct visibility over core
   packages that you consume in your apps;
 - the monorepo contains fully working and deployed examples of a design system
-  (`packages/ze-design-system`), a Gatsby website (`packages/ze-design-website`)
-  and a standalone React application [COMING-SOON] (`packages/ze-app`) which you
-  can use to start your own packages;
+  (`packages/core-default-design-system`), a Gatsby website
+  (`packages/ze-design-website`) and a standalone React application
+  [COMING-SOON] (`packages/ze-app`) which you can use to start your own
+  packages;
 - if you want to contribute to the upstream `newrade-core` repo's code, you can
   easily request to merge changes from your fork to the main repo.
 - as the upstream repository evolves, it is much easier to receive, preview, and
@@ -64,8 +65,9 @@ graph TD
 ```
 
 The `newrade-core` repo that we called `upstream` contains the core packages
-(`packages/core-*`) and the reference Ze project (`packages/ze-design-system`,
-`packages/ze-design-website` and `packages/ze-app`)
+(`packages/core-*`) and the reference Ze project
+(`packages/core-default-design-system`, `packages/ze-design-website` and
+`packages/ze-app`)
 
 The Newrade team maintains `newrade-core` and also has its own fork for private
 projects (called `newrade-monorepo` in the diagram).

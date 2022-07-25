@@ -19,6 +19,14 @@
       "execute": false
     },
     {
+      "name": "root",
+      "cwd": ".",
+      "open": true,
+      "focus": false,
+      "command": "yarn",
+      "execute": false
+    },
+    {
       "name": "core-cli",
       "cwd": "./packages/core-cli",
       "open": true,
@@ -27,8 +35,32 @@
       "execute": false
     },
     {
-      "name": "core-contentful-lib",
-      "cwd": "./packages/core-contentful-lib",
+      "name": "core-common",
+      "cwd": "./packages/core-common",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-css-extractor",
+      "cwd": "./packages/core-css-extractor",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-default-design-system",
+      "cwd": "./packages/core-default-design-system",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-design-app",
+      "cwd": "./packages/core-design-app",
       "open": true,
       "focus": false,
       "command": "yarn start",
@@ -51,8 +83,8 @@
       "execute": false
     },
     {
-      "name": "core-common",
-      "cwd": "./packages/core-common",
+      "name": "core-figma-design-plugin",
+      "cwd": "./packages/core-figma-design-plugin",
       "open": true,
       "focus": false,
       "command": "yarn start",
@@ -67,24 +99,8 @@
       "execute": false
     },
     {
-      "name": "core-figma-plugins",
-      "cwd": "./packages/core-figma-plugins",
-      "open": true,
-      "focus": false,
-      "command": "yarn start",
-      "execute": false
-    },
-    {
-      "name": "core-gatsby-config",
-      "cwd": "./packages/core-gatsby-config",
-      "open": true,
-      "focus": false,
-      "command": "yarn start",
-      "execute": false
-    },
-    {
-      "name": "core-gatsby-ui",
-      "cwd": "./packages/core-gatsby-ui",
+      "name": "core-figma-scripts",
+      "cwd": "./packages/core-figma-scripts",
       "open": true,
       "focus": false,
       "command": "yarn start",
@@ -107,8 +123,24 @@
       "execute": false
     },
     {
+      "name": "core-iso-utils",
+      "cwd": "./packages/core-iso-utils",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
       "name": "core-jest-config",
       "cwd": "./packages/core-jest-config",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-node-utils",
+      "cwd": "./packages/core-node-utils",
       "open": true,
       "focus": false,
       "command": "yarn start",
@@ -123,24 +155,8 @@
       "execute": false
     },
     {
-      "name": "core-graphql-ui",
-      "cwd": "./packages/core-graphql-ui",
-      "open": true,
-      "focus": false,
-      "command": "yarn start",
-      "execute": false
-    },
-    {
       "name": "core-types",
       "cwd": "./packages/core-types",
-      "open": true,
-      "focus": false,
-      "command": "yarn start",
-      "execute": false
-    },
-    {
-      "name": "core-node-utils",
-      "cwd": "./packages/core-node-utils",
       "open": true,
       "focus": false,
       "command": "yarn start",
@@ -157,38 +173,6 @@
     {
       "name": "core-website-api",
       "cwd": "./packages/core-website-api",
-      "open": true,
-      "focus": false,
-      "command": "yarn start",
-      "execute": false
-    },
-    {
-      "name": "core-yo-generator",
-      "cwd": "./packages/core-yo-generator",
-      "open": true,
-      "focus": false,
-      "command": "yarn start",
-      "execute": false
-    },
-    {
-      "name": "core-design-app",
-      "cwd": "./packages/core-design-app",
-      "open": true,
-      "focus": false,
-      "command": "yarn start",
-      "execute": false
-    },
-    {
-      "name": "ze-design-system",
-      "cwd": "./packages/ze-design-system",
-      "open": true,
-      "focus": false,
-      "command": "yarn start",
-      "execute": false
-    },
-    {
-      "name": "ze-design-website",
-      "cwd": "./packages/ze-design-website",
       "open": true,
       "focus": false,
       "command": "yarn start",

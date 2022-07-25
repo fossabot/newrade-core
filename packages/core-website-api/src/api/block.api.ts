@@ -1,8 +1,8 @@
 import { Variant } from '@newrade/core-design-system';
+import type { PartialOrNull } from '@newrade/core-types';
 
-import { PartialOrNull } from '../utilities';
-
-import { LinkAPI } from './link.api';
+import { ColorModeAPI } from './color-mode.api.js';
+import { LinkAPI } from './link.api.js';
 
 export enum BlockType {
   /**
@@ -46,17 +46,19 @@ export enum BlockAlignment {
   right = 'right',
 }
 
-export type BlockAPI = PartialOrNull<{
-  id: string;
-  name: string;
-  variant: Variant | string;
-  type: BlockType | string;
-  alignment: BlockAlignment | string;
-  text: {
-    text: string;
-    childMdx: {
-      body: string;
+export type BlockAPI = PartialOrNull<
+  ColorModeAPI & {
+    id: string;
+    name: string;
+    variant: Variant | string;
+    type: BlockType | string;
+    alignment: BlockAlignment | string;
+    text: {
+      text: string;
+      childMdx: {
+        body: string;
+      };
     };
-  };
-  link: LinkAPI;
-}>;
+    link: LinkAPI;
+  }
+>;

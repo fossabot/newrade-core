@@ -2,7 +2,7 @@ import React from 'react';
 
 import { LOGO } from '@newrade/core-design-system';
 import { Logo, SvgDownloader } from '@newrade/core-react-ui';
-import { globalThemeLight } from '@newrade/core-react-ui/global';
+import { globalThemeLight } from '@newrade/core-react-ui-global-css';
 
 type Props = {};
 

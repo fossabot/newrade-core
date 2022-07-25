@@ -30,7 +30,7 @@ env:
   #
   # Debugging
   #
-  DEBUG: 'nr:*'
+  DEBUG: 'nr*'
   #
   # Node
   #
@@ -64,7 +64,7 @@ jobs:
         uses: ./.github/actions/base-node-setup
 
       - name: Verify dependencies
-        run: yarn lerna:depcheck --scope @newrade/core-react-ui
+        run: yarn lerna:depcheck --scope @newrade/core-react-ui-*
 
       - name: Lint (ls-lint) source files
         run: yarn lerna:ls-lint --scope @newrade/core-react-ui
@@ -73,10 +73,10 @@ jobs:
         run: yarn eslint ./packages/core-react-ui/src/ --ext "ts,tsx"
 
       - name: Run unit tests
-        run: yarn lerna:test --scope @newrade/core-react-ui
+        run: yarn lerna:test:lib --scope @newrade/core-react-ui-*
 
       - name: Build package
-        run: yarn lerna:build --scope @newrade/core-react-ui
+        run: yarn lerna:build:lib --scope @newrade/core-react-ui-*
 
       # - name: Run package size report
       #   if: ${{ github.event_name == 'pull_request_target' || github.event_name == 'pull_request' }}

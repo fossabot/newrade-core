@@ -4,6 +4,42 @@ All notable changes to this project will be documented in this file.
 
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.5.0 (2022-07-24)
+
+### Bug Fixes
+
+- **core-cli:** cLI working, ESM module added to core-common,-figma-extractor, -css-extractor,-node
+  ([3ad90d0](https://github.com/newrade/newrade-core/commit/3ad90d00b0def5e5818714fcdab45980afe867de))
+- **core-cli:** update command debug methods
+  ([9621908](https://github.com/newrade/newrade-core/commit/962190849cb18e38ad0c25d206231d4a36a8fcc8))
+- **core-figma-plugins:** fix build command
+  ([f8d5181](https://github.com/newrade/newrade-core/commit/f8d5181558c322e9a2f53974d170ad391c82e477))
+- **core-node-utils:** fix scripts being included in compilation
+  ([6923b54](https://github.com/newrade/newrade-core/commit/6923b54a11b082bff0361f2257c93a1719cf4991))
+- **core-react-ui:** fixes for theming and navigation components
+  ([80cced6](https://github.com/newrade/newrade-core/commit/80cced62ef236ee13a89cba0c574a3d2cb3f245c))
+- **core:** fix changelog duplicated header bug
+  ([06b2343](https://github.com/newrade/newrade-core/commit/06b23436be341fe206290bedf4277409f1818a59))
+- **core:** fixes for treeshaking in gatsby sites
+  ([e3035e9](https://github.com/newrade/newrade-core/commit/e3035e95ab66aa0240ae67383d84445233a73c23))
+- **core:** refactor packages in progress (remove web frameworks)
+  ([d3150d4](https://github.com/newrade/newrade-core/commit/d3150d42aacf2c6f15bd9eb923a23cf8cb5db046))
+- **core:** refactor pkg commands and script to use swc
+  ([42c0979](https://github.com/newrade/newrade-core/commit/42c097990217ff1b29b1a5644419530fcdd8ed24))
+- **core:** remove case in favor of core-iso-utils and lodash-es
+  ([0af5c0e](https://github.com/newrade/newrade-core/commit/0af5c0ef4815ad0d0deebede7504eecc3bf9af12))
+- **core:** various fixes for core-react-ui components
+  ([5892ed4](https://github.com/newrade/newrade-core/commit/5892ed4c402f738d9b7c29fecdacc4268711e985))
+
+### Features
+
+- **core-design-system:** add typography spacing variables
+  ([d3fd7a6](https://github.com/newrade/newrade-core/commit/d3fd7a66007ffb513fa314eab0476d6601098eeb))
+- **core-figma-design-plugin:** new plugin
+  ([1d49dfc](https://github.com/newrade/newrade-core/commit/1d49dfc0e289960f7ba5dbe1361e178ebda7df69))
+- **core:** refactor monorepo with swc and remove preconstruct
+  ([1ce9991](https://github.com/newrade/newrade-core/commit/1ce9991b0fc7788a830b89d22869180d80c08f8a))
+
 ## [2.4.1](https://github.com/newrade/newrade-core/compare/@newrade/core-node-utils@2.4.0...@newrade/core-node-utils@2.4.1) (2022-01-03)
 
 ### Bug Fixes

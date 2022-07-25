@@ -1,0 +1,206 @@
+{
+  "autorun": true,
+  "autokill": true,
+  "terminals": [
+    {
+      "name": "git",
+      "cwd": ".",
+      "open": true,
+      "focus": true,
+      "command": "git status",
+      "execute": false
+    },
+    {
+      "name": "root",
+      "cwd": ".",
+      "open": true,
+      "focus": false,
+      "command": "yarn",
+      "execute": false
+    },
+    {
+      "name": "core-cli",
+      "cwd": "./packages/core-cli",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-common",
+      "cwd": "./packages/core-common",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-contentful-lib",
+      "cwd": "./packages/core-contentful-lib",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-css-extractor",
+      "cwd": "./packages/core-css-extractor",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-design-app",
+      "cwd": "./packages/core-design-app",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-design-system",
+      "cwd": "./packages/core-design-system",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-design-system-docs",
+      "cwd": "./packages/core-design-system-docs",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-figma-design-plugin",
+      "cwd": "./packages/core-figma-design-plugin",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-figma-extractor",
+      "cwd": "./packages/core-figma-extractor",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-figma-scripts",
+      "cwd": "./packages/core-figma-scripts",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-gatsby-config",
+      "cwd": "./packages/core-gatsby-config",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-gatsby-ui",
+      "cwd": "./packages/core-gatsby-ui",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-github-actions",
+      "cwd": "./packages/core-github-actions",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-github-bot",
+      "cwd": "./packages/core-github-bot",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-node-utils",
+      "cwd": "./packages/core-node-utils",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-platform",
+      "cwd": "./packages/core-platform",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-jest-config",
+      "cwd": "./packages/core-jest-config",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-react-ui",
+      "cwd": "./packages/core-react-ui",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-types",
+      "cwd": "./packages/core-types",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-webpack-config",
+      "cwd": "./packages/core-webpack-config",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-website-api",
+      "cwd": "./packages/core-website-api",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "core-default-design-system",
+      "cwd": "./packages/core-default-design-system",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    },
+    {
+      "name": "ze-design-website",
+      "cwd": "./packages/ze-design-website",
+      "open": true,
+      "focus": false,
+      "command": "yarn start",
+      "execute": false
+    }
+  ]
+}

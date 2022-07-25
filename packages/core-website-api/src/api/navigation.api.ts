@@ -1,7 +1,7 @@
-import { PartialOrNull } from '../utilities';
+import type { PartialOrNull } from '@newrade/core-types';
 
-import { LinkAPI } from './link.api';
-import { TagAPI } from './tag.api';
+import { LinkAPI } from './link.api.js';
+import { TagAPI } from './tag.api.js';
 
 export enum NavComponent {
   /**
@@ -57,7 +57,6 @@ export type NavigationAPI = PartialOrNull<{
   component: NavComponent;
   /**
    * Links to other pages or external pages
-   * @deprecated 'use subNavigation with a NavComponent.link object instead'
    */
   links?: LinkAPI[];
   /**

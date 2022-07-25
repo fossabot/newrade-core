@@ -1,4 +1,4 @@
-import { stats } from './stats.conf';
+import { stats } from './stats.conf.js';
 
 export const devServerConfig = {
   disableHostCheck: true,
@@ -6,7 +6,7 @@ export const devServerConfig = {
   historyApiFallback: true,
   watchContentBase: false,
   watchOptions: {
-    aggregateTimeout: 5,
+    aggregateTimeout: 400,
     ignored: [
       '**/.git/**',
       '**/node_modules/**',

@@ -4,6 +4,42 @@ All notable changes to this project will be documented in this file.
 
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/newrade/newrade-core/compare/@newrade/core-website-api@1.5.2...@newrade/core-website-api@1.6.0) (2022-07-24)
+
+### Bug Fixes
+
+- **core-node-utils:** fix scripts being included in compilation
+  ([6923b54](https://github.com/newrade/newrade-core/commit/6923b54a11b082bff0361f2257c93a1719cf4991))
+- **core-react-ui:** fixes for sidebar logic, i18n hooks
+  ([cc7005c](https://github.com/newrade/newrade-core/commit/cc7005c875ed9f6c5883a9037ddfda8976dd6b71))
+- **core-react-ui:** fixes for theming and navigation components
+  ([80cced6](https://github.com/newrade/newrade-core/commit/80cced62ef236ee13a89cba0c574a3d2cb3f245c))
+- **core:** fix build packages (contentful and website-api)
+  ([a6b8ba9](https://github.com/newrade/newrade-core/commit/a6b8ba9f17125bfc6c73f61afc1460747c253cd8))
+- **core:** fix changelog duplicated header bug
+  ([06b2343](https://github.com/newrade/newrade-core/commit/06b23436be341fe206290bedf4277409f1818a59))
+- **core:** fixes for list item components
+  ([4fb2e2f](https://github.com/newrade/newrade-core/commit/4fb2e2f0b1ff97d31459f1b79e5fd10acf145159))
+- **core:** fixes for treeshaking in gatsby sites
+  ([e3035e9](https://github.com/newrade/newrade-core/commit/e3035e95ab66aa0240ae67383d84445233a73c23))
+- **core:** refactor packages in progress (remove web frameworks)
+  ([d3150d4](https://github.com/newrade/newrade-core/commit/d3150d42aacf2c6f15bd9eb923a23cf8cb5db046))
+- **core:** refactor pkg commands and script to use swc
+  ([42c0979](https://github.com/newrade/newrade-core/commit/42c097990217ff1b29b1a5644419530fcdd8ed24))
+- **core:** remove case in favor of core-iso-utils and lodash-es
+  ([0af5c0e](https://github.com/newrade/newrade-core/commit/0af5c0ef4815ad0d0deebede7504eecc3bf9af12))
+- **core:** various fixes for core-react-ui components
+  ([5892ed4](https://github.com/newrade/newrade-core/commit/5892ed4c402f738d9b7c29fecdacc4268711e985))
+
+### Features
+
+- **core-platform:** init nextjs based platform
+  ([0ee2532](https://github.com/newrade/newrade-core/commit/0ee25322594ab317f1feddc1196c2afe6d9cbce9))
+- **core:** refactor monorepo with swc and remove preconstruct
+  ([1ce9991](https://github.com/newrade/newrade-core/commit/1ce9991b0fc7788a830b89d22869180d80c08f8a))
+- **core:** update ze for swadloon
+  ([c3235f0](https://github.com/newrade/newrade-core/commit/c3235f031cf346175099d523c215274d09f55ffd))
+
 ## [1.5.2](https://github.com/newrade/newrade-core/compare/@newrade/core-website-api@1.5.1...@newrade/core-website-api@1.5.2) (2022-01-03)
 
 ### Bug Fixes

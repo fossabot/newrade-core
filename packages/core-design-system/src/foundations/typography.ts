@@ -1,8 +1,8 @@
-import { DeepPartial } from '../types';
+import { DeepPartial, NumberType } from '../types.js';
 
-import { Font } from './font';
-import { VIEWPORT } from './layout';
-import { CapsizeTextStyle, CapsizeTextStyleV2, TextStyle } from './text';
+import { Font } from './font.js';
+import { VIEWPORT } from './layout.js';
+import { CapsizeTextStyle, CapsizeTextStyleV2, TextStyle } from './text.js';
 
 /**
  * The main typographic styles.
@@ -30,6 +30,11 @@ export enum HEADING {
   h2 = 'h2',
   h3 = 'h3',
   h4 = 'h4',
+}
+
+export enum TEXT_SPACING {
+  before = 'before',
+  after = 'after',
 }
 
 /**
@@ -206,6 +211,48 @@ export type TextVariantStyles<Override extends undefined | string> = {
 };
 
 /**
+ * Text spacing object
+ */
+export type TextSpacing<Override extends undefined | string = undefined> = {
+  /**
+   * Spacing before and after a text style, relative to font size
+   *
+   * @example 0 would mean no space, 1 is 1em
+   */
+  [key in TEXT_SPACING]: NumberType<Override>;
+};
+
+/**
+ * Config for spacing around Titles
+ */
+export type TitlesSpaces<Override extends undefined | string = undefined> = {
+  [key in TITLE]: TextSpacing<Override>;
+};
+
+/**
+ * Config for spacing around Headings
+ */
+export type HeadingSpaces<Override extends undefined | string = undefined> = {
+  [key in HEADING]: TextSpacing<Override>;
+};
+
+/**
+ * Config for spacing around Paragraphs
+ */
+export type ParagraphSpaces<Override extends undefined | string = undefined> = {
+  [key in PARAGRAPH_SIZE]: TextSpacing<Override>;
+};
+
+/**
+ * Config for all text related spacing
+ */
+export type TextSpaces<Override extends undefined | string = undefined> = {
+  titles: TitlesSpaces<Override>;
+  headings: HeadingSpaces<Override>;
+  paragraphs: ParagraphSpaces<Override>;
+};
+
+/**
  * @version
  *  - v2: uses version 2 of Fonts, Titles, Headings, Paragraphs, Labels
  */
@@ -246,6 +293,13 @@ export type TypographyV2<Override extends undefined | string = undefined> = {
     [key in VIEWPORT]: LabelsV2<Override>;
   } &
     TextStyle<Override> & { styles: TextVariantStyles<Override> };
+
+  /**
+   * Variables to hold relative spacing (before and after) for text styles
+   *
+   * @example for h1, before could be 2em, and after could be 1em
+   */
+  spaces: TextSpaces<Override>;
 
   /**
    * Reference to variables (string) to be used in place of defined values when a theme is created.

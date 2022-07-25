@@ -1,14 +1,15 @@
 import path from 'path';
 
-import { camel } from 'case';
 import chalk from 'chalk';
 import debug from 'debug';
 import { FileNodesResponse, FileStylesResponse, FullStyleMetadata } from 'figma-js';
 
-import { ExtractOptions } from '../extract';
-import { ColorTokens, FigmaColor } from '../models/figma-colors.model';
-import { fetchObjectById } from '../service/figma-api.service';
-import { createExportJSONFile } from '../service/file.service';
+import { camel } from '@newrade/core-iso-utils';
+
+import { ExtractOptions } from '../extract.js';
+import { ColorTokens, FigmaColor } from '../models/figma-colors.model.js';
+import { fetchObjectById } from '../service/figma-api.service.js';
+import { createExportJSONFile } from '../service/file.service.js';
 
 const log = debug('nr:core-figma-extractor:extract:color');
 const logWarn = log.extend('warn');
@@ -49,7 +50,7 @@ export async function extractColorsFromFigmaStyles(
 
   const styleNodesReponses = await fetchObjectById(styleNodeIds);
 
-  const styleObjects: FileNodesResponse = await styleNodesReponses.json();
+  const styleObjects: FileNodesResponse = (await styleNodesReponses.json()) as FileNodesResponse;
 
   const figmaStyleObjectsFilePath = path.join(options.outputDir, 'figma-color-objects.json');
   log(`creating file: ${chalk.blueBright(figmaStyleObjectsFilePath)}`);

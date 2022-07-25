@@ -1,9 +1,9 @@
 import { ComponentSize, ICON, Variant } from '@newrade/core-design-system';
+import type { PartialOrNull } from '@newrade/core-types';
 
-import { PartialOrNull } from '../utilities';
-
-import { PageAPI } from './page.api';
-import { SectionAPI } from './section.api';
+import { ColorModeAPI } from './color-mode.api.js';
+import { PageAPI } from './page.api.js';
+import { SectionAPI } from './section.api.js';
 
 export enum LinkType {
   externalUrl = 'externalUrl',
@@ -33,50 +33,55 @@ export enum LinkComponent {
   menuItem = 'menuItem',
 }
 
-export type LinkAPI = PartialOrNull<{
-  /**
-   * Identifier of the link
-   */
-  name: string;
-  /**
-   * Text displayed to the user
-   */
-  label: string;
-  /**
-   * Alt text description of the link
-   */
-  text: string;
-  /**
-   * Importance of the link
-   */
-  variant: Variant | string;
-  /**
-   * How the link is rendered
-   * @default 'link'
-   */
-  component: LinkComponent;
-  /**
-   * The size of the rendered component
-   */
-  size: ComponentSize;
-  /**
-   * Certain component support the icon option
-   */
-  icon: ICON;
-  /**
-   * Can be internal (pages or sections) or an external link to a url
-   */
-  type: LinkType;
-  /**
-   * For link of type external url, a url to an external website
-   */
-  url: string;
-  /**
-   * Link to page
-   */
-  page: PageAPI;
-  /**
-   * Link to a section
-   */
-  section: SectionAPI;
-}>;
+export type LinkAPI = ColorModeAPI &
+  PartialOrNull<{
+    /**
+     * UUID (from CMS)
+     */
+    id: string;
+    /**
+     * Identifier of the link
+     */
+    name: string;
+    /**
+     * Text displayed to the user
+     */
+    label: string;
+    /**
+     * Alt text description of the link
+     */
+    text: string;
+    /**
+     * Importance of the link
+     */
+    variant: Variant | string;
+    /**
+     * How the link is rendered
+     * @default 'link'
+     */
+    component: LinkComponent;
+    /**
+     * The size of the rendered component
+     */
+    size: ComponentSize;
+    /**
+     * Certain component support the icon option
+     */
+    icon: ICON;
+    /**
+     * Can be internal (pages or sections) or an external link to a url
+     */
+    type: LinkType;
+    /**
+     * For link of type external url, a url to an external website
+     */
+    url: string;
+    /**
+     * Link to page
+     */
+    page: PageAPI;
+    /**
+     * Link to a section
+     */
+    section: SectionAPI;
+  }>;

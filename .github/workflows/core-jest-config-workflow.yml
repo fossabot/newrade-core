@@ -33,13 +33,11 @@ env:
   #
   # Debugging
   #
-  DEBUG: 'nr:*'
+  DEBUG: 'nr*'
   #
   # Node
   #
   NODE_OPTIONS: '--max-old-space-size=4096'
-
-
 
 jobs:
   build-test:
@@ -48,8 +46,8 @@ jobs:
     # If the PR is coming from a fork (pull_request_target), ensure it's opened by "dependabot[bot]".
     # Otherwise, clone it normally.
     if: |
-        (github.event_name == 'pull_request_target' && github.actor == 'dependabot[bot]') ||
-        (github.event_name != 'pull_request_target' && github.actor != 'dependabot[bot]')
+      (github.event_name == 'pull_request_target' && github.actor == 'dependabot[bot]') ||
+      (github.event_name != 'pull_request_target' && github.actor != 'dependabot[bot]')
 
     steps:
       - name: Checkout
@@ -78,7 +76,7 @@ jobs:
         run: yarn eslint ./packages/core-jest-config/src/ --ext "ts,tsx"
 
       - name: Run unit tests
-        run: yarn lerna:test --scope @newrade/core-jest-config
+        run: yarn lerna:test:lib --scope @newrade/core-jest-config
 
       - name: Build package
-        run: yarn lerna:build --scope @newrade/core-jest-config
+        run: yarn lerna:build:lib --scope @newrade/core-jest-config

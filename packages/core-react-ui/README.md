@@ -7,6 +7,8 @@
   <img height="30" src="/core-docs-assets/reactjs-logo-standard.svg"/>
 </div>
 
+## TODO
+
 ## How to Use
 
 ### Development
@@ -32,14 +34,6 @@ import { Button } from '@newrade/core-react-ui';
 
 ```bash
 yarn test
-```
-
-### DLL
-
-To build a webpack DLL for react, use:
-
-```bash
-yarn build:dll
 ```
 
 ## Features

@@ -7,10 +7,10 @@ import * as t from 'io-ts';
 
 import { AppError, ERROR_TYPE } from '@newrade/core-common';
 
-import { PathReporter } from '../io-ts/reporter';
+import { PathReporter } from '../io-ts/reporter.js';
 
-import { CommonEnvType } from './common-env';
-import { logEnvVariables } from './log-env-variables';
+import { CommonEnvType } from './common-env.js';
+import { logEnvVariables } from './log-env-variables.js';
 
 const log = debug('nr:env');
 
@@ -31,12 +31,14 @@ export function loadDotEnv<ENV = CommonEnvType>({
   dotEnvRootPath = path.resolve(__dirname, '..', '..', '..', '.env'),
   packageName,
   printEnvVariables = false,
+  logging = true,
 }: {
   schema: t.IntersectionC<any>;
   dotEnvPath: string;
   dotEnvRootPath?: string;
   packageName: string;
   printEnvVariables?: boolean;
+  logging?: boolean;
 }) {
   const logEnv = log.extend(packageName.replace('@newrade/', ''));
   const logEnvError = logEnv.extend('error');
@@ -58,6 +60,7 @@ export function loadDotEnv<ENV = CommonEnvType>({
   /**
    * Enable default logging
    */
+  console.log(process.env.DEBUG);
   if (process.env.DEBUG) {
     debug.enable(process.env.DEBUG);
   }
@@ -65,9 +68,11 @@ export function loadDotEnv<ENV = CommonEnvType>({
     debug.enable('nr:env*');
   }
 
-  logEnv(`read .env files in ${dotEnvPath}`);
-  logEnv(`read .env files in ${dotEnvRootPath}`);
-  logEnv(`validating .env files...`);
+  if (logging) {
+    logEnv(`read .env files in ${dotEnvPath}`);
+    logEnv(`read .env files in ${dotEnvRootPath}`);
+    logEnv(`validating .env files...`);
+  }
 
   /**
    * Validate if .env satisfies the passed schema with io-ts
@@ -77,9 +82,13 @@ export function loadDotEnv<ENV = CommonEnvType>({
   const report = PathReporter.report(result);
 
   if (report && report.length && !report[0].includes('No errors')) {
-    report.map((reason) => {
-      logEnvError(`${reason}`);
-    });
+    if (logging) {
+      report.map((reason: string) => {
+        console.error(`${reason}`);
+      });
+    }
+
+    console.warn('check for required entries in environment variables (e.g. .env file)');
 
     throw new AppError({
       name: ERROR_TYPE.APP_ERROR,
@@ -87,10 +96,12 @@ export function loadDotEnv<ENV = CommonEnvType>({
     });
   }
 
-  logEnv(`.env files is ${chalk.green('valid')}`);
+  if (logging) {
+    logEnv(`.env files is ${chalk.green('valid')}`);
 
-  if (printEnvVariables) {
-    logEnvVariables<any>({ packageName, env: process.env as any as ENV, debugFn: log });
+    if (printEnvVariables) {
+      logEnvVariables<any>({ packageName, env: process.env as any as ENV, debugFn: log });
+    }
   }
 
   return process.env as any as ENV;

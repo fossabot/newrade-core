@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the button component should render correctly 1`] = `
+<div>
+  <button
+    class="button__x17q3ro button_variant_primary__x17q3rp button_size_medium__x17q3rw"
+    dataicon="none"
+  >
+    <div
+      class="button__x17q3rz button_alignment_center__x17q3r10 label__1i57ob90  label_size_small__1i57ob93 label_style_bold__1i57ob96"
+    >
+      Hello world
+    </div>
+  </button>
+</div>
+`;

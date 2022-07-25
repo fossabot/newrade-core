@@ -9,14 +9,14 @@
     "serve": ". ./.env && http-server --port $APP_PORT --gzip",
     "start": "yarn webpack:dev",
     "test-disabled": "echo ok",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "tsc --noEmit --composite false --incremental false",
     "webpack:dev": "nr webpack serve --config webpack.dev.config.ts",
     "webpack:prod": "nr webpack --config webpack.prod.config.ts"
   },
-  "type": "module",
   "dependencies": {
     "@newrade/core-common": "*",
     "@newrade/core-design-system": "*",
+    "@newrade/core-iso-utils": "*",
     "@newrade/core-jest-config": "*",
     "@newrade/core-node-utils": "*",
     "@newrade/core-react-ui": "*",
