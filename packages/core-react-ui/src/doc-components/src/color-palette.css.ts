@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { layoutCSS } from '../theme.js';
+import { layoutCSS } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({
   width: `100%`,

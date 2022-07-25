@@ -23,10 +23,14 @@
       "packages/core-react-ui",
       "packages/core-react-ui/src/utilities-iso",
       "packages/core-react-ui/src/utilities-test",
+      "packages/core-react-ui/src/utilities-browser",
+      "packages/core-react-ui/src/utilities-vanilla-extract",
       "packages/core-react-ui/src/global-classnames",
       "packages/core-react-ui/src/css-design-system",
       "packages/core-react-ui/src/theme",
-      "packages/core-react-ui/src/viewport"
+      "packages/core-react-ui/src/viewport",
+      "packages/core-react-ui/src/primitives",
+      "packages/core-react-ui/src/hooks"
     ]
   },
   "config": {
@@ -214,7 +218,7 @@
     "puppeteer": "^9",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-hook-form": "^6",
+    "react-hook-form": "^7",
     "renamer": "^4.0.0",
     "rimraf": "^3.0.2",
     "schema-dts": "^0.8.2",

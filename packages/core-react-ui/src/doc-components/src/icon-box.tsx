@@ -1,8 +1,7 @@
 import React from 'react';
 
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
-
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './icon-box.css.js';
 

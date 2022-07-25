@@ -4,7 +4,7 @@ import { useWheel } from 'react-use-gesture';
 // @ts-ignore
 import { Lethargy } from 'lethargy';
 
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './gesture-scroll-wheel-example.css.js';
 

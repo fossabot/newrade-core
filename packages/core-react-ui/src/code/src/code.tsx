@@ -2,10 +2,9 @@ import React from 'react';
 
 import { CodeMarkupType, ColorsColors } from '@newrade/core-design-system';
 import { pascal } from '@newrade/core-iso-utils';
-
-import { Primitive } from '../primitive/primitive.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
-import { colorVars } from '../theme.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
+import { colorVars } from '@newrade/core-react-ui-theme';
 
 import * as styles from './code.css.js';
 

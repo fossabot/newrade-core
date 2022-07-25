@@ -16,8 +16,7 @@
   "keywords": [
     "react",
     "theme",
-    "css",
-    "swadloon-ui"
+    "css"
   ],
   "license": "MIT",
   "bugs": {
@@ -57,11 +56,15 @@
     },
     "./package.json": "./package.json"
   },
-  "sideEffects": false,
+  "sideEffects": [
+    "*.css",
+    "*.css.ts",
+    "*.css.js"
+  ],
   "type": "module",
   "types": "./dist/index.types.d.ts",
   "dependencies": {
-    "@newrade/core-iso-utils": "^2.4.2",
-    "@newrade/core-types": "^2.2.0"
+    "@newrade/core-iso-utils": "*",
+    "@newrade/core-types": "*"
   }
 }

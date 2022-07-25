@@ -1,7 +1,11 @@
-//
-// Inpired by https://www.npmjs.com/package/ua-parser-js
-// But with way less code and functionality (ua-parser-js's bundle is huge)
-//
+/**
+ *
+ * User agent utilities
+ *
+ * Inpired by https://www.npmjs.com/package/ua-parser-js
+ * but with way less code and functionality (ua-parser-js's bundle is huge)
+ *
+ */
 
 export function getNavigatorInstance() {
   if (typeof window !== 'undefined') {

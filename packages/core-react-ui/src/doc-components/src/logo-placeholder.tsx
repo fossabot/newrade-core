@@ -1,6 +1,6 @@
 import React, { SVGAttributes } from 'react';
 
-import { colorVars } from '../theme.js';
+import { colorVars } from '@newrade/core-react-ui-theme';
 
 type Props = SVGAttributes<any>;
 

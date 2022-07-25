@@ -7,8 +7,7 @@ import {
   TableCellType,
   Variant,
 } from '@newrade/core-design-system';
-
-import { Primitive } from '../primitive/primitive.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
 
 import { TableCellProps } from './table.props.js';
 import * as styles from './table-cell.css.js';

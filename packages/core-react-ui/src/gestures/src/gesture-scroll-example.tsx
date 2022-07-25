@@ -3,7 +3,7 @@ import { useScroll } from 'react-use-gesture';
 
 import { animated, useSpring } from '@react-spring/web';
 
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './gesture-scroll-example.css.js';
 

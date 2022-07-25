@@ -1,13 +1,12 @@
 import React from 'react';
 
 import { PARAGRAPH_SIZE, ParagraphProps, TEXT_STYLE, Variant } from '@newrade/core-design-system';
-
-import { Primitive } from '../primitive/primitive.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
-import { TextCommonProps } from '../props/text-common.props.js';
-import * as textStyles from '../styles/text-color.css.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './paragraph.css.js';
+import * as textStyles from './text-color.css.js';
+import { TextCommonProps } from './text-common.props.js';
 
 type Tag = 'p' | 'b' | 'div' | 'small' | 'strong' | 'em' | 'del' | 'ins';
 

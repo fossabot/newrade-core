@@ -1,11 +1,10 @@
 import React from 'react';
 
 import { ICON } from '@newrade/core-design-system';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
-
-import { IconComp } from '../icons/icon.js';
-import { Primitive } from '../primitive/primitive.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { IconComp } from '@newrade/core-react-ui-icons';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './callout.css.js';
 

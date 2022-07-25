@@ -1,9 +1,8 @@
 import React from 'react';
 
 import { LABEL_SIZE, TEXT_STYLE } from '@newrade/core-design-system';
-
-import { Primitive } from '../primitive/primitive.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './table-cell-header.css.js';
 

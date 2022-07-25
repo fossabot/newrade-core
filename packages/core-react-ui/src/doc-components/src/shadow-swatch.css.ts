@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars } from '../theme.js';
+import { colorVars } from '@newrade/core-react-ui-theme';
 
 export const shadow = style({
   width: `100%`,

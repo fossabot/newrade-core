@@ -1,12 +1,11 @@
 import React, { useEffect, useImperativeHandle, useRef, useState } from 'react';
 
 import { ButtonIcon, ButtonSize, ICON, Variant } from '@newrade/core-design-system';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { PrimitiveProps, useCommonProps } from '@newrade/core-react-ui-primitives';
+import { sizeVars } from '@newrade/core-react-ui-theme';
 
 import { Button } from '../button/button.js';
 import { Cluster } from '../layout/cluster.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
-import { sizeVars } from '../theme.js';
 
 import * as styles from './css-animation.css.js';
 

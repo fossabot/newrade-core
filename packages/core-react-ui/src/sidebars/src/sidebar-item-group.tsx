@@ -1,8 +1,8 @@
 import React, { AnchorHTMLAttributes } from 'react';
 
 import { LABEL_SIZE, LinkProps, TEXT_STYLE, Variant } from '@newrade/core-design-system';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Label } from '../text/label.js';
 
 import * as styles from './sidebar-item-group.css.js';

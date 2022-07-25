@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { sizeVars } from '@newrade/core-react-ui-theme';
 
 import { Cluster } from '../layout/cluster.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Label } from '../text/label.js';
 
 import * as styles from './online-indicator.css.js';

@@ -18,8 +18,7 @@
     "layout",
     "grid",
     "cluster",
-    "stack",
-    "swadloon-ui"
+    "stack"
   ],
   "license": "MIT",
   "bugs": {
@@ -52,7 +51,11 @@
     "tsc:types": "yarn tsc -b",
     "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
   },
-  "sideEffects": false,
+  "sideEffects": [
+    "*.css",
+    "*.css.ts",
+    "*.css.js"
+  ],
   "types": "dist/index.cjs.d.ts",
   "dependencies": {
     "@newrade/core-design-system": "*",

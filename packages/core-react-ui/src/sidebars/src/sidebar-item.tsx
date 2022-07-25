@@ -1,10 +1,10 @@
 import React, { AnchorHTMLAttributes, useRef } from 'react';
 
 import { LABEL_SIZE, LinkProps } from '@newrade/core-design-system';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import { usePreventPinchZoom } from '../hooks/use-prevent-pinch-zoom.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Label } from '../text/label.js';
 
 import * as styles from './sidebar-item.css.js';

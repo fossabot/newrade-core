@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { TagProps } from '@newrade/core-design-system';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import { Cluster } from '../layout/cluster.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 
 import * as styles from './badge.css.js';
 

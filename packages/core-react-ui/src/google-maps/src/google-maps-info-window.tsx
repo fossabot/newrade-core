@@ -10,12 +10,12 @@ import {
   PARAGRAPH_SIZE,
 } from '@newrade/core-design-system';
 import { title } from '@newrade/core-iso-utils';
+import { IconComp } from '@newrade/core-react-ui-icons';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { sizeVars } from '@newrade/core-react-ui-theme';
 import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
-import { IconComp } from '../icons/icon.js';
 import { Stack } from '../layout/stack.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Label } from '../text/label.js';
 import { Link } from '../text/link.js';
 import { Paragraph } from '../text/paragraph.js';

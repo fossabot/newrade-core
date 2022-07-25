@@ -2,10 +2,10 @@ import React, { CSSProperties, HTMLAttributes } from 'react';
 
 import { Variant } from '@newrade/core-design-system';
 import { kebab } from '@newrade/core-iso-utils';
+import { sizeVars } from '@newrade/core-react-ui-theme';
 
 import { Stack } from '../layout/stack.js';
 import { Label } from '../text/label.js';
-import { sizeVars } from '../theme.js';
 
 import * as styles from './shadow-swatch.css.js';
 

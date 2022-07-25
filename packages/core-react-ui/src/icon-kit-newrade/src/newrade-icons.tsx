@@ -1,7 +1,6 @@
 import { ICON } from '@newrade/core-design-system';
 import { ionicons5OutlineComponents } from '@newrade/core-react-ui-icon-kit-ionicons';
-
-import { IconComponents } from '../icons/icons-provider.js';
+import { IconComponents } from '@newrade/core-react-ui-icons';
 
 import NrLayoutCentered from './NrLayoutCentered.svg.js';
 import NrLayoutWide from './NrLayoutWide.svg.js';

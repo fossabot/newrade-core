@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-import { isIOS } from '../utilities-browser/useragent.utilities.js';
+import { isIOS } from '@newrade/core-react-ui-utilities-browser';
 
 type HandleScrollEvent = TouchEvent;
 

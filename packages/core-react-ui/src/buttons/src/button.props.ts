@@ -1,8 +1,7 @@
 import { AnchorHTMLAttributes, CSSProperties } from 'react';
 
 import { ButtonProps } from '@newrade/core-design-system';
-
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 export type ButtonAsType = 'button' | 'a' | 'div';
 

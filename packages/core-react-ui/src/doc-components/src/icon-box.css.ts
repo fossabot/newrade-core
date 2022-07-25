@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { sizeVars } from '../theme.js';
+import { sizeVars } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({
   display: 'flex',

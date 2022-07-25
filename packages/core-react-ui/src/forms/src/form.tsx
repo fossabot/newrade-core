@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { sizeVars } from '../../theme/src/theme.js';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
+import { sizeVars } from '@newrade/core-react-ui-theme';
+
 import { Stack } from '../layout/stack.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 
 type Props = PrimitiveProps<'form'>;
 

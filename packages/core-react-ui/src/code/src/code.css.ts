@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars, typographyVars } from '../theme.js';
+import { colorVars, typographyVars } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({
   display: 'inline-block',

@@ -1,8 +1,7 @@
 import React from 'react';
 
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
-
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 
 import * as styles from './center.css.js';
 

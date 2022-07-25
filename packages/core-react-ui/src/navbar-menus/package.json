@@ -17,8 +17,7 @@
     "react",
     "navigation",
     "navbar",
-    "menus",
-    "swadloon-ui"
+    "menus"
   ],
   "license": "MIT",
   "bugs": {

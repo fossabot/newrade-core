@@ -1,19 +1,20 @@
 import React, { FC, ReactNode, useCallback, useEffect, useRef, useState } from 'react';
 
 import { COLOR_MODE, COLOR_SCHEME, ColorModeProps, Variant } from '@newrade/core-design-system';
-import { CSSRuntimeThemeConfig, CSSThemeProviderConfig } from '@newrade/core-design-system';
-import { debugInstance, NS } from '@newrade/core-react-ui-utilities-iso';
-import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso.js';
-
+import {
+  CSSRuntimeThemeConfig,
+  CSSThemeProviderConfig,
+} from '@newrade/core-react-ui-css-design-system';
 import {
   GLOBAL_CSS_THEME_SCHEME,
   GLOBAL_CSS_THEME_SCHEME_REVERSED,
   LOCAL_STORAGE_CSS_THEME_NAME_PROP,
   LOCAL_STORAGE_CSS_THEME_SCHEME_PROP,
-} from '../global/global-theme-classnames.js';
-import { useIsSSR } from '../hooks/use-is-ssr.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+} from '@newrade/core-react-ui-global-classnames';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
+import { debugInstance, getMergedClassname, NS } from '@newrade/core-react-ui-utilities-iso';
 
+import { useIsSSR } from './use-is-ssr.js';
 import { usePreferColorScheme } from './use-prefer-color-scheme.js';
 
 const log = debugInstance(`${NS}:css-theme`);

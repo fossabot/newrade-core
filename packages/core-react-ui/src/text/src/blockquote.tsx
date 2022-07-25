@@ -1,7 +1,7 @@
 import React, { BlockquoteHTMLAttributes } from 'react';
 
-import { Primitive } from '../primitive/primitive.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './blockquote.css.js';
 

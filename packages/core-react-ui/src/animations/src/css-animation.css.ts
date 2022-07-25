@@ -1,6 +1,6 @@
 import { globalStyle, keyframes, style } from '@vanilla-extract/css';
 
-import { sizeVars } from '../../theme/src/theme.js';
+import { sizeVars } from '@newrade/core-react-ui-theme';
 
 import { easingPower4 } from './css-easings.js';
 

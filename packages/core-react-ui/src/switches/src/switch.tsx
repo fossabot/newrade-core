@@ -1,10 +1,10 @@
 import React, { AnchorHTMLAttributes, ButtonHTMLAttributes, useRef, useState } from 'react';
 
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import { usePreventPinchZoom } from '../hooks/use-prevent-pinch-zoom.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 
 import * as styles from './switch.css.js';
 

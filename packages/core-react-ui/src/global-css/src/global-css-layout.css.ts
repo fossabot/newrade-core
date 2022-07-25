@@ -1,6 +1,6 @@
 import { globalStyle } from '@vanilla-extract/css';
 
-import { layoutCSS, layoutVars } from '../../theme/src/theme.js';
+import { layoutCSS, layoutVars } from '@newrade/core-react-ui-theme';
 
 globalStyle(`:root`, {
   vars: {

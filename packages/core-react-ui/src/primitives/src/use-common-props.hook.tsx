@@ -1,8 +1,6 @@
-/// <reference path="../../core-types/src/github-slugger.d.ts" />
+import { getFormattedAnchorId, getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
-import { getFormattedAnchorId, getMergedClassname } from '@newrade/core-react-ui-utilities-iso.js';
-
-import { AsTypes, PrimitiveProps } from '../primitive/primitive.props.js';
+import { AsTypes, PrimitiveProps } from './primitive.props.js';
 
 /**
  * Hook to reduce component boilerplate. Takes care of normalizing id, classNames and styles.

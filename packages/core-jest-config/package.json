@@ -62,8 +62,8 @@
     "@jest/transform": "^28",
     "@jest/types": "^28",
     "@mdx-js/mdx": "^1.6.18",
-    "@newrade/core-iso-utils": "^2.4.2",
-    "@newrade/core-types": "^2.2.0",
+    "@newrade/core-iso-utils": "*",
+    "@newrade/core-types": "*",
     "@testing-library/jest-dom": "^5",
     "@testing-library/react": "^13",
     "babel-jest": "^27.0.6"

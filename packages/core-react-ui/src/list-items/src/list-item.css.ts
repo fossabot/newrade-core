@@ -1,8 +1,9 @@
 import { globalStyle, style } from '@vanilla-extract/css';
 import { recipe } from '@vanilla-extract/recipes';
 
-import { layoutCSS, typographyVars } from '../../theme/src/theme.js';
-import { getNormalTextStyles } from '../../utilities-vanilla-extract/utilities-vanilla-extract.js';
+import { layoutCSS, typographyVars } from '@newrade/core-react-ui-theme';
+
+import { getNormalTextStyles } from '@newrade/core-react-ui-utilities-vanilla-extract';
 
 /**
  * @see https://web.dev/css-marker-pseudo-element/

@@ -2,11 +2,11 @@ import React, { HTMLAttributes } from 'react';
 
 import { Color, LABEL_SIZE, TEXT_STYLE, Variant } from '@newrade/core-design-system';
 import { kebab } from '@newrade/core-iso-utils';
+import { sizeVars } from '@newrade/core-react-ui-theme';
 import { getCSSColorVar } from '@newrade/core-react-ui-utilities-iso';
 
 import { Stack } from '../layout/stack.js';
 import { Label } from '../text/label.js';
-import { sizeVars } from '../theme.js';
 
 import * as styles from './color-swatch.css.js';
 

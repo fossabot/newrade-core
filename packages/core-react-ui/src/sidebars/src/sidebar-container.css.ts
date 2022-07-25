@@ -1,7 +1,7 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars, layoutCSS } from '../../theme/src/theme.js';
-import { getCSSColorVar } from '../../utilities-iso/utilities-iso.js';
+import { colorVars, layoutCSS } from '@newrade/core-react-ui-theme';
+import { getCSSColorVar } from '@newrade/core-react-ui-utilities-iso';
 
 /**
  * Sidebar

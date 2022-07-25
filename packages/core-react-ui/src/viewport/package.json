@@ -64,8 +64,9 @@
   "type": "module",
   "types": "./dist/index.types.d.ts",
   "dependencies": {
-    "@newrade/core-iso-utils": "^2.4.2",
-    "@newrade/core-types": "^2.2.0",
+    "@newrade/core-iso-utils": "*",
+    "@newrade/core-react-ui-theme": "*",
+    "@newrade/core-types": "*",
     "lodash-es": "^4"
   }
 }

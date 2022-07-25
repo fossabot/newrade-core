@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import { Stack } from '../layout/stack.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 
 import * as styles from './do-dont.css.js';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Variant } from '@newrade/core-design-system';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
 
 import { AsTypes, PrimitiveProps } from './primitive.props.js';
 

@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { useComposedRefs } from '../../../hooks/src/refs.utilities.js';
-import { Primitive } from '../primitive.js';
-import { PrimitiveProps } from '../primitive.props.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
+
+import { useComposedRefs } from '../refs.hook.js';
 
 const NAME = 'TestComponent';
 const DEFAULT_TAG = 'div';

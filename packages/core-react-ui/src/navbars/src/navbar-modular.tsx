@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
 
 import { Cluster } from '../layout/cluster.js';
 

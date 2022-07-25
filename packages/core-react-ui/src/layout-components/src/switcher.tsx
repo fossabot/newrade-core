@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
+
 import { GapProp } from '../props/layout.prop.js';
 import { AlignItemsViewportProps, JustifyContentViewportProps } from '../props/padding.props.js';
 

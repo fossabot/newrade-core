@@ -1,6 +1,7 @@
 import React, { AnchorHTMLAttributes } from 'react';
 
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
+
 import {
   AlignItemsViewportProps,
   JustifyContentViewportProps,

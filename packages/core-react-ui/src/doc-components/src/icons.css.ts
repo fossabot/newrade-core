@@ -1,6 +1,6 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars, effectsVars, sizeVars } from '../theme.js';
+import { colorVars, effectsVars, sizeVars } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({
   alignItems: 'flex-start',

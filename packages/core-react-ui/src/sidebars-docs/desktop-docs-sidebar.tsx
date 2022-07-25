@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
 import { Stack } from '../layout-components/stack.js';
-import { PrimitiveProps } from '../primitives/primitive.props.js';
 
 import * as styles from './desktop-docs-sidebar.css.js';
 

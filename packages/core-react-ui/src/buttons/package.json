@@ -17,7 +17,6 @@
     "button",
     "button-group",
     "react",
-    "swadloon-ui",
     "component"
   ],
   "license": "MIT",
@@ -51,11 +50,17 @@
     "tsc:types": "yarn tsc -b",
     "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
   },
-  "sideEffects": false,
+  "sideEffects": [
+    "*.css",
+    "*.css.ts",
+    "*.css.js"
+  ],
   "types": "dist/index.cjs.d.ts",
   "dependencies": {
     "@newrade/core-design-system": "*",
     "@newrade/core-iso-utils": "*",
+    "@newrade/core-react-ui-hooks": "*",
+    "@newrade/core-react-ui-primitives": "*",
     "@newrade/core-react-ui-utilities-test": "*",
     "@newrade/core-types": "*",
     "@vanilla-extract/css": "^1.6.8",

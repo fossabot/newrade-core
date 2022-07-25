@@ -1,7 +1,7 @@
 {
   "name": "@newrade/core-react-ui-utilities-browser",
   "version": "1.0.0",
-  "description": "Utility functions ot be used in a browser environment",
+  "description": "UI utility functions to be used in a browser environment",
   "author": {
     "email": "info@newrade.ca",
     "name": "Newrade",
@@ -9,21 +9,19 @@
   },
   "homepage": "https://github.com/newrade/newrade-core",
   "repository": {
-    "directory": "packages/core-react-ui/src/hooks",
+    "directory": "packages/core-react-ui/src/utilities-browser",
     "type": "git",
     "url": "git+https://github.com/newrade/newrade-core.git"
   },
   "keywords": [
     "utilities",
     "react",
-    "swadloon-ui"
+    "browser"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/newrade/newrade-core/issues"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
   "files": [
     "dist",
     "src"
@@ -49,10 +47,25 @@
     "tsc:types": "yarn tsc -b",
     "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
   },
-  "sideEffects": false,
-  "types": "dist/index.cjs.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/index.js",
+        "types": "./dist/index.types.d.ts"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": [
+    "*.css",
+    "*.css.ts",
+    "*.css.js"
+  ],
+  "type": "module",
+  "types": "./dist/index.types.d.ts",
   "dependencies": {
     "@newrade/core-iso-utils": "*",
+    "@newrade/core-react-ui-utilities-iso": "*",
     "@newrade/core-types": "*",
     "react": "18.0.0",
     "react-dom": "18.0.0"

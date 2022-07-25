@@ -8,7 +8,7 @@ import {
 } from '@newrade/core-design-system';
 
 import { Stack } from '../../layout-components/stack.js';
-import { keys } from '../../utilities-iso/utilities.js';
+import { keys } from '@newrade/core-react-ui-utilities-iso';
 
 import { ColorIntentSwatch } from './color-intent-swatch.js';
 import * as styles from './color-palette.css.js';

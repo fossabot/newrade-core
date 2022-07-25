@@ -4,9 +4,8 @@ import debug from 'debug';
 
 import { ICON, ICON_SIZE } from '@newrade/core-design-system';
 import { snake } from '@newrade/core-iso-utils';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
-
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './icon.css.js';
 import { useIconContext } from './icons-provider.js';

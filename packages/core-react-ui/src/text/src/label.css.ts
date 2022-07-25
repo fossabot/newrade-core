@@ -2,8 +2,7 @@ import { style } from '@vanilla-extract/css';
 import { recipe, RecipeVariants } from '@vanilla-extract/recipes';
 
 import { layoutCSS, typographyVars } from '@newrade/core-react-ui-theme';
-
-import { getCapsizeTextStyles } from '../utilities-vanilla-extract/utilities-vanilla-extract.js';
+import { getCapsizeTextStyles } from '@newrade/core-react-ui-utilities-vanilla-extract';
 
 export const base = style({
   fontFamily: typographyVars.labels.fontFamily,

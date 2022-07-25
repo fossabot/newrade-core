@@ -1,10 +1,10 @@
 import React from 'react';
 
 import { PARAGRAPH_SIZE, TEXT_STYLE, Variant } from '@newrade/core-design-system';
+import { IconComp } from '@newrade/core-react-ui-icons';
+import { Primitive } from '@newrade/core-react-ui-primitives';
 import { getDefaultTextFromProps } from '@newrade/core-react-ui-utilities-iso';
 
-import { IconComp } from '../icons/icon.js';
-import { Primitive } from '../primitive/primitive.js';
 import * as textStyles from '../styles/text-color.css.js';
 import { Paragraph } from '../text/paragraph.js';
 

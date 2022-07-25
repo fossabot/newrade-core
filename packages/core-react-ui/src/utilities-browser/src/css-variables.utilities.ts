@@ -1,4 +1,4 @@
-import { getCSSVar } from '../../utilities-iso/css-variables.utilities.js';
+import { getCSSVar } from '@newrade/core-react-ui-utilities-iso';
 
 export function getCSSVarValue(name?: string) {
   if (getIsSSR()) {

@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
 
 import { ICON, LABEL_SIZE, NavbarItemSize } from '@newrade/core-design-system';
+import { IconComp } from '@newrade/core-react-ui-icons';
+import { Primitive } from '@newrade/core-react-ui-primitives';
 
 import { usePreventPinchZoom } from '../hooks/use-prevent-pinch-zoom.js';
 import { useThemeElevationBG } from '../hooks/use-theme-elevation-bg.hook.js';
-import { IconComp } from '../icons/icon.js';
-import { Primitive } from '../primitive/primitive.js';
 import { Label } from '../text/label.js';
 
 import { NavbarLinkProps } from './navbar-item.props.js';

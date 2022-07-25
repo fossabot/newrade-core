@@ -2,14 +2,13 @@ import React, { useRef } from 'react';
 
 import { HEADING, TITLE, TYPOGRAPHIC_STYLE, Variant } from '@newrade/core-design-system';
 import { pascal } from '@newrade/core-iso-utils';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { getFormattedAnchorId } from '@newrade/core-react-ui-utilities-iso';
 
-import { Primitive } from '../primitive/primitive.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
-import { TextCommonProps } from '../props/text-common.props.js';
-import * as textStyles from '../styles/text-color.css.js';
-
 import * as styles from './heading.css.js';
+import * as textStyles from './text-color.css.js';
+import { TextCommonProps } from './text-common.props.js';
 
 type Tags = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'div' | 'span';
 

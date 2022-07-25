@@ -15,7 +15,6 @@
   },
   "keywords": [
     "react",
-    "swadloon-ui",
     "component"
   ],
   "license": "MIT",
@@ -28,7 +27,11 @@
     "dist",
     "src"
   ],
-  "sideEffects": false,
+  "sideEffects": [
+    "*.css",
+    "*.css.ts",
+    "*.css.js"
+  ],
   "types": "dist/index.cjs.d.ts",
   "dependencies": {
     "@capsizecss/core": "^3",

@@ -9,11 +9,10 @@ import {
   TEXT_STYLE,
   Variant,
 } from '@newrade/core-design-system';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { IconComp } from '@newrade/core-react-ui-icons';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { getDefaultTextFromProps } from '@newrade/core-react-ui-utilities-iso';
-
-import { IconComp } from '../icons/icon.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 
 import * as styles from './link.css.js';
 

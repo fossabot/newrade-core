@@ -15,15 +15,12 @@
   },
   "keywords": [
     "hooks",
-    "react",
-    "swadloon-ui"
+    "react"
   ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/newrade/newrade-core/issues"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
   "files": [
     "dist",
     "src"
@@ -49,11 +46,28 @@
     "tsc:types": "yarn tsc -b",
     "tsc:types:watch": "yarn tsc:types --watch --preserveWatchOutput"
   },
-  "sideEffects": false,
-  "types": "dist/index.cjs.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "default": "./dist/index.js",
+        "types": "./dist/index.types.d.ts"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "sideEffects": [
+    "*.css",
+    "*.css.ts",
+    "*.css.js"
+  ],
+  "type": "module",
+  "types": "./dist/index.types.d.ts",
   "dependencies": {
     "@newrade/core-design-system": "*",
     "@newrade/core-iso-utils": "*",
+    "@newrade/core-react-ui-css-design-system": "*",
+    "@newrade/core-react-ui-global-classnames": "*",
+    "@newrade/core-react-ui-primitives": "*",
     "@newrade/core-types": "*",
     "element-resize-detector": "^1.2.2",
     "lodash-es": "^4",

@@ -1,8 +1,7 @@
 import React from 'react';
 
 import { TagSize, Variant } from '@newrade/core-design-system';
-
-import { Primitive } from '../primitive/primitive.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './tag.css.js';
 import { TagCompProps } from './tag.props.js';

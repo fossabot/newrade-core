@@ -1,6 +1,7 @@
 import React from 'react';
 
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
+
 // import { useState, useMemo } from 'react';
 // import useResizeObserver from 'use-resize-observer';
 // import debounce from 'lodash/debounce';

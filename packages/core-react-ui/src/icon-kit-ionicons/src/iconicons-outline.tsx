@@ -69,8 +69,8 @@ import {
 } from 'react-icons/io5';
 
 import { ICON } from '@newrade/core-design-system';
+import { IconComponents, IconConfig } from '@newrade/core-react-ui-icons';
 
-import { IconComponents, IconConfig } from '../icons/icons-provider.js';
 import { newradeIconsKit } from '../newrade-icons.js';
 
 export const ioniconsOutlineConfig: IconConfig = {

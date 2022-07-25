@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Primitive } from '../primitive/primitive.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './kdb.css.js';
 import { KdbCompProps } from './kdb.props.js';

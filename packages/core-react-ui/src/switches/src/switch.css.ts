@@ -1,7 +1,7 @@
 import { style } from '@vanilla-extract/css';
 
-import { colorVars } from '../../theme/src/theme.js';
-import { px } from '../../utilities-iso/utilities.js';
+import { colorVars } from '@newrade/core-react-ui-theme';
+import { px } from '@newrade/core-react-ui-utilities-iso';
 
 /**
  * Base

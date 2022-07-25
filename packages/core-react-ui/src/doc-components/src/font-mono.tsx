@@ -2,12 +2,12 @@ import React from 'react';
 
 import { HEADING } from '@newrade/core-design-system';
 import { title } from '@newrade/core-iso-utils';
+import { sizeVars, typographyVars } from '@newrade/core-react-ui-theme';
+import { getCSSVarValue } from '@newrade/core-react-ui-utilities-browser';
 
 import { Cluster } from '../layout/cluster.js';
 import { Stack } from '../layout/stack.js';
 import { Heading } from '../text/heading.js';
-import { sizeVars, typographyVars } from '../theme.js';
-import { getCSSVarValue } from '../utilities-browser/css-variables.utilities.js';
 
 import * as styles from './font-mono.css.js';
 import { sampleText } from './unicode-text.js';

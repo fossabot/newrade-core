@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { Primitive } from '../primitive/primitive.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
+
 import { GapProp } from '../props/layout.prop.js';
 
 import * as styles from './stack.css.js';

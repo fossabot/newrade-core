@@ -1,10 +1,9 @@
 import React, { ErrorInfo } from 'react';
 
 import { LOGO } from '@newrade/core-design-system';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
-
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 
 import * as styles from './logo.css.js';
 import { useLogosContext } from './logos-provider.js';

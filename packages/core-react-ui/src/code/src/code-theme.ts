@@ -1,8 +1,7 @@
 import { Language } from 'prism-react-renderer';
 
 import { CodeMarkupValues } from '@newrade/core-design-system';
-
-import { colorVars } from '../theme.js';
+import { colorVars } from '@newrade/core-react-ui-theme';
 
 /**
  * Extracted type from 'prism-react-renderer' since it is not exported

@@ -1,7 +1,5 @@
 import { createStyleObject } from '@capsizecss/core';
-import { CapsizeOptions, ComputedValues } from '@capsizecss/core/dist/declarations/src/types';
-
-import { pxStringToNumber } from '@newrade/core-react-ui-utilities-iso';
+import { CapsizeOptions, ComputedValues } from '@capsizecss/core';
 
 export function getNormalTextStyles(args: CapsizeOptions | ComputedValues) {
   return getCapsizeTextStyles(args, true);

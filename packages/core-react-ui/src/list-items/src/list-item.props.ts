@@ -1,8 +1,7 @@
 import React, { CSSProperties } from 'react';
 
 import { ICON, ListItemProps } from '@newrade/core-design-system';
-
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 export type ListItemCompProps = PrimitiveProps<'li'> &
   ListItemProps & {

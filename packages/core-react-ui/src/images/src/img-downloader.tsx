@@ -2,11 +2,11 @@ import React, { useCallback, useRef } from 'react';
 
 import { ButtonSize, Variant } from '@newrade/core-design-system';
 import { Button } from '@newrade/core-react-ui-button';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { sizeVars } from '@newrade/core-react-ui-theme';
 
 import { Cluster } from '../layout/cluster.js';
 import { Stack } from '../layout/stack.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 
 import * as styles from './img-downloader.css.js';
 

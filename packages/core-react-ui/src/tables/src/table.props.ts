@@ -1,6 +1,5 @@
 import { TableCellDSProps } from '@newrade/core-design-system';
-
-import { PrimitiveProps } from '../primitive/primitive.props.js';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 /**
  * Additional component-only state

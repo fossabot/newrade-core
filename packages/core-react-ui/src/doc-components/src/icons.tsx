@@ -11,7 +11,12 @@ import {
   Variant,
 } from '@newrade/core-design-system';
 import { pascal } from '@newrade/core-iso-utils';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { IconComp } from '@newrade/core-react-ui-icons';
+import { iconMetadatas } from '@newrade/core-react-ui-icons';
+import { useIconContext } from '@newrade/core-react-ui-icons';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
+import { colorVars, sizeVars } from '@newrade/core-react-ui-theme';
 import { keys } from '@newrade/core-react-ui-utilities-iso';
 
 import { Button } from '../button/button.js';
@@ -19,18 +24,13 @@ import { InputLabel } from '../form/input-label.js';
 import { InputSelect } from '../form/input-select.js';
 import { InputText } from '../form/input-text.js';
 import { InputWrapper } from '../form/input-wrapper.js';
-import { IconComp } from '../icons/icon.js';
-import { iconMetadatas } from '../icons/icon-metadatas.js';
-import { useIconContext } from '../icons/icons-provider.js';
 import { SvgDownloader } from '../img/img-downloader.js';
 import { Cluster } from '../layout/cluster.js';
 import { Stack } from '../layout/stack.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { Tag } from '../tag/tag.js';
 import { Label } from '../text/label.js';
 import { Link } from '../text/link.js';
 import { Paragraph } from '../text/paragraph.js';
-import { colorVars, sizeVars } from '../theme.js';
 
 import { lorenipsumShort } from './src/doc-components.js';
 import { IconBox } from './icon-box.js';

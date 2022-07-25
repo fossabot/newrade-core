@@ -119,14 +119,15 @@
       "javascriptreact",
       "typescriptreact"
     ],
+    //
+    // peacock
+    //
     "workbench.colorCustomizations": {
       "activityBar.activeBackground": "#023e73",
       "activityBar.activeBorder": "#db0476",
       "activityBar.background": "#023e73",
       "activityBar.foreground": "#e7e7e7",
       "activityBar.inactiveForeground": "#e7e7e799",
-      // "activityBarBadge.background": "#db0476",
-      // "activityBarBadge.foreground": "#e7e7e7",
       "sash.hoverBorder": "#023e73",
       "statusBar.background": "#012341",
       "statusBar.foreground": "#e7e7e7",
@@ -136,9 +137,7 @@
       "titleBar.activeBackground": "#012341",
       "titleBar.activeForeground": "#e7e7e7",
       "titleBar.inactiveBackground": "#01234199",
-      "titleBar.inactiveForeground": "#e7e7e799",
-      "activityBarBadge.background": "#0000",
-      "activityBarBadge.foreground": "#0000"
+      "titleBar.inactiveForeground": "#e7e7e799"
     },
     "peacock.color": "#012341",
     "[prisma]": {

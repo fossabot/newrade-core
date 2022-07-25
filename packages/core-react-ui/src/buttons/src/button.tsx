@@ -1,15 +1,12 @@
 import React, { useRef } from 'react';
 
 import { ButtonIcon, ButtonSize, TEXT_STYLE, Variant } from '@newrade/core-design-system';
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
-import {
-  getDefaultTextFromProps,
-  getMergedClassname,
-} from '@newrade/core-react-ui-utilities-iso.js';
+import { usePreventPinchZoom } from '@newrade/core-react-ui-hooks';
+import { IconComp } from '@newrade/core-react-ui-icons';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { getDefaultTextFromProps, getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
 
-import { usePreventPinchZoom } from '../hooks/use-prevent-pinch-zoom.js';
-import { IconComp } from '../icons/icon.js';
-import { Primitive } from '../primitive/primitive.js';
 import { Label } from '../text/label.js';
 
 import * as styles from './button.css.js';

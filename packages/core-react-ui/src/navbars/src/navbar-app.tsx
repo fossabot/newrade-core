@@ -1,6 +1,7 @@
 import React, { useImperativeHandle, useRef, useState } from 'react';
 
 import { ButtonIcon, ICON, Variant } from '@newrade/core-design-system';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 import { sizeVars } from '@newrade/core-react-ui-theme';
 
 import { Button } from '../button/button.js';
@@ -8,7 +9,6 @@ import { usePreventPinchZoom } from '../hooks/use-prevent-pinch-zoom.js';
 import { BoxV2 } from '../layout/box-v2.js';
 import { Center } from '../layout/center.js';
 import { Cluster } from '../layout/cluster.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 
 import * as styles from './navbar-app.css.js';
 

@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from 'react';
 
 import { ICON, InputSize, InputValidityState, Variant } from '@newrade/core-design-system';
+import { IconComp } from '@newrade/core-react-ui-icons';
 import { getMergedClassname } from '@newrade/core-react-ui-utilities-iso';
-
-import { IconComp } from '../icons/icon.js';
 
 import * as styles from './input.css.js';
 import { InputSelectProps } from './input.props.js';

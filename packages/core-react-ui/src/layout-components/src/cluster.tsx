@@ -2,9 +2,9 @@ import React from 'react';
 
 import { Property } from 'csstype';
 
-import { useCommonProps } from '@newrade/core-react-ui-hooks';
+import { useCommonProps } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
-import { PrimitiveProps } from '../primitive/primitive.props.js';
 import { GapProp } from '../props/layout.prop.js';
 
 import * as styles from './cluster.css.js';

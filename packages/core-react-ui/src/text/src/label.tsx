@@ -2,12 +2,11 @@ import React, { LabelHTMLAttributes } from 'react';
 
 import { LABEL_SIZE, TEXT_STYLE, Variant } from '@newrade/core-design-system';
 import { pascal } from '@newrade/core-iso-utils';
-
-import { Primitive } from '../primitive/primitive.js';
-import { PrimitiveProps } from '../primitive/primitive.props.js';
-import * as textStyles from '../styles/text-color.css.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 import * as styles from './label.css.js';
+import * as textStyles from './text-color.css.js';
 
 type Props = PrimitiveProps &
   LabelHTMLAttributes<any> & {

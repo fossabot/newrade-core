@@ -1,6 +1,6 @@
 import React, { ErrorInfo } from 'react';
 
-import { logError } from '../../utilities-iso/log.utilities.js';
+import { logError } from '@newrade/core-react-ui-utilities-iso';
 
 type Props = {};
 

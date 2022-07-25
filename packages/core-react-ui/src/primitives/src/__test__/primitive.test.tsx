@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { jest } from '@jest/globals';
 import { fireEvent } from '@testing-library/dom';
 
 import { renderTest } from '@newrade/core-react-ui-utilities-test';

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Primitive } from '../primitive.js';
-import { PrimitiveProps } from '../primitive.props.js';
+import { Primitive } from '@newrade/core-react-ui-primitives';
+import { PrimitiveProps } from '@newrade/core-react-ui-primitives';
 
 type Props = PrimitiveProps<'form'> & {
   customProp?: string;

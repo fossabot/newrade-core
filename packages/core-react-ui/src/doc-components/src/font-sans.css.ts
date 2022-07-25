@@ -1,7 +1,7 @@
 import { createStyleObject } from '@capsizecss/core';
 import { style } from '@vanilla-extract/css';
 
-import { typographyVars } from '../theme.js';
+import { typographyVars } from '@newrade/core-react-ui-theme';
 
 export const wrapper = style({});
 

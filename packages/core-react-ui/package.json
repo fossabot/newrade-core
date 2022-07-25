@@ -19,9 +19,13 @@
     "test:watch": "yarn lerna:test:lib:watch --scope @newrade/core-react-ui-*",
     "typecheck": "yarn lerna:typecheck --scope @newrade/core-react-ui-*"
   },
-  "sideEffects": false,
+  "sideEffects": [
+    "*.css",
+    "*.css.ts",
+    "*.css.js"
+  ],
   "type": "module",
   "dependencies": {
-    "@newrade/core-iso-utils": "^2.4.2"
+    "@newrade/core-iso-utils": "*"
   }
 }
