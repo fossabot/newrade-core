@@ -31,6 +31,7 @@
 [![Code Style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/newrade/newrade-core/blob/master/LICENSE.md)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnewrade%2Fnewrade-core.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnewrade%2Fnewrade-core?ref=badge_shield)
 
 ---
 
@@ -205,6 +206,9 @@ working for you.
 All `core-*` packages are [MIT licensed](/LICENSE), please refer to each
 package's package.json license information and each `LICENCE.md` file for more
 details.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fnewrade%2Fnewrade-core.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fnewrade%2Fnewrade-core?ref=badge_large)
 
 ## Credits
 
